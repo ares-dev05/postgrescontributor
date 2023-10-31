@@ -1,47 +1,89 @@
-<footer>
-  <div class="container-md beautiful-jekyll-footer">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      {% include social-networks-links.html %}
-      {% if page.footer-extra %}
-        <div class="footer-custom-content">
-          {% for file in page.footer-extra %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      <p class="copyright text-muted">
-      {% if site.author %}
-        {{ site.author }}
-        &nbsp;&bull;&nbsp;
-      {% endif %}
-      {{ site.time | date: '%Y' }}
+<!-- Footer section start -->
+<footer class="section bg-secondary position-relative pb-0">
+	<img src="{{'/assets/images/bg/footer-bg.png' | relative_url}}" alt="" class="overlay-shape">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<div class="footer-widget  mb-5 mb-lg-0">
+					<h4 class="font-weight-bold text-white mb-3">About Us</h4>
+					{{site.footer_content | markdownify}}
 
-      {% if site.url-pretty %}
-        &nbsp;&bull;&nbsp;
-        <span class="author-site">
-          <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '/' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
-        </span>
-      {% endif %}
+					<ul class="list-inline socials-links">
+						{% for social in site.social %}
+						<li class="list-inline-item mb-2">
+							<a target="_blank" href="{{social.link}}" class="active"><i class="{{social.icon}}"></i></a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
 
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
-          &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
-        {% endif %}
-      {% endif%}
+			<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0 col-md-6">
+				<div class="footer-widget">
+					<h4 class="text-white mb-3">Navigation</h4>
 
-      {% if site.edit_page_button and site.github.repository_url %}
-        &nbsp;&bull;&nbsp;
-        <a title="Edit this page on GitHub" href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="text_muted">Edit page</a>
-       {% endif%}
+					<ul class="list-unstyled lh-38">
+						{% for menu in site.data.navigation.footer %}
+						<li><a href="{{menu.link | relative_url }}">{{menu.name}}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>		
+			<div class="col-lg-2 col-md-6">
+				<div class="footer-widget  mb-5 mb-lg-0">
+					<h4 class="text-white mb-3">Services</h4>
+					<ul class="list-unstyled lh-38">
+						<li><a href="#">Brand Design</a></li>
+						<li><a href="#">seo & marketing</a></li>
+						<li><a href="#">creative design</a></li>
+						<li><a href="#">photography</a></li>
+						<li><a href="#">print design</a></li>
+					</ul>
+				</div>
+			</div>		
+			<div class="col-lg-3 col-md-6">
+				<div class="footer-widget">
+					<h4 class="text-white mb-3">Contact Info</h4>
+					<ul class="list-unstyled lh-38">
+						<li>{{site.address}}</li>
+						<li><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+						<li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
+					</ul>
+				</div>
+			</div>		
+		</div>
+	</div>
 
-      </p>
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
-        Powered by
-        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
-      </p>{% endunless %}
-      </div>
-    </div>
-  </div>
+	<div class="footer-btm ">
+		<div class="container border-top py-4 mt-5">
+			<div class="row align-items-center justify-content-md-between">
+				<div class="col-12 col-lg-4">
+					<div class="text-center text-lg-left "> <span>{{ site.copyright }}</span></div>
+				</div>
+				<div class="col-lg-4 text-center col-12">
+					<a href="{{site.baseurl}}">
+						<img src="{{site.logo | relative_url}}" alt="{{site.title}}" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-12">
+					<div class="text-center text-lg-right">
+						{% for menu in site.data.navigation.bottom %}
+						<a href="{{menu.link | relative_url }}">{{menu.name}} {% unless forloop.last %} <span class="mx-2">|</span> {% endunless %}</a>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
+<!-- Footer End -->
+
+<script src="{{site.google_map_api}}"></script>
+
+<!-- JS Plugins -->
+{% for js in site.data.plugins.js %}
+<script src="{{ js | relative_url }}"></script>
+{% endfor %}
+
+<!-- Main Script -->
+<script src="{{ '/assets/js/script.js' | relative_url }}"></script>

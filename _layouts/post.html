@@ -1,88 +1,68 @@
 ---
-layout: base
+layout: default_2
 ---
 
-{% include header.html type="post" %}
-
-<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
-  <div class="row">
-    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
-
-      {% if page.gh-repo %}
-        {% assign gh_split =  page.gh-repo | split:'/'  %}
-        {% assign gh_user =  gh_split[0]  %}
-        {% assign gh_repo =  gh_split[1]  %}
-
-        <div id="header-gh-btns">
-          {% if page.gh-badge.size > 0 %}
-            {% for badge in page.gh-badge %}
-              {% case badge %}
-                {% when 'star'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'watch'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=watch&v=2&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'fork'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'follow'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
-              {% endcase %}
-            {% endfor %}
-          {% endif %}
-        </div>
-      {% endif %}
-
-      {% if page.before-content %}
-        <div class="before-content">
-          {% for file in page.before-content %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
-
-      <article role="main" class="blog-post">
-        {{ content }}
-      </article>
-
-      {% if page.tags.size > 0 %}
-        <div class="blog-tags">
-          <span>Tags:</span>
-          {% for tag in page.tags %}
-            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
-
-      {% if page.after-content %}
-        <div class="after-content">
-          {% for file in page.after-content %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
-
-      {% if page.social-share %}
-        {% include social-share.html %}
-      {% endif %}
-
-      <ul class="pagination blog-pager">
-        {% if page.previous.url %}
-        <li class="page-item previous">
-          <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | strip_html | xml_escape}}">
-            <i class="fas fa-arrow-left" alt="Previous Post"></i>
-            <span class="d-none d-sm-inline-block">Previous Post</span>
-          </a>
-        </li>
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+	<div class="blog-single mb-5">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<h3 class="mt-4 mb-2">{{page.title}}</h3>
+				<div class="post-meta text-uppercase mb-3">
+					<span class="text-color"> {{page.author}}</span>
+					<span class="text-color">/ {{page.date | date_to_long_string}}</span>
+				</div>
+				<p>{{page.excerpt | strip_html | truncatewords: "25"}}</p>
+			</div>
+		</div>
+        {% if page.post_image %}
+		<div class="blog-img position-relative mt-5 mb-5">
+			<img src="{{page.post_image | relative_url}}" alt="{{post.title}}" class="img-fluid w-100"/>
+		</div>
         {% endif %}
-        {% if page.next.url %}
-        <li class="page-item next">
-          <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title | strip_html | xml_escape}}">
-            <span class="d-none d-sm-inline-block">Next Post</span>
-            <i class="fas fa-arrow-right" alt="Next Post"></i>
-          </a>
-        </li>
-        {% endif %}
-      </ul>
-      {% include comments.html %}
-    </div>
-  </div>
-</div>
+		<div class="row justify-content-center">
+			<div class="col-lg-10 mx-auto">
+				<div class="post-content">
+					{{page.content}}
+				</div>
+				<div class="row align-items-center my-5">
+					<div class="col-lg-6">
+						<div class="list-inline post-tags">
+						<div class="list-inline-item"><h5>Tags:</h5></div>
+                         {{page | tags | capitalize | replace: " ","  "}}
+						</div>
+					</div>
+					<div class="col-lg-6">
+                      {% include social_share.html %}
+					</div>
+				</div>
+				<div class="comment-form p-3 p-lg-5" >
+					<div id="disqus_thread"></div>
+                    {% include disqus_comments.html %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+		</div>
+	</div>
+</section>
+
+<!-- Call To action -->
+<section class="position-relative section-sm bg-extra">
+	<img src="{{'/assets/images/bg/cta-bg-2.png' | relative_url}}" alt="" class="overlay-shape">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-9 mb-5 mb-lg-0">
+				<h2 class="text-white mb-0">dizer give the smart solution for your business</h2>
+			</div>
+			<div class="col-lg-3">
+				<a href="contact.html" class="btn btn-primary">get a quote</a>	
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Call To action -->
