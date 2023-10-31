@@ -1,54 +1,32 @@
-# Dizer Jekyll
+![Jekyll](https://user-images.githubusercontent.com/2342458/227201223-77cd42ef-ef91-405d-ad46-c491f6dbda27.png)
+# Kinsta - Hello World - Static Site With Jekyll
 
-Dizer Jekyll Creative Portfolio Template ported from [Dizer HTML Template](https://themefisher.com/products/dizer/)
+An example of how to deploy a static site built with Jekyll on Kinsta App Hosting services.
 
-![dizer-jekyll](https://demo.themefisher.com/thumbnails/dizer.png)
+---
+Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web projects with your users. Focus on coding and building, and we’ll take care of deployment and provide fast, scalable hosting. + 24/7 expert-only support.
 
-[Live Preview](http://demo.themefisher.com/dizer-jekyll/)
+- [Start your free trial](https://kinsta.com/signup/?product_type=app-db)
+- [Application Hosting](https://kinsta.com/application-hosting)
+- [Database Hosting](https://kinsta.com/database-hosting)
 
-## Setup
+## Dependency Management
 
-To start your project, fork this repository
-After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
+Kinsta automatically installs dependencies defined in your `Gemfile` file during the deployment process.
 
-Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
+## Web Server Setup
 
-## Customize
+### Port
 
-Things you can customize in `_data/settings.yml` (no HTML/CSS):
+Kinsta automatically sets the `PORT` environment variable. You should **not** define it yourself and you should **not** hard-code it into the application.
 
-- Theme General Settings ( name, logo, email, phone, address )
-- Hero Section
-- About Section
-- Team Section
-- Skills Section
-- Experience Section
-- Education Section
-- Services Section
-- Portfolio Section
-- Testimonials Section
-- Client Slider Section
-- Contact Section
+### Start Command
 
-## Deployment
+When deploying an application, Kinsta automatically creates a web process based on the content of `Procfile` as the entry point.
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll's website.
+## Deployment Lifecycle
 
-## Reporting Issues
+Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `bundle install` command is run.
 
-We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/dizer-jekyll/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/dizer-jekyll/issues/new)
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
-
-<!-- licence -->
-## License
-
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/dizer-jekyll/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+## What is Jekyll
+Jekyll is an open-source static site generator that uses text written in your favorite markup language to produce a customized static site without the need for a database. More information is available on the [Jekyll](https://jekyllrb.com/) website.
