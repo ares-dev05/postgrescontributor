@@ -1,9 +1,376 @@
 ---
 layout: default
 ---
-<h2>Users</h2>
-<ul>
-  {% for user in site.data.users %}
-  <li><a href="users/{{ user.name }}">{{ user.name }}</a></li>
-  {% endfor %}
-</ul>
+<div class="container">
+  <!-- menu -->
+  {% include menubar.html %}
+
+  <div class="users">
+    <div class="flex">
+      <div class="wrap">
+        <h5>PostgreSQL16<br />Contributor Profiles</h5>
+        <p>These dedicated individuals are the<br />driving force behind PostgreSQL’s<br />success today!</p>
+        <p>The following list has been compiled from<br />the <a
+            href="https://www.postgresql.org/docs/current/release-16.html" target="_blank">official PostgreSQL 16
+            contributor list</a>.</p>
+        <p>To suggest additions to the list, please email us at <b>postgres@renegadeunderdogs.com</b>.
+          Existing<br />contributors
+          can update information through GitHub.</p>
+      </div>
+      <img width="366px" height="280px" src="{{ '/assets/img/users.png' | relative_url }}" />
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <img width="21px" height="21px" src="{{ '/assets/img/search.png' | relative_url }}" />
+    <input placeholder="Search..." />
+  </div>
+
+  <div class="controller">
+    <div class="inline">
+      <p>Sort</p>
+      <div class="button" id="sort-by-country"><span>Country</span></div>
+      <div class="button" id="sort-by-company"><span>Company</span></div>
+    </div>
+    <div class="inline">
+      <p>Filter</p>
+      <div class="button"><span>Most complete profiles first</span></div>
+      <div class="button"><span>Alphabetically</span></div>
+    </div>
+  </div>
+
+  <ul id="user-list">
+    <!-- User list items will be dynamically generated here -->
+  </ul>
+
+  <div id="pagination">
+    <div class="inline" id="order"></div>
+    <div class="flex">
+      <div class="inline">
+        <!-- <button id="go-to-start">< Older</button> -->
+        <button id="go-to-prev">
+          < Older</button>
+      </div>
+      <div class="inline">
+        <button id="go-to-next">Newer ></button>
+        <!-- <button id="go-to-end">Newer ></button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  const countryCodes = {
+    Afghanistan: "AF",
+    Albania: "AL",
+    Algeria: "DZ",
+    Andorra: "AD",
+    Angola: "AO",
+    "Antigua and Barbuda": "AG",
+    Argentina: "AR",
+    Armenia: "AM",
+    Australia: "AU",
+    Austria: "AT",
+    Azerbaijan: "AZ",
+    Bahamas: "BS",
+    Bahrain: "BH",
+    Bangladesh: "BD",
+    Barbados: "BB",
+    Belarus: "BY",
+    Belgium: "BE",
+    Belize: "BZ",
+    Benin: "BJ",
+    Bhutan: "BT",
+    Bolivia: "BO",
+    "Bosnia and Herzegovina": "BA",
+    Botswana: "BW",
+    Brazil: "BR",
+    Brunei: "BN",
+    Bulgaria: "BG",
+    "Burkina Faso": "BF",
+    Burundi: "BI",
+    Cambodia: "KH",
+    Cameroon: "CM",
+    Canada: "CA",
+    "Cape Verde": "CV",
+    "Central African Republic": "CF",
+    Chad: "TD",
+    Chile: "CL",
+    China: "CN",
+    Colombia: "CO",
+    Comoros: "KM",
+    "Congo (Brazzaville)": "CG",
+    "Congo (Kinshasa)": "CD",
+    "Costa Rica": "CR",
+    Croatia: "HR",
+    Cuba: "CU",
+    Cyprus: "CY",
+    "Czech Republic": "CZ",
+    Denmark: "DK",
+    Djibouti: "DJ",
+    Dominica: "DM",
+    "Dominican Republic": "DO",
+    "East Timor": "TL",
+    Ecuador: "EC",
+    Egypt: "EG",
+    "El Salvador": "SV",
+    "Equatorial Guinea": "GQ",
+    Eritrea: "ER",
+    Estonia: "EE",
+    Eswatini: "SZ",
+    Ethiopia: "ET",
+    Fiji: "FJ",
+    Finland: "FI",
+    France: "FR",
+    Gabon: "GA",
+    Gambia: "GM",
+    Georgia: "GE",
+    Germany: "DE",
+    Ghana: "GH",
+    Greece: "GR",
+    Grenada: "GD",
+    Guatemala: "GT",
+    Guinea: "GN",
+    "Guinea-Bissau": "GW",
+    Guyana: "GY",
+    Haiti: "HT",
+    Honduras: "HN",
+    Hungary: "HU",
+    Iceland: "IS",
+    India: "IN",
+    Indonesia: "ID",
+    Iran: "IR",
+    Iraq: "IQ",
+    Ireland: "IE",
+    Israel: "IL",
+    Italy: "IT",
+    "Ivory Coast": "CI",
+    Jamaica: "JM",
+    Japan: "JP",
+    Jordan: "JO",
+    Kazakhstan: "KZ",
+    Kenya: "KE",
+    Kiribati: "KI",
+    Kuwait: "KW",
+    Kyrgyzstan: "KG",
+    Laos: "LA",
+    Latvia: "LV",
+    Lebanon: "LB",
+    Lesotho: "LS",
+    Liberia: "LR",
+    Libya: "LY",
+    Liechtenstein: "LI",
+    Lithuania: "LT",
+    Luxembourg: "LU",
+    Madagascar: "MG",
+    Malawi: "MW",
+    Malaysia: "MY",
+    Maldives: "MV",
+    Mali: "ML",
+    Malta: "MT",
+    "Marshall Islands": "MH",
+    Mauritania: "MR",
+    Mauritius: "MU",
+    Mexico: "MX",
+    Micronesia: "FM",
+    Moldova: "MD",
+    Monaco: "MC",
+    Mongolia: "MN",
+    Montenegro: "ME",
+    Morocco: "MA",
+    Mozambique: "MZ",
+    Myanmar: "MM",
+    Namibia: "NA",
+    Nauru: "NR",
+    Nepal: "NP",
+    Netherlands: "NL",
+    "New Zealand": "NZ",
+    Nicaragua: "NI",
+    Niger: "NE",
+    Nigeria: "NG",
+    "North Macedonia": "MK",
+    Norway: "NO",
+    Oman: "OM",
+    Pakistan: "PK",
+    Palau: "PW",
+    Panama: "PA",
+    "Papua New Guinea": "PG",
+    Paraguay: "PY",
+    Peru: "PE",
+    Philippines: "PH",
+    Poland: "PL",
+    Portugal: "PT",
+    Qatar: "QA",
+    Romania: "RO",
+    Russia: "RU",
+    Rwanda: "RW",
+    "Saint Kitts and Nevis": "KN",
+    "Saint Lucia": "LC",
+    "Saint Vincent and the Grenadines": "VC",
+    Samoa: "WS",
+    "San Marino": "SM",
+    "Sao Tome and Principe": "ST",
+    "Saudi Arabia": "SA",
+    Senegal: "SN",
+    Serbia: "RS",
+    Seychelles: "SC",
+    "Sierra Leone": "SL",
+    Singapore: "SG",
+    Slovakia: "SK",
+    Slovenia: "SI",
+    "Solomon Islands": "SB",
+    Somalia: "SO",
+    "South Africa": "ZA",
+    "South Sudan": "SS",
+    Spain: "ES",
+    "Sri Lanka": "LK",
+    Sudan: "SD",
+    Suriname: "SR",
+    Sweden: "SE",
+    Switzerland: "CH",
+    Syria: "SY",
+    Tajikistan: "TJ",
+    Tanzania: "TZ",
+    Thailand: "TH",
+    Togo: "TG",
+    Tonga: "TO",
+    "Trinidad and Tobago": "TT",
+    Tunisia: "TN",
+    Turkey: "TR",
+    Turkmenistan: "TM",
+    Tuvalu: "TV",
+    Uganda: "UG",
+    Ukraine: "UA",
+    "United Arab Emirates": "AE",
+    "United Kingdom": "GB",
+    "United States": "US",
+    Uruguay: "UY",
+    Uzbekistan: "UZ",
+    Vanuatu: "VU",
+    "Vatican City": "VA",
+    Venezuela: "VE",
+    Vietnam: "VN",
+    Yemen: "YE",
+    Zambia: "ZM",
+    Zimbabwe: "ZW",
+    // Add more countries and codes as needed
+  };
+
+  // Function to add country flag icons to the HTML
+  function addCountryFlags() {
+    const countryNameElements = document.querySelectorAll(".country");
+
+    countryNameElements.forEach((nameElement) => {
+      const countryName = nameElement.getAttribute("data-country");
+      console.log('countryName', countryName);
+      if (countryCodes[countryName]) {
+        const countryCode = countryCodes[countryName].toLowerCase();
+        // Replace 'icon-library' with the actual class or HTML to display the flag icon
+        const flagIconHtml = `<span style="margin-left : 10px;" class="flag-icon flag-icon-${countryCode}"></span>`;
+        nameElement.innerHTML = nameElement.innerHTML + flagIconHtml;
+      }
+    });
+  }
+
+  // Get the user data from site.data.users
+  const users = {{ site.data.users | jsonify }};
+
+  const crossUrl = '/assets/img/cross.png';
+  const twitterUrl = '/assets/img/user-twitter.png';
+  const githubUrl = '/assets/img/user-github.png';
+  const linkedinUrl = '/assets/img/user-linkedin.png';
+
+  // Function to display the user list for the current page
+  function displayUsers(users, startIndex, endIndex) {
+    // Clear the existing list
+    $('#user-list').empty();
+    $('#order').empty();
+
+    // Display users for the current page
+    for (let i = startIndex; i < endIndex; i++) {
+      if (users[i] != undefined) {
+        $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${users[i].image}" /></div><div class="wrap"><h5>${users[i].name}</h5><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><img width="46px" height="38px" src="${twitterUrl}" /><img width="39px" height="38px" src="${githubUrl}" /><img width="39px" height="38px" src="${linkedinUrl}" /></div></div></div></div>`);
+      }
+      $('#order').append(`<div class="item-order"><p>${i + 1}</p></div>`);
+    }
+
+    addCountryFlags();
+  }
+
+  function sortUsersByCountry() {
+    users.sort((a, b) => a.country.localeCompare(b.country, undefined, { sensitivity: 'base' }));
+    displayUsers(users, 0, perPage);
+  }
+
+  // Sorting function for users by company
+  function sortUsersByCompany() {
+    users.sort((a, b) => {
+      const companyA = a.company ? a.company.toLowerCase() : '';
+      const companyB = b.company ? b.company.toLowerCase() : '';
+
+      if (companyA < companyB) {
+        return -1;
+      }
+      if (companyA > companyB) {
+        return 1;
+      }
+      return 0;
+    });
+
+    displayUsers(users, 0, perPage);
+  }
+
+  // Event handler for "Go to Start" button
+  $('#go-to-start').click(() => {
+    currentPage = 1;
+    const startIndex = 0;
+    const endIndex = Math.min(users.length, perPage);
+    displayUsers(users, startIndex, endIndex);
+  });
+
+  // Event handler for "Go to End" button
+  $('#go-to-end').click(() => {
+    currentPage = totalPages;
+    const startIndex = (totalPages - 1) * perPage;
+    const endIndex = users.length;
+    displayUsers(users, startIndex, endIndex);
+  });
+
+  $('#go-to-prev').click(() => {
+    currentPage--;
+    if (currentPage < 1) {
+      currentPage = 1;
+    }
+    let startIndex = (currentPage - 1) * perPage;
+    let endIndex = startIndex + perPage;
+
+    displayUsers(users, startIndex, endIndex);
+  });
+
+  $('#go-to-next').click(() => {
+    currentPage++;
+    if (currentPage > totalPages) {
+      currentPage = totalPages;
+    }
+    let startIndex = (currentPage - 1) * perPage;
+    let endIndex = startIndex + perPage;
+
+    // Ensure endIndex does not exceed the number of users
+    endIndex = Math.min(endIndex, users.length);
+
+    displayUsers(users, startIndex, endIndex);
+  });
+
+  // Event handlers for sorting buttons
+  $('#sort-by-country').click(sortUsersByCountry);
+  $('#sort-by-company').click(sortUsersByCompany);
+
+  // Display the initial list of users (first page)
+  const perPage = 9;
+  const totalPages = Math.ceil(users.length / perPage);
+  let currentPage = 1;
+  const startIndex = 0;
+  const endIndex = Math.min(users.length, perPage);
+  displayUsers(users, startIndex, endIndex);
+</script>

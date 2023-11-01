@@ -9,7 +9,7 @@ about: Lorrem Ipsum is simply dummy text of the printing and typesetting industr
 twitter: "https://twitter.com/admanMacker"
 github: "https://github.com/admanMacker"
 linkedin: "https://www.linkedin.com/in/admanMacker"
-project: PGConf India 2017
+company: Jakub India 2017
 detail: 'Online Migration: Upgrade with Seamless Downtime'
 lastUpdate: Nov 1, 2023
 multiYear: true

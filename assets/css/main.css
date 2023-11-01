@@ -637,3 +637,256 @@ img.multi-year {
     margin: 47px auto 0;
     display: block;
 }
+
+.users {
+    border-radius: 15px;
+    background: #F3F3F3;
+    padding: 45px 65px;
+    margin-top: 55px;
+}
+
+.users .wrap {
+    padding-right: 80px;
+}
+
+.users h5 {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.users p {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.users p a {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.users p b {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search-bar {
+    margin-top: 44px;
+    height: 59px;
+    width: 100%;
+    border-radius: 29.5px;
+    background: #689CC7;
+    padding: 19px 67px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left: 23px;
+}
+
+.search-bar input::placeholder {
+    color: #fff;
+}
+
+.controller {
+    padding: 43px 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controller .inline p {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: 1px solid #000;
+    display: inline;
+    margin: 0;
+    margin-right: 28px;
+}
+
+.controller .inline .button {
+    width: 226px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: white;
+    position: relative;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.controller .inline .button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+}
+
+
+.user {
+    border-radius: 15px;
+    background: #F3F3F3;
+    padding: 65px 65px;
+    margin-top: 55px;
+}
+
+.user .wrap {
+    padding-left: 80px;
+}
+
+.user h5 {
+    color: #000;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 34px;
+}
+
+.user p {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.user .country {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 60px;
+    display: block;
+}
+
+.user b {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 19px;
+    display: block;
+}
+
+.user p.about {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#pagination {
+    padding: 60px 100px;
+}
+
+#user-list {
+    margin: 0;
+}
+
+#pagination .flex {
+    margin-bottom: 30px;
+}
+
+#order {
+    margin-bottom: 30px;
+}
+
+#pagination .item-order {
+    height: 56px;
+    width: 11.111111111111111111111111111111%;
+    margin: 0;
+    padding: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    background: #689CC7;
+    position: relative;
+}
+
+#pagination .item-order p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#go-to-prev {
+    width: 237px;
+    height: 56px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#go-to-next {
+    width: 237px;
+    height: 56px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

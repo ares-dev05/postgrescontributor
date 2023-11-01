@@ -4,7 +4,7 @@
 An example of how to deploy a static site built with Jekyll on Kinsta App Hosting services.
 
 ---
-Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web projects with your users. Focus on coding and building, and we’ll take care of deployment and provide fast, scalable hosting. + 24/7 expert-only support.
+Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web companys with your users. Focus on coding and building, and we’ll take care of deployment and provide fast, scalable hosting. + 24/7 expert-only support.
 
 - [Start your free trial](https://kinsta.com/signup/?product_type=app-db)
 - [Application Hosting](https://kinsta.com/application-hosting)
