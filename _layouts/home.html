@@ -30,7 +30,7 @@ layout: default
             {% for user in site.data.carousel %}
             <div class="item">
                 <div class="avatar">
-                    <img src="{{ user.image }}" alt="{{ user.name }}" width="266px" height="283px" />
+                    <img src="{{ user.image | relative_url }}" alt="{{ user.name }}" width="266px" height="283px" />
                 </div>
                 <div class="information">
                     {% if site.baseurl == "" %}
