@@ -275,10 +275,10 @@ layout: default
   // Get the user data from site.data.users
   const users = {{ site.data.users | jsonify }};
 
-  const crossUrl = '/assets/img/cross.png';
-  const twitterUrl = '/assets/img/user-twitter.png';
-  const githubUrl = '/assets/img/user-github.png';
-  const linkedinUrl = '/assets/img/user-linkedin.png';
+  const crossUrl = "{{ '/assets/img/cross.png' | relative_url }}";
+  const twitterUrl = "{{ '/assets/img/user-twitter.png' | relative_url }}";
+  const githubUrl = "{{ '/assets/img/user-github.png' | relative_url }}";
+  const linkedinUrl = "{{ '/assets/img/user-linkedin.png' | relative_url }}";
 
   // Function to display the user list for the current page
   function displayUsers(users, startIndex, endIndex) {
