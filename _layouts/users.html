@@ -289,7 +289,7 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i < endIndex; i++) {
       if (users[i] != undefined) {
-        $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${users[i].image}" /></div><div class="wrap"><h5>${users[i].name}</h5><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}"><img width="46px" height="38px" src="${twitterUrl}" /></a><img width="39px" height="38px" src="${githubUrl}" /><img width="39px" height="38px" src="${linkedinUrl}" /></div></div></div></div>`);
+        $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${users[i].image}" /></div><div class="wrap"><h5>${users[i].name}</h5><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
       }
       $('#order').append(`<div class="item-order"><p>${i + 1}</p></div>`);
     }
