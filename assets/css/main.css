@@ -234,7 +234,7 @@ footer .term-privacy {
     background: #F3F3F3;
 }
 
-.information h5 {
+.information a {
     margin: 0px auto 15px;
     padding-top: 10px;
     color: #000;
@@ -244,6 +244,8 @@ footer .term-privacy {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-decoration: none;
+    display: block;
 }
 
 .information p {
