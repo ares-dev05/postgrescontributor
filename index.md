@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Home
+title: Postgresql Contributor
 ---
 Welcome to our website!

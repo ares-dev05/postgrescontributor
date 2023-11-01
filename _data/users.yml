@@ -1,6 +1,18 @@
 - name: User1
   bio: Bio for User1
+  image: /assets/img/Adam Mackler.png
 - name: User2
   bio: Bio for User2
+  image: /assets/img/Jakub Wartak.png
 - name: User3
   bio: Bio for User3
+  image: /assets/img/Myo Wai Thant.png
+- name: User1
+  bio: Bio for User1
+  image: /assets/img/Adam Mackler.png
+- name: User2
+  bio: Bio for User2
+  image: /assets/img/Jakub Wartak.png
+- name: User3
+  bio: Bio for User3
+  image: /assets/img/Myo Wai Thant.png

@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
-<h2>User</h2>
-<h5>{{ page.title }}</h5>
-<h5>{{ page.bio }}</h5>
+<div class="user">
+  <h1 class="page-heading">{{ page.title }}</h1>
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  <p>{{ page.bio }}</p>
+  <a href="https://github.com/{{ page.github }}">GitHub</a>
+  <a href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}">Edit this page on GitHub</a>
+</div>
