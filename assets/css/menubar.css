@@ -35,7 +35,7 @@ p.postgresql {
     margin: 0;
 }
 
-p.fame {
+a.fame {
     width: 269px;
     color: #000;
     text-align: center;
@@ -45,6 +45,7 @@ p.fame {
     font-weight: 700;
     line-height: normal;
     margin: 0;
+    text-decoration: none;
 }
 
 p.store {
