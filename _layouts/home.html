@@ -33,12 +33,7 @@ layout: default
                     <img src="{{ user.image | relative_url }}" alt="{{ user.name }}" width="266px" height="283px" />
                 </div>
                 <div class="information">
-                    {% if site.baseurl == "" %}
-                    <a href="/users/{{ user.name }}">{{ user.name }}</a>
-                    {% else %}
-                    <a href="{{ page.url | prepend: site.baseurl }}/users/{{ user.name }}">{{ user.name }}</a>
-                    {% endif %}
-                    </a>
+                    <a href="users/{{ user.name }}">{{ user.name }}</a>
                     <p>{{ user.bio }}</p>
                     <span class="country">{{ user.country }}</span>
                 </div>
