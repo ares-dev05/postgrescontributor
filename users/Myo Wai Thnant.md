@@ -1,5 +1,5 @@
 ---
-layout: user
+layout: profile
 title: Myo Wai Thnant
 bio: Software engineer at XYZ
 country: Germany

@@ -1,5 +1,5 @@
 ---
-layout: user
+layout: profile
 title: Adma Mackler
 bio: Software engineer at ABC
 image: /assets/img/Adam Mackler.png

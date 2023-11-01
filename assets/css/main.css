@@ -630,6 +630,7 @@ img.multi-year {
     top: 20px;
     right: 20px;
     position: absolute;
+    cursor: pointer;
 }
 
 .github-icon {

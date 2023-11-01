@@ -1,5 +1,5 @@
 ---
-layout: user
+layout: profile
 title: Jakub Wartak
 bio: SQL specialist at DEF
 country: Germany
@@ -12,6 +12,7 @@ linkedin: "https://www.linkedin.com/in/admanMacker"
 project: PGConf India 2017
 detail: 'Online Migration: Upgrade with Seamless Downtime'
 lastUpdate: Nov 1, 2023
+multiYear: true
 ---
 
 This is the body of Jakub Wartak's profile page.
