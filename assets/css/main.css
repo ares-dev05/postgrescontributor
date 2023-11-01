@@ -283,7 +283,7 @@ footer .term-privacy {
     cursor: pointer;
 }
 
-.button p {
+.button a {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -297,6 +297,7 @@ footer .term-privacy {
     transform: translate(-50%, -50%);
     width: 225px;
     height: 21px;
+    text-decoration: none;
 }
 
 .function {

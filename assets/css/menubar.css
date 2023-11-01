@@ -48,7 +48,7 @@ a.fame {
     text-decoration: none;
 }
 
-p.store {
+a.store {
     width: 112px;
     color: #000;
     text-align: center;
@@ -58,6 +58,7 @@ p.store {
     font-weight: 300;
     line-height: normal;
     margin: 0;
+    text-decoration: none;
 }
 
 .menubar {
