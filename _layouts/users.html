@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqPaginator/1.2.1/css/jqPaginator.min.css" rel="stylesheet">
 <div class="container">
   <!-- menu -->
   {% include menubar.html %}
@@ -34,8 +35,8 @@ layout: default
     </div>
     <div class="inline">
       <p>Filter</p>
-      <div class="button"><span>Most complete profiles first</span></div>
-      <div class="button"><span>Alphabetically</span></div>
+      <div class="button" id="sort-by-completeness"><span>Most complete profiles first</span></div>
+      <div class="button" id="sort-alphabetically"><span>Alphabetically</span></div>
     </div>
   </div>
 
@@ -43,23 +44,12 @@ layout: default
     <!-- User list items will be dynamically generated here -->
   </ul>
 
-  <div id="pagination">
-    <div class="inline" id="order"></div>
-    <div class="flex">
-      <div class="inline">
-        <!-- <button id="go-to-start">< Older</button> -->
-        <button id="go-to-prev">
-          < Older</button>
-      </div>
-      <div class="inline">
-        <button id="go-to-next">Newer ></button>
-        <!-- <button id="go-to-end">Newer ></button> -->
-      </div>
-    </div>
-  </div>
+  <div id="pagination" class="pagination"></div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/jq-paginator.js"></script>
+
 <script>
   const countryCodes = {
     Afghanistan: "AF",
@@ -280,7 +270,23 @@ layout: default
   const githubUrl = "{{ '/assets/img/user-github.png' | relative_url }}";
   const linkedinUrl = "{{ '/assets/img/user-linkedin.png' | relative_url }}";
 
-  // Function to display the user list for the current page
+  const perPage = 9;
+  const totalPages = Math.ceil(users.length / perPage);
+
+  // Initialize jqPaginator
+  $('#pagination').jqPaginator({
+    totalPages: totalPages,
+    visiblePages: 9,
+    currentPage: 1,
+    onPageChange: function (num, type) {
+      if (type === 'change') {
+        const startIndex = (num - 1) * perPage;
+        const endIndex = Math.min(startIndex + perPage, users.length);
+        displayUsers(users, startIndex, endIndex);
+      }
+    }
+  });
+
   function displayUsers(users, startIndex, endIndex) {
     // Clear the existing list
     $('#user-list').empty();
@@ -289,14 +295,15 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i < endIndex; i++) {
       if (users[i] != undefined) {
-        $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
-        // $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${users[i].image}" /></div><div class="wrap"><h5>${users[i].name}</h5><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        // $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
       }
-      $('#order').append(`<div class="item-order"><p>${i + 1}</p></div>`);
     }
 
     addCountryFlags();
   }
+
+  displayUsers(users, 0, 8);
 
   function sortUsersByCountry() {
     users.sort((a, b) => a.country.localeCompare(b.country, undefined, { sensitivity: 'base' }));
@@ -321,58 +328,50 @@ layout: default
     displayUsers(users, 0, perPage);
   }
 
-  // Event handler for "Go to Start" button
-  $('#go-to-start').click(() => {
-    currentPage = 1;
-    const startIndex = 0;
-    const endIndex = Math.min(users.length, perPage);
-    displayUsers(users, startIndex, endIndex);
-  });
+  function isProfileComplete(user) {
+    return (
+      user.name &&
+      user.bio &&
+      user.image &&
+      user.country &&
+      user.address &&
+      user.about &&
+      user.twitter &&
+      user.github &&
+      user.linkedin &&
+      user.company &&
+      user.detail &&
+      user.lastUpdate
+    );
+  }
 
-  // Event handler for "Go to End" button
-  $('#go-to-end').click(() => {
-    currentPage = totalPages;
-    const startIndex = (totalPages - 1) * perPage;
-    const endIndex = users.length;
-    displayUsers(users, startIndex, endIndex);
-  });
+  function sortUsersMostCompleteFirst() {
+    users.sort((a, b) => {
+      const profileCompleteA = isProfileComplete(a);
+      const profileCompleteB = isProfileComplete(b);
 
-  $('#go-to-prev').click(() => {
-    currentPage--;
-    if (currentPage < 1) {
-      currentPage = 1;
-    }
-    let startIndex = (currentPage - 1) * perPage;
-    let endIndex = startIndex + perPage;
+      if (profileCompleteA && !profileCompleteB) {
+        return -1;
+      }
+      if (!profileCompleteA && profileCompleteB) {
+        return 1;
+      }
+      return 0;
+    });
 
-    displayUsers(users, startIndex, endIndex);
-  });
+    displayUsers(users, 0, perPage);
+  }
 
-  $('#go-to-next').click(() => {
-    currentPage++;
-    if (currentPage > totalPages) {
-      currentPage = totalPages;
-    }
-    let startIndex = (currentPage - 1) * perPage;
-    let endIndex = startIndex + perPage;
-
-    // Ensure endIndex does not exceed the number of users
-    endIndex = Math.min(endIndex, users.length);
-
-    displayUsers(users, startIndex, endIndex);
-  });
+  function sortUsersAlphabetically() {
+    users.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+    displayUsers(users, 0, perPage);
+  }
 
   // Event handlers for sorting buttons
   $('#sort-by-country').click(sortUsersByCountry);
   $('#sort-by-company').click(sortUsersByCompany);
-
-  // Display the initial list of users (first page)
-  const perPage = 9;
-  const totalPages = Math.ceil(users.length / perPage);
-  let currentPage = 1;
-  const startIndex = 0;
-  const endIndex = Math.min(users.length, perPage);
-  displayUsers(users, startIndex, endIndex);
+  $('#sort-by-completeness').click(sortUsersMostCompleteFirst); // Add this line
+  $('#sort-alphabetically').click(sortUsersAlphabetically); // Add this lines
 
   // Function to handle the search input and filter user profiles
   function handleSearch() {

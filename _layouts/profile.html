@@ -15,7 +15,7 @@ layout: default
         <p class="about">{{ page.about }}</p>
       </div>
       <div style="width: 388px; height:390px; position: relative;">
-        <img width="388px" height="390px" src="{{ page.image | relative_url }}" />
+        <img width="388px" height="390px" src="{{ page.image | relative_url | default: '/assets/img/cross.png' }}" />
         {% if page.multiYear == true %}
         <img width="147px" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
         {% endif %}
@@ -52,7 +52,7 @@ layout: default
 
   <div class="media">
     <div style="display: flex; justify-content: space-between;">
-      <img width="388px" height="390px" src="{{ '/assets/img/cross.png' | relative_url }}" />
+      <img width="388px" height="390px" src="{{ page.mediaImage | relative_url | default: '/assets/img/cross.png' }}" />
       <div class="wrap">
         <h5>{{ page.company }} - {{ page.title }}</h5>
         <p>{{ page.detail }}</p>
@@ -62,9 +62,8 @@ layout: default
   </div>
 
   <div class="lastUpdate">Last updated on {{ page.lastUpdate }}</div>
-  <div class="githubText">Last updated on {{ page.lastUpdate }}</div>
   <div class="github">
-    <p>Edit this page on <span>GitHub</span></p>
+    <p>Edit this page on  <a href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}" target="_blank">GitHub</a></p>
   </div>
   <!-- Create a div for the popup dialog and an overlay -->
   <div class="popup">
@@ -293,12 +292,12 @@ layout: default
     // Call the function to populate the country flag icons
     addCountryFlags();
 
-    $('.github').click(function () {
-      $('.popup, .overlay').fadeIn();
-    });
+    // $('.github').click(function () {
+    //   $('.popup, .overlay').fadeIn();
+    // });
 
-    $('.close').click(function () {
-      $('.popup, .overlay').fadeOut();
-    });
+    // $('.close').click(function () {
+    //   $('.popup, .overlay').fadeOut();
+    // });
   });
 </script>

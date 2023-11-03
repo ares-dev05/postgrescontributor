@@ -566,13 +566,14 @@ footer .term-privacy {
     line-height: normal;
 }
 
-.github p span {
+.github p a {
     color: #262261;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    text-decoration: none;
 }
 
 img.multi-year {
@@ -825,7 +826,8 @@ img.multi-year {
 }
 
 #pagination {
-    padding: 60px 100px;
+    padding: 60px 100px 150px;
+    position: relative;
 }
 
 #user-list {
@@ -840,18 +842,43 @@ img.multi-year {
     margin-bottom: 30px;
 }
 
-#pagination .item-order {
+#pagination li.page {
     height: 56px;
     width: 11.111111111111111111111111111111%;
     margin: 0;
     padding: 0;
     border-radius: 7px;
     border: 1px solid #000;
-    background: #689CC7;
+    background: white;
     position: relative;
+    cursor: pointer;
 }
 
-#pagination .item-order p {
+#pagination .first, #pagination .last {
+    display: none;
+}
+
+#pagination li.page.active {
+    background-color: #689CC7;
+}
+
+#pagination a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#pagination li.page a {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -864,9 +891,10 @@ img.multi-year {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-decoration: none;
 }
 
-#go-to-prev {
+#pagination .prev {
     width: 237px;
     height: 56px;
     border-radius: 7px;
@@ -878,9 +906,12 @@ img.multi-year {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: absolute;
+    left: 100px;
+    top: 150px;
 }
 
-#go-to-next {
+#pagination .next {
     width: 237px;
     height: 56px;
     border-radius: 7px;
@@ -892,4 +923,7 @@ img.multi-year {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: absolute;
+    right: 100px;
+    top: 150px;
 }
