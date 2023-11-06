@@ -263,7 +263,25 @@ img.multi-year {
     display: none;
 }
 
+.back {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    display: block;
+    text-decoration: none!important;
+}
+
 @media (max-width: 767px) {
+    .back {
+        font-size: 12px;
+        font-style: normal;
+        margin-bottom: 30px;
+    }
+
     .profile {
         border-radius: 10px;
         background: #F3F3F3;
