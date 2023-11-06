@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+
 <head>
   <link rel="stylesheet" href="{{ '/assets/css/users.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/dropselect.css' | relative_url }}" />
 </head>
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/jqPaginator/1.2.1/css/jqPaginator.min.css" rel="stylesheet">
@@ -33,14 +35,26 @@ layout: default
 
   <div class="controller">
     <div class="inline">
-      <p>Sort</p>
-      <div class="button" id="sort-by-country"><span>Country</span></div>
-      <div class="button" id="sort-by-company"><span>Company</span></div>
+      <p>Filter</p>
+      <div class="dropdown" id="sort-by-country-dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <div class="button" id="sort-by-country-label"><span>Country</span></div>
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" id="sort-by-country" role="menu"></ul>
+      </div>
+      <div class="dropdown" id="sort-by-company-dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <div class="button" id="sort-by-company-label"><span>Company</span></div>
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" id="sort-by-company" role="menu"></ul>
+      </div>
     </div>
     <div class="inline">
-      <p>Filter</p>
-      <div class="button" id="sort-by-completeness"><span>Most complete profiles first</span></div>
-      <div class="button" id="sort-alphabetically"><span>Alphabetically</span></div>
+      <p>Sort</p>
+      <div class="button" id="sort-by-completeness" style="cursor: pointer;"><span>Most complete profiles first</span></div>
+      <div class="button" id="sort-alphabetically" style="cursor: pointer;"><span>Alphabetically</span></div>
     </div>
   </div>
 
@@ -51,8 +65,15 @@ layout: default
   <div id="pagination" class="pagination"></div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
 <script src="{{ '/assets/js/jq-paginator.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/dropselect.js' | relative_url }}"></script>
 
 <script>
   const countryCodes = {
@@ -267,7 +288,11 @@ layout: default
   }
 
   // Get the user data from site.data.users
-  const users = {{ site.data.users | jsonify }};
+  const totalUsers = {{ site.data.users | jsonify }};
+  const totalCompanies = {{ site.data.company | jsonify }}
+  const totalCountries = {{ site.data.country | jsonify }}
+
+  let usersArr = totalUsers;
 
   const crossUrl = "{{ '/assets/img/cross.png' | relative_url }}";
   const twitterUrl = "{{ '/assets/img/user-twitter.png' | relative_url }}";
@@ -275,7 +300,12 @@ layout: default
   const linkedinUrl = "{{ '/assets/img/user-linkedin.png' | relative_url }}";
 
   const perPage = 9;
-  const totalPages = Math.ceil(users.length / perPage);
+  let totalPages = Math.ceil(totalUsers.length / perPage);
+
+  let startIndexValue = 0;
+  let endIndexValue = perPage;
+  let alphaType = "";
+  let currentPage = 1;
 
   // Initialize jqPaginator
   $('#pagination').jqPaginator({
@@ -284,39 +314,40 @@ layout: default
     currentPage: 1,
     onPageChange: function (num, type) {
       if (type === 'change') {
-        const startIndex = (num - 1) * perPage;
-        const endIndex = Math.min(startIndex + perPage, users.length);
-        displayUsers(users, startIndex, endIndex);
+        currentPage = num;
+        startIndexValue = (num - 1) * perPage;
+        endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
+        displayUsers(startIndexValue, endIndexValue);
       }
     }
   });
 
-  function displayUsers(users, startIndex, endIndex) {
+  function displayUsers(startIndex, endIndex) {
     // Clear the existing list
     $('#user-list').empty();
     $('#order').empty();
 
     // Display users for the current page
     for (let i = startIndex; i < endIndex; i++) {
-      if (users[i] != undefined) {
-        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
-        // $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+      if (usersArr[i] != undefined) {
+        // $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${usersArr[i].image}" /></div><div class="wrap"><a href="users/${usersArr([i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${usersArr[i].image}" /></div><div class="wrap"><a href="users/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
       }
     }
 
     addCountryFlags();
   }
 
-  displayUsers(users, 0, 8);
+  displayUsers(0, 8);
 
   function sortUsersByCountry() {
-    users.sort((a, b) => a.country.localeCompare(b.country, undefined, { sensitivity: 'base' }));
-    displayUsers(users, 0, perPage);
+    usersArr.sort((a, b) => a.country.localeCompare(b.country, undefined, { sensitivity: 'base' }));
+    displayUsers(0, perPage);
   }
 
   // Sorting function for users by company
   function sortUsersByCompany() {
-    users.sort((a, b) => {
+    usersArr.sort((a, b) => {
       const companyA = a.company ? a.company.toLowerCase() : '';
       const companyB = b.company ? b.company.toLowerCase() : '';
 
@@ -329,7 +360,7 @@ layout: default
       return 0;
     });
 
-    displayUsers(users, 0, perPage);
+    displayUsers(0, perPage);
   }
 
   function isProfileComplete(user) {
@@ -350,7 +381,7 @@ layout: default
   }
 
   function sortUsersMostCompleteFirst() {
-    users.sort((a, b) => {
+    usersArr.sort((a, b) => {
       const profileCompleteA = isProfileComplete(a);
       const profileCompleteB = isProfileComplete(b);
 
@@ -363,12 +394,36 @@ layout: default
       return 0;
     });
 
-    displayUsers(users, 0, perPage);
+    displayUsers(0, perPage);
   }
 
   function sortUsersAlphabetically() {
-    users.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
-    displayUsers(users, 0, perPage);
+    usersArr.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+
+    totalPages = Math.ceil(usersArr.length / perPage);
+
+    if (totalPages > 0) {
+      $('#pagination').jqPaginator({
+        totalPages: totalPages,
+        visiblePages: 9,
+        currentPage: currentPage,
+        onPageChange: function (num, type) {
+          if (type === 'change') {
+            currentPage = num;
+            startIndexValue = (num - 1) * perPage;
+            endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
+            displayUsers(startIndexValue, endIndexValue);
+
+          }
+        }
+      });
+
+      startIndexValue = (currentPage - 1) * perPage;
+      endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
+      displayUsers(startIndexValue, endIndexValue);
+    } else {
+      displayUsers(0, 0);
+    }
   }
 
   // Event handlers for sorting buttons
@@ -382,13 +437,136 @@ layout: default
     const searchInput = document.getElementById("search-input");
     const searchValue = searchInput.value.toLowerCase(); // Convert the search value to lowercase for case-insensitive search
 
-    const filteredUsers = users.filter((user) => user.name.toLowerCase().includes(searchValue));
+    const filteredUsers = totalUsers.filter((user) => user.name.toLowerCase().includes(searchValue));
+    usersArr = filteredUsers;
 
-    // Display the filtered user profiles
-    displayUsers(filteredUsers, 0, perPage);
+    totalPages = Math.ceil(usersArr.length / perPage);
+
+    if (totalPages > 0) {
+      $('#pagination').jqPaginator({
+        totalPages: totalPages,
+        visiblePages: 9,
+        currentPage: 1,
+        onPageChange: function (num, type) {
+          if (type === 'change') {
+            currentPage = num;
+            startIndexValue = (num - 1) * perPage;
+            endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
+            displayUsers(startIndexValue, endIndexValue);
+
+          }
+        }
+      });
+
+      // Display the filtered user profiles
+      displayUsers(startIndexValue, endIndexValue);
+    } else {
+      displayUsers(0, 0);
+    }
+
   }
 
   // Attach an event listener to the search input field to trigger the search
   document.getElementById("search-input").addEventListener("input", handleSearch);
 
+  for (let i = 0; i < totalCompanies.length; i++) {
+    if (totalCompanies[i] != undefined) {
+      $('#sort-by-company').append(`<li data-value="${totalCompanies[i].company}"><a href="#">${totalCompanies[i].company}</a></li>`);
+    }
+  }
+
+  for (let i = 0; i < totalCountries.length; i++) {
+    if (totalCountries[i] != undefined) {
+      $('#sort-by-country').append(`<li data-value="${totalCountries[i].country}"><a href="#">${totalCountries[i].country}</a></li>`);
+    }
+  }
+
+  $('#sort-by-company').dropselect({
+    // event hooks
+    // item specific event hooks
+    onselect: function (e, item) {
+      alphaType = "company";
+      const filteredUsers = totalUsers.filter((user) => user.company === item.text);
+      usersArr = filteredUsers;
+
+      sortUsersAlphabetically();
+
+      $(".dropselect-list li").removeClass("selected");
+      $(`li[data-value="${item.text}"]`).addClass("selected");
+    },
+    onunselect: function (e, item) { },
+    ontoggle: function (e, item) { },
+
+    // global event hooks
+    onchange: function (e) { },
+    onclear: function (e) { },
+    onload: function (e) { },
+    onhidden: function (e) { },
+
+    // item source
+    items: 'markup',
+
+    multiselect: false,
+    toggle: false,
+    autohide: false,
+    width: 300,
+    clear: {
+      show: true,
+      text: 'Clear selected'
+    },
+    filter: {
+      show: false,
+      placeholder: 'Search',
+      casesensitive: false,
+      noresult: 'No results found'
+    }
+  });
+
+  $('#sort-by-country').dropselect({
+    // event hooks
+    // item specific event hooks
+    onselect: function (e, item) {
+      alphaType = "country";
+      const filteredUsers = totalUsers.filter((user) => user.country === item.text);
+      usersArr = filteredUsers;
+
+      sortUsersAlphabetically();
+
+      $(".dropselect-list li").removeClass("selected");
+      $(`li[data-value="${item.text}"]`).addClass("selected");
+    },
+    onunselect: function (e, item) { },
+    ontoggle: function (e, item) { },
+
+    // global event hooks
+    onchange: function (e) { },
+    onclear: function (e) {
+      $(".dropselect-list li").removeClass("selected");
+      alphaType = "";
+      const filteredUsers = totalUsers;
+      usersArr = filteredUsers;
+
+      sortUsersAlphabetically();
+    },
+    onload: function (e) { },
+    onhidden: function (e) { },
+
+    // item source
+    items: 'markup',
+
+    multiselect: false,
+    toggle: false,
+    autohide: false,
+    width: 300,
+    clear: {
+      show: true,
+      text: 'Clear selected'
+    },
+    filter: {
+      show: false,
+      placeholder: 'Search',
+      casesensitive: false,
+      noresult: 'No results found'
+    }
+  })
 </script>
