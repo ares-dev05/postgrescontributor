@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+<head>
+    <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}" />
+</head>
 <div class="container">
     <!-- menu -->
     {% include menubar.html %}
@@ -21,7 +23,7 @@ layout: default
                 this release possible.
             </p>
         </div>
-        <img width="358px" height="369px" src="{{ '/assets/img/elephant.png' | relative_url }}" />
+        <img class="elephant" src="{{ '/assets/img/elephant.png' | relative_url }}" />
     </div>
 
     <div class="featured">
@@ -73,6 +75,21 @@ layout: default
                     <span class="icon-content">Find other contributors for networking</span>
                 </div>
             </div>
+
+            <div class="mobile" style="margin-top: 15px;">
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon1.png' | relative_url }}" />
+                    <span class="icon-content">Manage your contributor profile</span>
+                </div>
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon2.png' | relative_url }}" />
+                    <span class="icon-content">Claim your contributor reward</span>
+                </div>
+                <div class="inline">
+                    <img width="37px" height="37px" src="{{ '/assets/img/icon3.png' | relative_url }}" />
+                    <span class="icon-content">Find other contributors for networking</span>
+                </div>
+            </div>
         </div>
         <img width="402px" height="331.2px" src="{{ '/assets/img/QQ2.png' | relative_url }}" />
     </div>
@@ -95,6 +112,7 @@ layout: default
 </div>
 
 <script>
+    $.noConflict();
     $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
             items: 3,

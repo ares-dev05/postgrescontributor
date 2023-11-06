@@ -9,7 +9,43 @@
         <p class="postgresql">PostgreSQL Contributors</p>
     </div>
     <div class="inline">
-        <a class="fame" href="users">PostgreSQL 16 Hall of Fame</a> 
+        <a class="fame" href="users">PostgreSQL 16 Hall of Fame</a>
         <a class="store" href="https://postgrescontributorstore.myshopify.com/" target="_blank">Store</a>
     </div>
+    <div class="flex">
+        <div class="logo">
+            <p class="logo-title">SPONSOR LOGO</p>
+        </div>
+        <img id="hamburger" width="20px" height="13px" src="{{ '/assets/img/hamburger.png' | relative_url }}" />
+    </div>
+    <div class="bar">
+        <div class="background">
+            <p class="postgresql">PostgreSQL Contributors</p>
+            <a class="fame" href="users">PostgreSQL 16 Hall of Fame</a>
+            <a class="store" href="https://postgrescontributorstore.myshopify.com/" target="_blank">Store</a>
+        </div>
+    </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="{{ '/assets/js/jq-paginator.js' | relative_url }}"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#hamburger").click(function () {
+            $(".bar").addClass("show");
+        });
+
+        $(".menubar > .bar").click(function () {
+            $(".bar").removeClass("show");
+        });
+
+        $('.menubar .background').click(function (event) {
+            // Prevent the click event from bubbling up to the .bar element
+            event.stopPropagation();
+
+            // Your click event code for the .background element goes here
+            // This code will only execute when .background is clicked
+        });
+    });
+</script>

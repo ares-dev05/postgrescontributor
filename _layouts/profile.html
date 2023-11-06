@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+
+<head>
+  <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}" />
+</head>
 <div class="container">
   <!-- menu -->
   {% include menubar.html %}
@@ -11,11 +15,30 @@ layout: default
         <h5>{{ page.title }}</h5>
         <p>{{ page.bio }}</p>
         <span class="country" data-country="{{ page.country }}">{{ page.address }}</span>
-        <b>About:</b>
+        <b>ABOUT:</b>
         <p class="about">{{ page.about }}</p>
       </div>
       <div style="width: 388px; height:390px; position: relative;">
-        <img width="388px" height="390px" src="{{ page.image | relative_url | default: '/postgrescontributor/assets/img/cross.png' }}" />
+        <img width="388px" height="390px"
+          src="{{ page.image | relative_url | default: '/assets/img/cross.png' | relative_url }}" />
+
+        {% if page.multiYear == true %}
+        <img width="147px" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
+        {% endif %}
+      </div>
+    </div>
+    <div class="mobile">
+      <div class="wrap">
+        <h5>{{ page.title }}</h5>
+        <p>{{ page.bio }}</p>
+        <span class="country" data-country="{{ page.country }}">{{ page.address }}</span>
+        <b>ABOUT:</b>
+        <p class="about">{{ page.about }}</p>
+      </div>
+      <div style="position: relative;width: 80%;height: 80%;margin: auto;">
+        <img width="388px" height="390px"
+          src="{{ page.image | relative_url | default: '/assets/img/cross.png' | relative_url }}"
+          class="profile-image" />
         {% if page.multiYear == true %}
         <img width="147px" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
         {% endif %}
@@ -40,7 +63,7 @@ layout: default
         </div>
       </a>
 
-      <a class="social-btn" href="{{ page.linkedin }}" target="_blank">
+      <a class="social-btn linkedin" href="{{ page.linkedin }}" target="_blank">
         <div class="center inline">
           <img width="21px" height="21px" src="{{ '/assets/img/linkedin.png' | relative_url }}" />
           <span>LinkedIn</span>
@@ -51,8 +74,9 @@ layout: default
   </div>
 
   <div class="media">
-    <div style="display: flex; justify-content: space-between;">
-      <img width="388px" height="390px" src="{{ page.mediaImage | relative_url | default: '/postgrescontributor/assets/img/cross.png' }}" />
+    <div class="block">
+      <img width="388px" height="390px"
+        src="{{ page.mediaImage | relative_url | default: '/assets/img/cross.png' | relative_url }}" />
       <div class="wrap">
         <h5>{{ page.company }} - {{ page.title }}</h5>
         <p>{{ page.detail }}</p>
@@ -63,12 +87,14 @@ layout: default
 
   <div class="lastUpdate">Last updated on {{ page.lastUpdate }}</div>
   <div class="github">
-    <p>Edit this page on  <a href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}" target="_blank">GitHub</a></p>
+    <p>Edit this page on <a href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}"
+        target="_blank">GitHub</a></p>
   </div>
   <!-- Create a div for the popup dialog and an overlay -->
   <div class="popup">
     <!-- Your content for the popup goes here -->
-    <p>Edit this page on <a href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}" target="_blank">GitHub</a></p>
+    <p>Edit this page on <a href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}"
+        target="_blank">GitHub</a></p>
     <img width="41px" height="41px" src="{{ '/assets/img/close.png' | relative_url }}" class="close" />
     <img width="135px" height="128px" src="{{ '/assets/img/github-icon.png' | relative_url }}" class="github-icon" />
   </div>

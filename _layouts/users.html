@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+<head>
+  <link rel="stylesheet" href="{{ '/assets/css/users.css' | relative_url }}" />
+</head>
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/jqPaginator/1.2.1/css/jqPaginator.min.css" rel="stylesheet">
 <div class="container">
   <!-- menu -->
@@ -48,7 +52,7 @@ layout: default
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="/postgrescontributor/assets/js/jq-paginator.js"></script>
+<script src="{{ '/assets/js/jq-paginator.js' | relative_url }}"></script>
 
 <script>
   const countryCodes = {
@@ -295,8 +299,8 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i < endIndex; i++) {
       if (users[i] != undefined) {
-        $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
-        // $('#user-list').append(`<div class="user"><div style="display: flex;"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        // $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${users[i].image}" /></div><div class="wrap"><a href="users/${users[i].name}">${users[i].name}</a><p>${users[i].bio}</p><span class="country" data-country="${users[i].country}">${users[i].address}</span><div class="flex" style="width: 150px;"><a href="${users[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${users[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${users[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
       }
     }
 
