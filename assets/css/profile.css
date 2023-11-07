@@ -197,8 +197,8 @@
 
 img.multi-year {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -55px;
+    right: -28px;
 }
 
 /* Style for the popup dialog */

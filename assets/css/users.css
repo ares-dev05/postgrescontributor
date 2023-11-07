@@ -118,6 +118,9 @@
     width: 100%;
 }
 
+#contact-us {
+    /* text-decoration: none; */
+}
 
 .user {
     border-radius: 15px;

@@ -21,9 +21,8 @@ layout: default
         <b>ABOUT:</b>
         <p class="about">{{ page.about }}</p>
       </div>
-      <div style="width: 388px; height:390px; position: relative;">
-        <img width="388px" height="390px"
-          src="{{ page.image | default: '/assets/img/cross.png' | relative_url }}" />
+      <div style="width: 392px; height:405px; position: relative;">
+        <img width="392px" height="405px" src="{{ page.image | default: '/assets/img/user.png' | relative_url }}" />
 
         {% if page.multiYear == true %}
         <img width="147px" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
@@ -39,8 +38,7 @@ layout: default
         <p class="about">{{ page.about }}</p>
       </div>
       <div style="position: relative;width: 80%;height: 80%;margin: auto;">
-        <img width="388px" height="390px"
-          src="{{ page.image | default: '/assets/img/cross.png' | relative_url }}"
+        <img width="392px" height="405px" src="{{ page.image | default: '/assets/img/user.png' | relative_url }}"
           class="profile-image" />
         {% if page.multiYear == true %}
         <img width="147px" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
@@ -78,8 +76,7 @@ layout: default
 
   <div class="media">
     <div class="block">
-      <img width="388px" height="390px"
-        src="{{ page.mediaImage | default: '/assets/img/cross.png' | relative_url }}" />
+      <img width="388px" height="390px" src="{{ page.mediaImage | default: '/assets/img/media.png' | relative_url }}" />
       <div class="wrap">
         <h5>{{ page.company }} - {{ page.title }}</h5>
         <p>{{ page.detail }}</p>
@@ -90,14 +87,16 @@ layout: default
 
   <div class="lastUpdate">Last updated on {{ page.lastUpdate }}</div>
   <div class="github">
-    <p>Edit this page on <a href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}"
-        target="_blank">GitHub</a></p>
+    <p><img width="20px" height="20px" style="margin-right: 15px; margin-bottom: 1px;" src="{{ '/assets/img/pencil-alt.png' | relative_url }}" />Edit this page on <a
+        href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}" target="_blank">GitHub</a>
+    </p>
   </div>
   <!-- Create a div for the popup dialog and an overlay -->
   <div class="popup">
     <!-- Your content for the popup goes here -->
-    <p>Edit this page on <a href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}"
-        target="_blank">GitHub</a></p>
+    <p><img width="20px" height="20px" style="margin-right: 15px; margin-bottom: 1px;" src="{{ '/assets/img/pencil-alt.png' | relative_url }}" />Edit this page on <a
+        href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}" target="_blank">GitHub</a>
+    </p>
     <img width="41px" height="41px" src="{{ '/assets/img/close.png' | relative_url }}" class="close" />
     <img width="135px" height="128px" src="{{ '/assets/img/github-icon.png' | relative_url }}" class="github-icon" />
   </div>
