@@ -228,8 +228,16 @@
     display: none;
 }
 
+#pagination .disabled {
+    visibility: hidden!important;
+}
+
 #pagination li.page.active {
     background-color: #689CC7;
+}
+
+.no-result {
+    text-align: center;
 }
 
 #pagination a {

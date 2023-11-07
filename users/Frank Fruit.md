@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Frank Fruit
-bio: Software engineer at XYZ
+bio: Software engineer
 country: France
 address: Dresden, France
 image: /assets/img/Myo Wai Thant.png

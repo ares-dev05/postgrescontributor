@@ -1,5 +1,5 @@
 - name: Adma Mackler
-  bio: Software engineer at ABC
+  bio: Software engineer
   image: /assets/img/Adam Mackler.png
   country: Algeria
   address: Dresden, Germany
@@ -10,7 +10,7 @@
   lastUpdate: Nov 1, 2023
   multiYear: true
 - name: Jakub Wartak
-  bio: SQL specialist at DEF
+  bio: SQL specialist
   country: Algeria
   address: Dresden, Germany
   image: /assets/img/Jakub Wartak.png
@@ -23,7 +23,7 @@
   lastUpdate: Nov 1, 2023
   multiYear: true
 - name: Myo Wai Thnant
-  bio: Software engineer at XYZ
+  bio: Software engineer
   country: Germany
   address: Dresden, Germany
   image: /assets/img/Myo Wai Thant.png
@@ -36,7 +36,7 @@
   lastUpdate: Nov 1, 2023
   multiYear: false
 - name: Einstein
-  bio: Software engineer at XYZ
+  bio: Software engineer
   country: Germany
   address: Dresden, Germany
   image: /assets/img/Myo Wai Thant.png
@@ -62,7 +62,7 @@
   lastUpdate: Nov 1, 2023
   multiYear: true
 - name: Frank Fruit
-  bio: Software engineer at XYZ
+  bio: Software engineer
   country: France
   address: Dresden, France
   image: /assets/img/Myo Wai Thant.png

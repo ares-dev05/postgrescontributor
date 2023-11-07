@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Adma Mackler
-bio: Software engineer at ABC
+bio: Software engineer
 image: /assets/img/Adam Mackler.png
 mediaImage: 
 country: Germany

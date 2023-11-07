@@ -151,7 +151,7 @@
 }
 
 .githubText {
-    margin-bottom: 113px;
+    margin-bottom: 53px;
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -193,6 +193,10 @@
     font-weight: 800;
     line-height: normal;
     text-decoration: none;
+}
+
+.github p a:hover {
+    color: #689CC7;
 }
 
 img.multi-year {
@@ -272,7 +276,7 @@ img.multi-year {
     line-height: normal;
     cursor: pointer;
     display: block;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 @media (max-width: 767px) {
@@ -490,6 +494,17 @@ img.multi-year {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .github p img {
+        width: 12px;
+        height: 12px;
+        margin-right: 8px!important;
+        margin-bottom: 0px!important;
     }
 
     .github p a {
@@ -500,5 +515,18 @@ img.multi-year {
         font-weight: 800;
         line-height: normal;
         text-decoration: none;
+        margin-left: 5px;
+    }
+
+
+    .githubText {
+        margin-bottom: 23px;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }

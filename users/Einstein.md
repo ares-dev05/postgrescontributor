@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Einstein
-bio: Software engineer at XYZ
+bio: Software engineer
 country: Germany
 address: Dresden, Germany
 image: /assets/img/Myo Wai Thant.png

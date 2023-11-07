@@ -16,7 +16,7 @@ layout: default
     <div class="flex">
       <div class="wrap">
         <h5>{{ page.title }}</h5>
-        <p>{{ page.bio }}</p>
+        <p>{{ page.bio }} at {{ user.company }}</p>
         <span class="country" data-country="{{ page.country }}">{{ page.address }}</span>
         <b>ABOUT:</b>
         <p class="about">{{ page.about }}</p>
@@ -32,7 +32,7 @@ layout: default
     <div class="mobile">
       <div class="wrap">
         <h5>{{ page.title }}</h5>
-        <p>{{ page.bio }}</p>
+        <p>{{ page.bio }} at {{ user.company }}</p>
         <span class="country" data-country="{{ page.country }}">{{ page.address }}</span>
         <b>ABOUT:</b>
         <p class="about">{{ page.about }}</p>
@@ -86,6 +86,7 @@ layout: default
   </div>
 
   <div class="lastUpdate">Last updated on {{ page.lastUpdate }}</div>
+  <div class="githubText">Existing contributors can edit and update<br /> their profile information through GitHub.</div>
   <div class="github">
     <p><img width="20px" height="20px" style="margin-right: 15px; margin-bottom: 1px;" src="{{ '/assets/img/pencil-alt.png' | relative_url }}" />Edit this page on <a
         href="https://github.com/ares-dev05/postgrescontributor/edit/main/{{ page.path }}" target="_blank">GitHub</a>

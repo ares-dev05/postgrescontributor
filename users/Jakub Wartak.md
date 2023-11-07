@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: Jakub Wartak
-bio: SQL specialist at DEF
+bio: SQL specialist
 country: Germany
 address: Dresden, Germany
 image: /assets/img/Jakub Wartak.png

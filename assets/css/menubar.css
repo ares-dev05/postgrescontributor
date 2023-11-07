@@ -22,7 +22,7 @@
     height: 17px;
 }
 
-p.postgresql {
+a.postgresql {
     width: 313px;
     color: #000;
     text-align: center;
@@ -32,6 +32,7 @@ p.postgresql {
     font-weight: 700;
     line-height: normal;
     margin: 0;
+    text-decoration: none;
 }
 
 a.fame {
@@ -139,7 +140,7 @@ a.store {
         height: 100vh;
     }
 
-    .bar p.postgresql {
+    .bar a.postgresql {
         color: rgba(102, 102, 102, 0.85) !important;
         font-family: Inter;
         font-size: 13px;
@@ -154,9 +155,10 @@ a.store {
         align-items: center;
         padding-left: 10px;
         border-top: 1px solid #ececec;
+        text-decoration: none;
     }
 
-    .bar p.postgresql:hover {
+    .bar a.postgresql:hover {
         background: #0002;
     }
 

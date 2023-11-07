@@ -64,6 +64,7 @@ layout: default
   </ul>
 
   <div id="pagination" class="pagination"></div>
+  <p class="no-result">No results found. Try another search.</p>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
@@ -306,7 +307,8 @@ layout: default
 
   let startIndexValue = 0;
   let endIndexValue = perPage;
-  let alphaType = "";
+  let filterCountry = "";
+  let filterCompany = "";
   let currentPage = 1;
 
   // Initialize jqPaginator
@@ -332,12 +334,20 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i <= endIndex; i++) {
       if (usersArr[i] != undefined) {
-        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${usersArr[i].image}" /></div><div class="wrap"><a href="users/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
-        // $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${usersArr[i].image}" /></div><div class="wrap"><a href="users/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${usersArr[i].image}" /></div><div class="wrap"><a href="users/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        // $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${usersArr[i].image}" /></div><div class="wrap"><a href="users/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
       }
     }
 
     addCountryFlags();
+
+    if(startIndex == 0 && endIndex == 0) {
+      $("#pagination").css("display", "none");
+      $(".no-result").css("display", "block");
+    } else {
+      $("#pagination").css("display", "flex");
+      $(".no-result").css("display", "none");
+    }
   }
 
   displayUsers(0, 8);
@@ -400,7 +410,6 @@ layout: default
             startIndexValue = (num - 1) * perPage;
             endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
             displayUsers(startIndexValue, endIndexValue);
-
           }
         }
       });
@@ -437,7 +446,6 @@ layout: default
             startIndexValue = (num - 1) * perPage;
             endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
             displayUsers(startIndexValue, endIndexValue);
-
           }
         }
       });
@@ -468,16 +476,19 @@ layout: default
     // event hooks
     // item specific event hooks
     onselect: function (e, item) {
-      alphaType = "company";
+      filterCompany = item.text;
       const filteredUsers = totalUsers.filter((user) => user.company === item.text);
       usersArr = filteredUsers;
+
+      if(filterCountry != "") {
+        usersArr = usersArr.filter((user) => user.country === filterCountry);
+      }
 
       sortUsersAlphabetically();
 
       $(".dropselect-list li").removeClass("selected");
       $(`li[data-value="${item.text}"]`).addClass("selected");
 
-      $("#sort-by-country-label").removeClass("focused");
       $("#sort-by-company-label").addClass("focused");
 
       $("#pagination").click();
@@ -489,11 +500,13 @@ layout: default
     onchange: function (e) { },
     onclear: function (e) {
       $(".dropselect-list li").removeClass("selected");
-      alphaType = "";
+      filterCompany = "";
       const filteredUsers = totalUsers;
       usersArr = filteredUsers;
 
       sortUsersAlphabetically();
+
+      $("#sort-by-company-label").removeClass("focused");
 
       $("#pagination").click();
     },
@@ -523,9 +536,13 @@ layout: default
     // event hooks
     // item specific event hooks
     onselect: function (e, item) {
-      alphaType = "country";
+      filterCountry = item.text;
       const filteredUsers = totalUsers.filter((user) => user.country === item.text);
       usersArr = filteredUsers;
+
+      if(filterCompany != "") {
+        usersArr = usersArr.filter((user) => user.company === filterCompany);
+      }
 
       sortUsersAlphabetically();
 
@@ -533,7 +550,6 @@ layout: default
       $(`li[data-value="${item.text}"]`).addClass("selected");
 
       $("#sort-by-country-label").addClass("focused");
-      $("#sort-by-company-label").removeClass("focused");
 
       $("#pagination").click();
     },
@@ -543,13 +559,14 @@ layout: default
     // global event hooks
     onchange: function (e) { },
     onclear: function (e) {
+      filterCountry = "";
       $(".dropselect-list li").removeClass("selected");
       alphaType = "";
       const filteredUsers = totalUsers;
       usersArr = filteredUsers;
 
       sortUsersAlphabetically();
-
+      $("#sort-by-country-label").removeClass("focused");
       $("#pagination").click();
     },
     onload: function (e) { },
