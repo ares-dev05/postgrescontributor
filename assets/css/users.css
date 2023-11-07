@@ -119,11 +119,11 @@
 }
 
 .focused {
-    background-color: #000!important;
+    background-color: #000 !important;
 }
 
 .focused span {
-    color: white!important;
+    color: white !important;
 }
 
 .user {
@@ -229,7 +229,7 @@
 }
 
 #pagination .disabled {
-    visibility: hidden!important;
+    visibility: hidden !important;
 }
 
 #pagination li.page.active {
@@ -238,6 +238,12 @@
 
 .no-result {
     text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 #pagination a {
@@ -314,7 +320,7 @@
     text-decoration: none !important;
     color: #000 !important;
     font-family: Inter !important;
-    padding: 8px!important;
+    padding: 8px !important;
     font-size: 15px;
 }
 
@@ -331,7 +337,7 @@
 }
 
 .selected {
-    background-color: #eeeeee!important;
+    background-color: #eeeeee !important;
 }
 
 @media (max-width: 767px) {
@@ -598,7 +604,7 @@
         text-decoration: none !important;
         color: #000 !important;
         font-family: Inter !important;
-        padding: 4px!important;
+        padding: 4px !important;
         font-size: 10px;
     }
 

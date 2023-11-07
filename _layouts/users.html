@@ -503,7 +503,7 @@ layout: default
       filterCompany = "";
 
       if(filterCountry != "") {
-        const filteredUsers = totalUsers.filter((user) => user.country === item.text);
+        const filteredUsers = totalUsers.filter((user) => user.country === filterCountry);
         usersArr = filteredUsers;
       } else {
         usersArr = totalUsers;
@@ -568,7 +568,7 @@ layout: default
       $(".dropselect-list li").removeClass("selected");
       
       if(filterCompany != "") {
-        const filteredUsers = totalUsers.filter((user) => user.country === item.text);
+        const filteredUsers = totalUsers.filter((user) => user.company === filterCompany);
         usersArr = filteredUsers;
       } else {
         usersArr = totalUsers;
