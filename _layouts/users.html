@@ -501,8 +501,13 @@ layout: default
     onclear: function (e) {
       $(".dropselect-list li").removeClass("selected");
       filterCompany = "";
-      const filteredUsers = totalUsers;
-      usersArr = filteredUsers;
+
+      if(filterCountry != "") {
+        const filteredUsers = totalUsers.filter((user) => user.country === item.text);
+        usersArr = filteredUsers;
+      } else {
+        usersArr = totalUsers;
+      }
 
       sortUsersAlphabetically();
 
@@ -561,9 +566,13 @@ layout: default
     onclear: function (e) {
       filterCountry = "";
       $(".dropselect-list li").removeClass("selected");
-      alphaType = "";
-      const filteredUsers = totalUsers;
-      usersArr = filteredUsers;
+      
+      if(filterCompany != "") {
+        const filteredUsers = totalUsers.filter((user) => user.country === item.text);
+        usersArr = filteredUsers;
+      } else {
+        usersArr = totalUsers;
+      }
 
       sortUsersAlphabetically();
       $("#sort-by-country-label").removeClass("focused");
