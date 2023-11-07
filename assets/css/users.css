@@ -244,6 +244,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 4rem 0 7rem;
 }
 
 #pagination a {
@@ -618,5 +619,10 @@
 
     #sort-by-country-dropdown .dropdown-toggle::after {
         display: none;
+    }
+
+    .no-result {
+        font-size: 12px !important;
+        margin: 2rem 0 3.5rem !important;
     }
 }
