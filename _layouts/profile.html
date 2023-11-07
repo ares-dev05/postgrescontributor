@@ -23,7 +23,7 @@ layout: default
       </div>
       <div style="width: 388px; height:390px; position: relative;">
         <img width="388px" height="390px"
-          src="{{ page.image | relative_url | default: '/assets/img/cross.png' | relative_url }}" />
+          src="{{ page.image | default: '/assets/img/cross.png' | relative_url }}" />
 
         {% if page.multiYear == true %}
         <img width="147px" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
@@ -40,7 +40,7 @@ layout: default
       </div>
       <div style="position: relative;width: 80%;height: 80%;margin: auto;">
         <img width="388px" height="390px"
-          src="{{ page.image | relative_url | default: '/assets/img/cross.png' | relative_url }}"
+          src="{{ page.image | default: '/assets/img/cross.png' | relative_url }}"
           class="profile-image" />
         {% if page.multiYear == true %}
         <img width="147px" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
@@ -79,7 +79,7 @@ layout: default
   <div class="media">
     <div class="block">
       <img width="388px" height="390px"
-        src="{{ page.mediaImage | relative_url | default: '/assets/img/cross.png' | relative_url }}" />
+        src="{{ page.mediaImage | default: '/assets/img/cross.png' | relative_url }}" />
       <div class="wrap">
         <h5>{{ page.company }} - {{ page.title }}</h5>
         <p>{{ page.detail }}</p>
