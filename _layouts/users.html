@@ -20,7 +20,8 @@ layout: default
         <p>The following list has been compiled from<br />the <a
             href="https://www.postgresql.org/docs/current/release-16.html" target="_blank">official PostgreSQL 16
             contributor list</a>.</p>
-        <p>To suggest additions to the list, please <a id="contact-us" href="https://postgrescontributorstore.myshopify.com/pages/contact" target="_blank">contact us</a>.
+        <p>To suggest additions to the list, please <a id="contact-us"
+            href="https://postgrescontributorstore.myshopify.com/pages/contact" target="_blank">contact us</a>.
           Existing contributors can update information through GitHub.</p>
       </div>
       <img width="366px" height="280px" src="{{ '/assets/img/users.png' | relative_url }}" />
@@ -69,7 +70,6 @@ layout: default
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 
 
 <script src="{{ '/assets/js/jq-paginator.js' | relative_url }}"></script>
@@ -294,6 +294,8 @@ layout: default
 
   let usersArr = totalUsers;
 
+  console.log('usersArr', usersArr)
+
   const crossUrl = "{{ '/assets/img/cross.png' | relative_url }}";
   const twitterUrl = "{{ '/assets/img/user-twitter.png' | relative_url }}";
   const githubUrl = "{{ '/assets/img/user-github.png' | relative_url }}";
@@ -328,7 +330,7 @@ layout: default
     $('#order').empty();
 
     // Display users for the current page
-    for (let i = startIndex; i < endIndex; i++) {
+    for (let i = startIndex; i <= endIndex; i++) {
       if (usersArr[i] != undefined) {
         $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributor${usersArr[i].image}" /></div><div class="wrap"><a href="users/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
         // $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${usersArr[i].image}" /></div><div class="wrap"><a href="users/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
@@ -339,29 +341,6 @@ layout: default
   }
 
   displayUsers(0, 8);
-
-  function sortUsersByCountry() {
-    usersArr.sort((a, b) => a.country.localeCompare(b.country, undefined, { sensitivity: 'base' }));
-    displayUsers(0, perPage);
-  }
-
-  // Sorting function for users by company
-  function sortUsersByCompany() {
-    usersArr.sort((a, b) => {
-      const companyA = a.company ? a.company.toLowerCase() : '';
-      const companyB = b.company ? b.company.toLowerCase() : '';
-
-      if (companyA < companyB) {
-        return -1;
-      }
-      if (companyA > companyB) {
-        return 1;
-      }
-      return 0;
-    });
-
-    displayUsers(0, perPage);
-  }
 
   function isProfileComplete(user) {
     return (
@@ -381,6 +360,9 @@ layout: default
   }
 
   function sortUsersMostCompleteFirst() {
+    $("#sort-by-completeness").addClass("focused");
+    $("#sort-alphabetically").removeClass("focused");
+
     usersArr.sort((a, b) => {
       const profileCompleteA = isProfileComplete(a);
       const profileCompleteB = isProfileComplete(b);
@@ -394,10 +376,15 @@ layout: default
       return 0;
     });
 
+
+
     displayUsers(0, perPage);
   }
 
   function sortUsersAlphabetically() {
+    $("#sort-by-completeness").removeClass("focused");
+    $("#sort-alphabetically").addClass("focused");
+
     usersArr.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
 
     totalPages = Math.ceil(usersArr.length / perPage);
@@ -426,9 +413,6 @@ layout: default
     }
   }
 
-  // Event handlers for sorting buttons
-  $('#sort-by-country').click(sortUsersByCountry);
-  $('#sort-by-company').click(sortUsersByCompany);
   $('#sort-by-completeness').click(sortUsersMostCompleteFirst); // Add this line
   $('#sort-alphabetically').click(sortUsersAlphabetically); // Add this lines
 
@@ -463,7 +447,6 @@ layout: default
     } else {
       displayUsers(0, 0);
     }
-
   }
 
   // Attach an event listener to the search input field to trigger the search
@@ -493,6 +476,11 @@ layout: default
 
       $(".dropselect-list li").removeClass("selected");
       $(`li[data-value="${item.text}"]`).addClass("selected");
+
+      $("#sort-by-country-label").removeClass("focused");
+      $("#sort-by-company-label").addClass("focused");
+
+      $("#pagination").click();
     },
     onunselect: function (e, item) { },
     ontoggle: function (e, item) { },
@@ -541,6 +529,11 @@ layout: default
 
       $(".dropselect-list li").removeClass("selected");
       $(`li[data-value="${item.text}"]`).addClass("selected");
+
+      $("#sort-by-country-label").addClass("focused");
+      $("#sort-by-company-label").removeClass("focused");
+
+      $("#pagination").click();
     },
     onunselect: function (e, item) { },
     ontoggle: function (e, item) { },

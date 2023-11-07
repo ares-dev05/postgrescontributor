@@ -61,3 +61,68 @@
   detail: 'Web Application Development'
   lastUpdate: Nov 1, 2023
   multiYear: true
+- name: Frank Fruit
+  bio: Software engineer at XYZ
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false

@@ -118,8 +118,12 @@
     width: 100%;
 }
 
-#contact-us {
-    /* text-decoration: none; */
+.focused {
+    background-color: #000!important;
+}
+
+.focused span {
+    color: white!important;
 }
 
 .user {
