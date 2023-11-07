@@ -4,7 +4,7 @@ title: Adma Mackler
 bio: Software engineer at ABC
 image: /assets/img/Adam Mackler.png
 mediaImage: 
-country: Germany
+country: United Kingdom
 address: Dresden, Germany
 about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
 twitter: "https://twitter.com/admanMacker"
