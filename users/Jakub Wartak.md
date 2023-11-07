@@ -1,7 +1,7 @@
 ---
 layout: profile
-title: Jakub Wartak
-bio: SQL specialist
+title: Jakub Wartaka
+bio: SQL specialist at EDB
 country: Germany
 address: Dresden, Germany
 image: /assets/img/Jakub Wartak.png
@@ -11,7 +11,7 @@ twitter: "https://twitter.com/admanMacker"
 github: "https://github.com/admanMacker"
 linkedin: "https://www.linkedin.com/in/admanMacker"
 company: Jakub India 2017
-detail: 'Online Migration: Upgrade with Seamless Downtime'
+detail: ['Online Migration: Upgrade with Seamless Downtime' ](https://www.youtube.com/watch?v=gbbCCcnYDNo)
 lastUpdate: Nov 1, 2023
 multiYear: true
 ---
