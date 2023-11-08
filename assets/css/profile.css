@@ -106,6 +106,10 @@
     justify-content: space-between;
 }
 
+.media .block>img {
+    cursor: pointer;
+}
+
 .media .wrap {
     padding-left: 80px;
 }
@@ -426,6 +430,7 @@ img.multi-year {
         height: 80%;
         display: block;
         margin: auto;
+        cursor: pointer;
     }
 
     .media .wrap {

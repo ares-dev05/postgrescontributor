@@ -3,7 +3,7 @@ layout: profile
 title: 
 bio: 
 image: /assets/img/Adam Mackler.png
-mediaImage: 
+mediaLink: 
 country: 
 address: 
 about: 

@@ -5,7 +5,7 @@ bio: Vice President, Postgres Evangelist
 country: United States
 address: United States
 image: /assets/img/Myo Wai Thant.png
-mediaImage: 
+mediaLink: 
 about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
 twitter: 
 github: "https://github.com/bmomjian"

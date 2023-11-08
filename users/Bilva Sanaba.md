@@ -3,7 +3,7 @@ layout: profile
 title: Bilva Sanaba
 bio: Software Development Engineer
 image: /assets/img/Adam Mackler.png
-mediaImage: 
+mediaLink: 
 country: United States
 address: USA. San Francisco
 about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.

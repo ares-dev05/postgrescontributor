@@ -5,7 +5,7 @@ bio: Database Internals Developer
 country: India
 address: India
 image: /assets/img/Myo Wai Thant.png
-mediaImage:
+mediaLink:
 about: Actively contributing to the open source Postgres database internals.
 twitter: https://twitter.com/BRupireddy
 github: https://github.com/BRupireddy2

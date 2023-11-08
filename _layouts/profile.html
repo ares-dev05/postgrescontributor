@@ -76,7 +76,7 @@ layout: default
 
   <div class="media">
     <div class="block">
-      <img width="388px" height="390px" src="{{ page.mediaImage | default: '/assets/img/media.png' | relative_url }}" />
+      <img width="388px" height="390px" src="{{ '/assets/img/media.png' | relative_url }}" data-link="{{ page.mediaLink }}" />
       <div class="wrap">
         <h5>{{ page.company }} - {{ page.title }}</h5>
         <p>{{ page.detail }}</p>
@@ -328,5 +328,12 @@ layout: default
     // $('.close').click(function () {
     //   $('.popup, .overlay').fadeOut();
     // });
+
+    $(".media .block>img").click(function() {
+      const url = $(".media .block>img").data("link");
+
+      console.log("url", url);
+      window.open(url, "_blank");
+    });
   });
 </script>

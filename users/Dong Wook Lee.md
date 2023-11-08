@@ -3,7 +3,7 @@ layout: profile
 title: Dong Wook Lee
 bio: Azure FPGA Hardware Engineer
 image: /assets/img/Adam Mackler.png
-mediaImage: 
+mediaLink: 
 country: United States
 address: 
 about: 

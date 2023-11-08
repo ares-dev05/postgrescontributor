@@ -3,7 +3,7 @@ layout: profile
 title: Jeff Davis
 bio: Principal Software Engineer 
 image: /assets/img/Adam Mackler.png
-mediaImage: 
+mediaLink: 
 country: United States
 address: United States
 about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews

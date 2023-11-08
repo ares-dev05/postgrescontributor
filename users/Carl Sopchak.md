@@ -3,7 +3,7 @@ layout: profile
 title: Carl Sopchak
 bio: Technical Lead / Software Architect
 image: /assets/img/Adam Mackler.png
-mediaImage: 
+mediaLink: 
 country: United States
 address: United States
 about: 
