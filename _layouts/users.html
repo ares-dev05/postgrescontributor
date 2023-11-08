@@ -295,7 +295,8 @@ layout: default
 
   let usersArr = totalUsers;
 
-  console.log('usersArr', usersArr)
+  var usersss = {{ site | load_users_data | jsonify }};
+  console.log('User Data:', usersss);
 
   const crossUrl = "{{ '/assets/img/cross.png' | relative_url }}";
   const twitterUrl = "{{ '/assets/img/user-twitter.png' | relative_url }}";
@@ -352,44 +353,41 @@ layout: default
 
   displayUsers(0, 8);
 
-  function isProfileComplete(user) {
-    return (
-      user.name &&
-      user.bio &&
-      user.image &&
-      user.country &&
-      user.address &&
-      user.about &&
-      user.twitter &&
-      user.github &&
-      user.linkedin &&
-      user.company &&
-      user.detail &&
-      user.lastUpdate
-    );
-  }
-
   function sortUsersMostCompleteFirst() {
     $("#sort-by-completeness").addClass("focused");
     $("#sort-alphabetically").removeClass("focused");
 
     usersArr.sort((a, b) => {
-      const profileCompleteA = isProfileComplete(a);
-      const profileCompleteB = isProfileComplete(b);
+      const completenessA = calculateCompleteness(a);
+      const completenessB = calculateCompleteness(b);
 
-      if (profileCompleteA && !profileCompleteB) {
-        return -1;
-      }
-      if (!profileCompleteA && profileCompleteB) {
-        return 1;
-      }
-      return 0;
+      // Sort in descending order of completeness
+      return completenessB - completenessA;
     });
-
-
 
     displayUsers(0, perPage);
   }
+
+  function calculateCompleteness(user) {
+    const fields = [
+      user.name,
+      user.bio,
+      user.image,
+      user.country,
+      user.address,
+      user.about,
+      user.twitter,
+      user.github,
+      user.linkedin,
+      user.company,
+      user.detail
+    ];
+
+    // Calculate completeness based on the number of filled fields
+    const filledFields = fields.filter(field => field.length > 0);
+    return filledFields.length;
+  }
+
 
   function sortUsersAlphabetically() {
     $("#sort-by-completeness").removeClass("focused");
