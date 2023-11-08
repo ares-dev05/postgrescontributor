@@ -15,9 +15,9 @@ layout: default
   <div class="users">
     <div class="flex">
       <div class="wrap">
-        <h5>PostgreSQL16<br />Contributor Profiles</h5>
-        <p>These dedicated individuals are the<br />driving force behind PostgreSQL’s<br />success today!</p>
-        <p>The following list has been compiled from<br />the <a
+        <h5>PostgreSQL 16<br />Contributor Profiles</h5>
+        <p>These dedicated individuals are the driving force behind PostgreSQL’s success today!</p>
+        <p>The following list has been compiled from the <a
             href="https://www.postgresql.org/docs/current/release-16.html" target="_blank">official PostgreSQL 16
             contributor list</a>.</p>
         <p>To suggest additions to the list, please <a id="contact-us"
@@ -341,7 +341,7 @@ layout: default
 
     addCountryFlags();
 
-    if(startIndex == 0 && endIndex == 0) {
+    if (startIndex == 0 && endIndex == 0) {
       $("#pagination").css("display", "none");
       $(".no-result").css("display", "block");
     } else {
@@ -480,7 +480,7 @@ layout: default
       const filteredUsers = totalUsers.filter((user) => user.company === item.text);
       usersArr = filteredUsers;
 
-      if(filterCountry != "") {
+      if (filterCountry != "") {
         usersArr = usersArr.filter((user) => user.country === filterCountry);
       }
 
@@ -502,7 +502,7 @@ layout: default
       $(".dropselect-list li").removeClass("selected");
       filterCompany = "";
 
-      if(filterCountry != "") {
+      if (filterCountry != "") {
         const filteredUsers = totalUsers.filter((user) => user.country === filterCountry);
         usersArr = filteredUsers;
       } else {
@@ -545,7 +545,7 @@ layout: default
       const filteredUsers = totalUsers.filter((user) => user.country === item.text);
       usersArr = filteredUsers;
 
-      if(filterCompany != "") {
+      if (filterCompany != "") {
         usersArr = usersArr.filter((user) => user.company === filterCompany);
       }
 
@@ -566,8 +566,8 @@ layout: default
     onclear: function (e) {
       filterCountry = "";
       $(".dropselect-list li").removeClass("selected");
-      
-      if(filterCompany != "") {
+
+      if (filterCompany != "") {
         const filteredUsers = totalUsers.filter((user) => user.company === filterCompany);
         usersArr = filteredUsers;
       } else {

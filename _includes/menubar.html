@@ -16,12 +16,13 @@
         <div class="logo">
             <p class="logo-title">SPONSOR LOGO</p>
         </div>
+        <a class="postgresql" href="{{ '/' | relative_url }}">PostgreSQL Contributors</a>
         <img id="hamburger" width="20px" height="13px" src="{{ '/assets/img/hamburger.png' | relative_url }}" />
     </div>
     <div class="bar">
         <div class="background">
-            <p class="postgresql">PostgreSQL Contributors</p>
-            <a class="fame" href="users">PostgreSQL 16 Hall of Fame</a>
+            <a class="fame" id="homepage" href="/">Home Page</a>
+            <a class="fame" id="users" href="users">PostgreSQL 16 Hall of Fame</a>
             <a class="store" href="https://postgrescontributorstore.myshopify.com/" target="_blank">Store</a>
         </div>
     </div>
@@ -47,5 +48,13 @@
             // Your click event code for the .background element goes here
             // This code will only execute when .background is clicked
         });
+
+        var currentURL = window.location.href;
+        console.log("Current URL: " + currentURL);
+        if(currentURL.includes("users")) {
+            $("#users").css("display", "none");
+        } else {
+            $("#homepage").css("display", "none");
+        }
     });
 </script>

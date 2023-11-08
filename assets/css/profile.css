@@ -529,4 +529,9 @@ img.multi-year {
         font-weight: 400;
         line-height: normal;
     }
+
+    .profile .wrap {
+        padding-right: 0px;
+        margin-bottom: 50px;
+    }
 }
