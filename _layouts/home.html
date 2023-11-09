@@ -35,7 +35,7 @@ layout: default
                     <img src="{{ user.image | relative_url }}" alt="{{ user.name }}" width="266px" height="283px" />
                 </div>
                 <div class="information">
-                    <a href="users/{{ user.name }}">{{ user.name }}</a>
+                    <a href="postgresql16/{{ user.name }}">{{ user.name }}</a>
                     <p>{{ user.bio }} at {{ user.company }}</p>
                     <span class="country">{{ user.country }}</span>
                 </div>
@@ -45,7 +45,7 @@ layout: default
     </div>
 
     <div class="button">
-        <a href="users" target="_blank">View all contributors</a>
+        <a href="postgresql16" target="_blank">View all contributors</a>
     </div>
 
     <div class="function">
