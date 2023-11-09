@@ -11,7 +11,7 @@ twitter: "https://twitter.com/admanMacker"
 github: "https://github.com/admanMacker"
 linkedin: "https://www.linkedin.com/in/admanMacker"
 company: Byo India 2017
-detail: 'Online Migration: Upgrade with Seamless Downtime'
+detail: ['Online Migration: Upgrade with Seamless Downtime'](https://www.youtube.com/watch?v=HvctSXwu2GI)
 lastUpdate: Nov 1, 2023
 multiYear: false
 ---
