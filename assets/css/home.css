@@ -110,10 +110,9 @@
 }
 
 .avatar img {
-    width: 226px !important;
-    height: 243px !important;
+    width: 266px !important;
+    height: 283px !important;
     margin: auto;
-    margin-top: 40px;
 }
 
 .information {
@@ -360,10 +359,10 @@
     }
 
     .avatar img {
-        width: 144px !important;
-        height: 163px !important;
+        width: 174px !important;
+        height: 183px !important;
         margin: auto;
-        margin-top: 20px;
+        display: block;
     }
 
     .information {
