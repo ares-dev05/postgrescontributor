@@ -268,7 +268,6 @@
 
 
 @media (max-width: 767px) {
-
     .welcome {
         display: block;
         border-radius: 10px;
@@ -557,5 +556,55 @@
         height: 70%;
         display: block;
         margin: 1.5rem auto 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1426px) {
+    /* Add styles for large-sized screens here */
+    .function {
+        border-radius: 10px;
+        background: #689CC7;
+        padding: 43px 34px;
+        display: flex;
+    }
+
+    .function .content h5 {
+        margin: 0;
+        width: 100%;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .function .content p {
+        margin: 22px 0 0;
+        width: 100%;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .function>img {
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        display: block;
+        margin-top: 0px;
+        margin-left: 50px
+    }
+
+    .function .mobile img {
+        width: 27px;
+        height: 27px;
+    }
+
+    .function .mobile .inline {
+        margin: 5px 0;
     }
 }
