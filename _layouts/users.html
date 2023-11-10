@@ -53,7 +53,7 @@ layout: default
     </div>
     <div class="inline">
       <p>Sort</p>
-      <div class="button" id="sort-by-completeness" style="cursor: pointer;"><span>Most complete profiles first</span>
+      <div class="button" id="sort-by-completeness" style="cursor: pointer;"><span>Most complete profiles</span>
       </div>
       <div class="button" id="sort-alphabetically" style="cursor: pointer;"><span>Alphabetically</span></div>
     </div>
@@ -71,7 +71,6 @@ layout: default
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 
 <script src="{{ '/assets/js/jq-paginator.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/dropselect.js' | relative_url }}"></script>
@@ -295,15 +294,12 @@ layout: default
 
   let usersArr = totalUsers;
 
-  var usersss = {{ site | load_users_data | jsonify }};
-  console.log('User Data:', usersss);
-
   const crossUrl = "{{ '/assets/img/cross.png' | relative_url }}";
   const twitterUrl = "{{ '/assets/img/user-twitter.png' | relative_url }}";
   const githubUrl = "{{ '/assets/img/user-github.png' | relative_url }}";
   const linkedinUrl = "{{ '/assets/img/user-linkedin.png' | relative_url }}";
 
-  const perPage = 9;
+  const perPage = 5;
   let totalPages = Math.ceil(totalUsers.length / perPage);
 
   let startIndexValue = 0;
@@ -315,7 +311,7 @@ layout: default
   // Initialize jqPaginator
   $('#pagination').jqPaginator({
     totalPages: totalPages,
-    visiblePages: 9,
+    visiblePages: 20,
     currentPage: 1,
     onPageChange: function (num, type) {
       if (type === 'change') {
@@ -335,7 +331,7 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i <= endIndex; i++) {
       if (usersArr[i] != undefined) {
-        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="/postgrescontributors${usersArr[i].image}" /></div><div class="wrap"><a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative;"><img width="182px" height="182px" src="/postgrescontributors${usersArr[i].image}" /></div><div class="wrap"><a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 118px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="33px" height="27px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="28px" height="27px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="28px" height="27px" src="${linkedinUrl}" /></a></div></div></div></div>`);
         // $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${usersArr[i].image}" /></div><div class="wrap"><a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
       }
     }
@@ -400,7 +396,7 @@ layout: default
     if (totalPages > 0) {
       $('#pagination').jqPaginator({
         totalPages: totalPages,
-        visiblePages: 9,
+        visiblePages: 20,
         currentPage: currentPage,
         onPageChange: function (num, type) {
           if (type === 'change') {
@@ -436,7 +432,7 @@ layout: default
     if (totalPages > 0) {
       $('#pagination').jqPaginator({
         totalPages: totalPages,
-        visiblePages: 9,
+        visiblePages: 20,
         currentPage: 1,
         onPageChange: function (num, type) {
           if (type === 'change') {

@@ -12,7 +12,7 @@
 .profile h5 {
     color: #000;
     font-family: Inter;
-    font-size: 54px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -22,7 +22,7 @@
 .profile p {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -32,7 +32,7 @@
 .profile .country {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
@@ -43,7 +43,7 @@
 .profile b {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 800;
     line-height: normal;
@@ -54,7 +54,7 @@
 .profile p.about {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -67,10 +67,11 @@
 .social p {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 0;
 }
 
 .social-btn {
@@ -117,7 +118,7 @@
 .media h5 {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -127,7 +128,7 @@
 .media p {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -136,7 +137,7 @@
 .media span {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -148,7 +149,7 @@
     margin-bottom: 70px;
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -159,7 +160,7 @@
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -183,16 +184,17 @@
     color: #262261;
     text-align: center;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 100%;
 }
 
 .github p a {
     color: #262261;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -274,7 +276,7 @@ img.multi-year {
 .back {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -285,7 +287,7 @@ img.multi-year {
 
 @media (max-width: 767px) {
     .back {
-        font-size: 12px;
+        font-size: 11px;
         font-style: normal;
         margin-bottom: 30px;
     }
@@ -308,7 +310,7 @@ img.multi-year {
     .profile h5 {
         color: #000;
         font-family: Inter;
-        font-size: 24px;
+        font-size: 19px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -318,7 +320,7 @@ img.multi-year {
     .profile p {
         color: #000;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -328,7 +330,7 @@ img.multi-year {
     .profile .country {
         color: #000;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 13px;
         font-style: italic;
         font-weight: 500;
         line-height: normal;
@@ -375,7 +377,7 @@ img.multi-year {
     .social p {
         color: #000;
         font-family: Inter;
-        font-size: 20px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -440,7 +442,7 @@ img.multi-year {
     .media h5 {
         color: #000;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -450,7 +452,7 @@ img.multi-year {
     .media p {
         color: #000;
         font-family: Inter;
-        font-size: 13px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -459,7 +461,7 @@ img.multi-year {
     .media span {
         color: #000;
         font-family: Inter;
-        font-size: 13px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -471,7 +473,7 @@ img.multi-year {
         margin-bottom: 40px;
         color: #000;
         font-family: Inter;
-        font-size: 13px;
+        font-size: 11px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -515,7 +517,7 @@ img.multi-year {
     .github p a {
         color: #262261;
         font-family: Inter;
-        font-size: 10px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
@@ -529,7 +531,7 @@ img.multi-year {
         color: #000;
         text-align: center;
         font-family: Inter;
-        font-size: 13px;
+        font-size: 11px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;

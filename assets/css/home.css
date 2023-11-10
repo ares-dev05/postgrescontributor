@@ -39,7 +39,7 @@
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -128,7 +128,7 @@
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -142,7 +142,7 @@
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -154,7 +154,7 @@
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
@@ -162,7 +162,7 @@
 }
 
 .button {
-    width: 225px;
+    width: 246px;
     height: 56px;
     border-radius: 7px;
     background: #000;
@@ -175,7 +175,7 @@
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -183,7 +183,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 225px;
+    width: 246px;
     height: 21px;
     text-decoration: none;
 }
@@ -213,7 +213,7 @@
     width: 598px;
     color: #FFF;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -222,7 +222,7 @@
 .icon-content {
     color: #FFF;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
@@ -240,7 +240,7 @@
 .reward .flex h5 {
     color: #000;
     font-family: Inter;
-    font-size: 54px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -250,7 +250,7 @@
 .reward .flex p {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -260,7 +260,7 @@
 .reward .flex span {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
@@ -307,7 +307,7 @@
     }
 
     .button {
-        width: 135px;
+        width: 166px;
         height: 35px;
         border-radius: 4px;
         background: #000;
@@ -320,7 +320,7 @@
         color: #FFF;
         text-align: center;
         font-family: Inter;
-        font-size: 10px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -328,8 +328,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 135px;
-        height: 13px;
+        width: 166px;
+        height: 17px;
         text-decoration: none;
     }
 
@@ -337,7 +337,7 @@
         color: #000;
         text-align: center;
         font-family: Inter;
-        font-size: 11px;
+        font-size: 21px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -378,7 +378,7 @@
         color: #000;
         text-align: center;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -392,7 +392,7 @@
         color: #000;
         text-align: center;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -404,7 +404,7 @@
         color: #000;
         text-align: center;
         font-family: Inter;
-        font-size: 12px;
+        font-size: 14px;
         font-style: italic;
         font-weight: 500;
         line-height: normal;
@@ -438,7 +438,7 @@
         width: 100%;
         color: #FFF;
         font-family: Inter;
-        font-size: 13px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -525,7 +525,7 @@
     .reward .flex h5 {
         color: #000;
         font-family: Inter;
-        font-size: 24px;
+        font-size: 19px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -535,7 +535,7 @@
     .reward .flex p {
         color: #000;
         font-family: Inter;
-        font-size: 13px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -545,7 +545,7 @@
     .reward .flex span {
         color: #000;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 13px;
         font-style: italic;
         font-weight: 500;
         line-height: normal;
@@ -584,7 +584,7 @@
         width: 100%;
         color: #FFF;
         font-family: Inter;
-        font-size: 15px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;

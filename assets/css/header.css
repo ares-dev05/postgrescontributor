@@ -1,5 +1,5 @@
 header {
-    height: 41px;
+    height: 51px;
     background: #689CC7;
     position: relative;
 }
@@ -8,7 +8,7 @@ header p {
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -22,7 +22,7 @@ header p {
 header p span {
     color: #FFF;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -30,7 +30,7 @@ header p span {
 
 @media (max-width: 767px) {
     header {
-        height: 30px;
+        height: 40px;
         background: #689CC7;
         position: relative;
     }
@@ -39,7 +39,7 @@ header p span {
         color: #FFF;
         text-align: center;
         font-family: Inter;
-        font-size: 9px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -53,7 +53,7 @@ header p span {
     header p span {
         color: #FFF;
         font-family: Inter;
-        font-size: 9px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
