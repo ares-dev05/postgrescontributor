@@ -12,7 +12,7 @@ github: ""https://twitter.com/admanMacker](https://github.com/ahsanhadi"
 linkedin: "https://www.linkedin.com/in/admanMacker](https://www.linkedin.com/in/ahsan-hadi-6667608/"
 company: pgEdge 
 detail: 
-lastUpdate: Nov 1, 2023
+lastUpdate: Nov 13, 2023
 multiYear: true
 ---
 
