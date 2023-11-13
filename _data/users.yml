@@ -220,6 +220,20 @@
   detail: 
   lastUpdate: Nov 13, 2023
   multiyear: true
+- name: Ajit Awekar
+  bio: Staff SDE
+  image: /assets/img/user.png
+  mediaLink: 
+  country: India
+  address: India
+  about:
+  twitter:
+  github: "https://github.com/aklaver"
+  linkedin: "https://www.linkedin.com/in/ajit-awekar-6780648/?originalSubdomain=in"
+  company: EDB
+  detail:
+  lastUpdate: Nov 13, 2023
+  multiYear: false
 - name: Ajin Cherian
   bio: Software Development Engineer
   image: /assets/img/ajin_cherian.jpeg
