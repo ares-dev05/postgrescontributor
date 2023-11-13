@@ -21,11 +21,11 @@ layout: default
         <b>ABOUT:</b>
         <p class="about">{{ page.about }}</p>
       </div>
-      <div style="width: 392px; height:405px; position: relative;">
-        <img width="392px" height="405px" src="{{ page.image | default: '/assets/img/user.png' | relative_url }}" />
+      <div style="width: auto; height:405px; position: relative;">
+        <img width="auto" height="405px" src="{{ page.image | default: '/assets/img/user.png' | relative_url }}" />
 
         {% if page.multiYear == true %}
-        <img width="147px" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
+        <img width="auto" height="143px" src="{{ '/assets/img/multi-year.png' | relative_url }}" class="multi-year" />
         {% endif %}
       </div>
     </div>
