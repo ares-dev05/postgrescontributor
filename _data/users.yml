@@ -219,6 +219,32 @@
   company: pgEdge 
   detail: 
   lastUpdate: Nov 13, 2023
-  multiYear: true
-
-  
+  multiyear: true
+- name: Ajit Awekar
+  bio: Staff SDE
+  image: /assets/img/user.png
+  mediaLink: 
+  country: India
+  address: India
+  about: "Working on database internals. Designing and implementing various query optimization techniques. Interested in Posix multithreaded programming, TCP/IP socket programming, Unix IPC. Specialties: GNU tools."
+  twitter:
+  github: "https://github.com/aklaver"
+  linkedin: "https://www.linkedin.com/in/ajit-awekar-6780648/?originalSubdomain=in"
+  company: EDB
+  detail:
+  lastUpdate: Nov 13, 2023
+  multiYear: false
+- name: Ajin Cherian
+  bio: Software Development Engineer
+  image: /assets/img/ajin_cherian.jpeg
+  mediaLink: 
+  country: Australia
+  address: India
+  about: Experienced developer with demonstrated history of working in system software. Skilled in HP NonStop servers, Operating Systems/Kernel Management, embedded systems, database engineering C, C++, Linux system/application programming, memory management, python, networking OAM, YANG network models, networking platform, TCP/IP, ethernet protocol, high availability, and fault tolerant systems. Postgres open source developer. Experienced in Agile Methodologies and product ownership.
+  twitter: 
+  github: "https://github.com/ajinc"
+  linkedin: "https://www.linkedin.com/in/ajin-cherian-8827b241/"
+  company: Fujitsu Australia Software Technology
+  detail: 
+  lastUpdate: Nov 13, 2023
+  multiyear: true
