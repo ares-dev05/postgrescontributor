@@ -299,7 +299,7 @@ layout: default
   const githubUrl = "{{ '/assets/img/user-github.png' | relative_url }}";
   const linkedinUrl = "{{ '/assets/img/user-linkedin.png' | relative_url }}";
 
-  const perPage = 5;
+  const perPage = 20;
   let totalPages = Math.ceil(totalUsers.length / perPage);
 
   let startIndexValue = 0;
@@ -311,7 +311,7 @@ layout: default
   // Initialize jqPaginator
   $('#pagination').jqPaginator({
     totalPages: totalPages,
-    visiblePages: 9,
+    visiblePages: 7,
     currentPage: 1,
     onPageChange: function (num, type) {
       if (type === 'change') {
@@ -331,7 +331,7 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i < endIndex; i++) {
       if (usersArr[i] != undefined) {
-        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative;"><img width="182px" height="182px" src="/postgrescontributors${usersArr[i].image}" /></div><div class="wrap"><a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 118px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="33px" height="27px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="28px" height="27px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="28px" height="27px" src="${linkedinUrl}" /></a></div></div></div></div>`);
+        $('#user-list').append(`<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><img width="auto" height="182px" src="/postgrescontributors${usersArr[i].image}" /></div><div class="wrap"><a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 118px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="33px" height="27px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="28px" height="27px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="28px" height="27px" src="${linkedinUrl}" /></a></div></div></div></div>`);
         // $('#user-list').append(`<div class="user"><div class="block"><div style="width: 274px; height:276px; position: relative;"><img width="274px" height="276px" src="${usersArr[i].image}" /></div><div class="wrap"><a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 150px;"><a href="${usersArr[i].twitter}" target="_blank"><img width="46px" height="38px" src="${twitterUrl}" /></a><a href="${usersArr[i].github}" target="_blank"><img width="39px" height="38px" src="${githubUrl}" /></a><a href="${usersArr[i].linkedin}" target="_blank"><img width="39px" height="38px" src="${linkedinUrl}" /></a></div></div></div></div>`);
       }
     }
@@ -396,7 +396,7 @@ layout: default
     if (totalPages > 0) {
       $('#pagination').jqPaginator({
         totalPages: totalPages,
-        visiblePages: 9,
+        visiblePages: 7,
         currentPage: currentPage,
         onPageChange: function (num, type) {
           if (type === 'change') {
@@ -432,7 +432,7 @@ layout: default
     if (totalPages > 0) {
       $('#pagination').jqPaginator({
         totalPages: totalPages,
-        visiblePages: 9,
+        visiblePages: 7,
         currentPage: 1,
         onPageChange: function (num, type) {
           if (type === 'change') {
