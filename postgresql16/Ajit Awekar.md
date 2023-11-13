@@ -6,7 +6,7 @@ image: /assets/img/user.png
 mediaLink: 
 country: India
 address: India
-about: Working on database internals. Designing and implementing various query optimization techniques. interested in Posix multithreaded programming, TCP/IP socket programming,Unix IPC. Specialties: GNU tools.
+about: "Working on database internals. Designing and implementing various query optimization techniques. interested in Posix multithreaded programming, TCP/IP socket programming,Unix IPC. Specialties: GNU tools."
 twitter: 
 github: "https://github.com/aklaver"
 linkedin: "https://www.linkedin.com/in/ajit-awekar-6780648/?originalSubdomain=in"
