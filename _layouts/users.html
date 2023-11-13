@@ -319,6 +319,16 @@ layout: default
         startIndexValue = (num - 1) * perPage;
         endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
         displayUsers(startIndexValue, endIndexValue);
+
+        // Add a timeout to ensure this code runs after jqPaginator has updated the pagination
+        setTimeout(function () {
+          if ($('#pagination .page[jp-data="1"]').length == 0) {
+            $(`<li class="page" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="three-dot">...</li>`).prependTo('#pagination');
+          }
+          if ($('#pagination .page[jp-data="' + totalPages + '"]').length == 0) {
+            $("#pagination").append(`<li class="three-dot">...</li><li class="page" jp-role="page" jp-data="` + totalPages + `"><a href="javascript:;">` + totalPages + `</a></li>`);
+          }
+        }, 0);
       }
     }
   });
@@ -338,12 +348,23 @@ layout: default
 
     addCountryFlags();
 
+    totalPages = Math.ceil(usersArr.length / perPage);
+
     if (startIndex == 0 && endIndex == 0) {
       $("#pagination").css("display", "none");
       $(".no-result").css("display", "block");
     } else {
       $("#pagination").css("display", "flex");
       $(".no-result").css("display", "none");
+
+      console.log("condition1", $('#pagination .page[jp-data="1"]').length);
+      console.log("condition2", $('#pagination .page[jp-data="' + totalPages + '"]').length);
+      if ($('#pagination .page[jp-data="1"]').length == 0) {
+        $(`<li class="page" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="three-dot">...</li>`).prependTo('#pagination');
+      }
+      if ($('#pagination .page[jp-data="' + totalPages + '"]').length == 0) {
+        $("#pagination").append(`<li class="three-dot">...</li><li class="page" jp-role="page" jp-data="` + totalPages + `"><a href="javascript:;">` + totalPages + `</a></li>`);
+      }
     }
   }
 
@@ -404,6 +425,16 @@ layout: default
             startIndexValue = (num - 1) * perPage;
             endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
             displayUsers(startIndexValue, endIndexValue);
+
+            // Add a timeout to ensure this code runs after jqPaginator has updated the pagination
+            setTimeout(function () {
+              if ($('#pagination .page[jp-data="1"]').length == 0) {
+                $(`<li class="page" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="three-dot">...</li>`).prependTo('#pagination');
+              }
+              if ($('#pagination .page[jp-data="' + totalPages + '"]').length == 0) {
+                $("#pagination").append(`<li class="three-dot">...</li><li class="page" jp-role="page" jp-data="` + totalPages + `"><a href="javascript:;">` + totalPages + `</a></li>`);
+              }
+            }, 0);
           }
         }
       });
@@ -440,6 +471,16 @@ layout: default
             startIndexValue = (num - 1) * perPage;
             endIndexValue = Math.min(startIndexValue + perPage, usersArr.length);
             displayUsers(startIndexValue, endIndexValue);
+
+            // Add a timeout to ensure this code runs after jqPaginator has updated the pagination
+            setTimeout(function () {
+              if ($('#pagination .page[jp-data="1"]').length == 0) {
+                $(`<li class="page" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="three-dot">...</li>`).prependTo('#pagination');
+              }
+              if ($('#pagination .page[jp-data="' + totalPages + '"]').length == 0) {
+                $("#pagination").append(`<li class="three-dot">...</li><li class="page" jp-role="page" jp-data="` + totalPages + `"><a href="javascript:;">` + totalPages + `</a></li>`);
+              }
+            }, 0);
           }
         }
       });
