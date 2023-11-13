@@ -2,7 +2,7 @@
 layout: profile
 title: Ahsan Hadi
 bio: Director Support & Services
-image: 
+image: /assets/img/ahsan_hadi.jpeg
 mediaLink: 
 country: United States
 address: United States
