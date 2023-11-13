@@ -234,17 +234,17 @@
   detail: 
   lastUpdate: Nov 13, 2023
   multiYear: false
-- name: Adrian Klaver
-  bio: Owner
-  image: /assets/img/adrian_klaver.jpeg
+- name: Ajit Awekar
+  bio: Staff SDE
+  image: /assets/img/user.png
   mediaLink: 
-  country: United States
-  address: United States
-  about: I am a self taught programmer working with Python and Javascript. I use Postgresql database for storage and Django and Flask for front end.
+  country: India
+  address: India
+  about: Working on database internals.Designing and implementing various query optimization techniques. interested in Posix multithreaded programming, TCP/IP socket programming,Unix IPC. Specialties: GNU tools.
   twitter: 
   github: "https://github.com/aklaver"
-  linkedin: "https://www.linkedin.com/in/adrian-klaver-a576521b0/"
-  company: Klaver Enterprises  
+  linkedin: "https://www.linkedin.com/in/ajit-awekar-6780648/?originalSubdomain=in"
+  company: EDB  
   detail: 
   lastUpdate: Nov 13, 2023
   multiYear: false
