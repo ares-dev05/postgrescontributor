@@ -349,3 +349,17 @@
   detail: 
   lastUpdate: Nov 14, 2023
   multiYear: true
+- name: Alexander Pyhalov
+  bio: System Programmer
+  country: Russia 
+  address: Russia
+  image: /assets/img/alexander-pyhalov.png
+  mediaLink: 
+  about:
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/apyhalov/?originalSubdomain=ru"
+  company: Postgres Professional
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear: true
