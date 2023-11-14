@@ -1,19 +1,19 @@
 ---
 layout: profile
-title: Ahsan Hadi
-bio: Director Support & Services
-image: /assets/img/ahsan_hadi.jpeg
+title: Alan Hodgson
+bio: Senior Systems and Network Administrator
+country: Canada 
+address: Canada 
+image: /assets/img/user.png
 mediaLink: 
-country: United States
-address: United States
-about: Ahsan is a database evangelist with over 20 years of development and management experience. He is passionate about databases, and has worked with Postgres and Oracle extensively throughout his career. With over 15 years of working with PostgreSQL, he has worked with companies like EDB as a Senior Director of Product Development, HighGo Software as VP of Product Development, and as a Programmer Analyst with British Telecom.
-twitter: 
-github: "https://github.com/ahsanhadi"
-linkedin: "https://www.linkedin.com/in/ahsan-hadi-6667608/"
-company: pgEdge 
+about: "IAC configuration and lifecycle management with Terraform"
+twitter:
+github: "https://github.com/ajhodgson"
+linkedin: "https://www.linkedin.com/in/alan-hodgson-17aa6215/?originalSubdomain=ca"
+company: Venture Media Labs, Inc. 
 detail: 
-lastUpdate: Nov 13, 2023
-multiYear: true
+lastUpdate: Nov 15, 2023
+multiYear: false
 ---
 
-This is the body of John Doe's profile page.
+This is the body of Alan Hodgson's profile page.
