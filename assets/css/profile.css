@@ -74,6 +74,10 @@
     margin-bottom: 0;
 }
 
+.disabled {
+    background: #8f9193!important;
+}
+
 .social-btn {
     width: 226px;
     height: 46px;

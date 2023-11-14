@@ -50,33 +50,61 @@ layout: default
   <div class="social">
     <p>View profile on:</p>
     <div class="inline" style="padding: 73px 0">
+      {% if page.twitter == undefined %}
+      <div class="social-btn disabled">
+        <div class="center inline">
+          <img width="22px" height="18px" src="{{ '/assets/img/twitter.png' | relative_url }}" />
+          <span>Twitter</span>
+        </div>
+      </div>
+      {% else %}
       <a class="social-btn" href="{{ page.twitter }}" target="_blank">
         <div class="center inline">
           <img width="22px" height="18px" src="{{ '/assets/img/twitter.png' | relative_url }}" />
           <span>Twitter</span>
         </div>
       </a>
+      {% endif %}
 
+      {% if page.github == undefined %}
+      <div class="social-btn disabled">
+        <div class="center inline">
+          <img width="21px" height="20px" src="{{ '/assets/img/github.png' | relative_url }}" />
+          <span>GitHub</span>
+        </div>
+      </div>
+      {% else %}
       <a class="social-btn" href="{{ page.github }}" target="_blank">
         <div class="center inline">
           <img width="21px" height="20px" src="{{ '/assets/img/github.png' | relative_url }}" />
           <span>GitHub</span>
         </div>
       </a>
+      {% endif %}
 
+      {% if page.linkedin == undefined %}
+      <div class="social-btn disabled">
+        <div class="center inline">
+          <img width="21px" height="21px" src="{{ '/assets/img/linkedin.png' | relative_url }}" />
+          <span>LinkedIn</span>
+        </div>
+      </div>
+      {% else %}
       <a class="social-btn linkedin" href="{{ page.linkedin }}" target="_blank">
         <div class="center inline">
           <img width="21px" height="21px" src="{{ '/assets/img/linkedin.png' | relative_url }}" />
           <span>LinkedIn</span>
         </div>
       </a>
+      {% endif %}
     </div>
     <p>Media:</p>
   </div>
 
   <div class="media">
     <div class="block">
-      <img width="388px" height="390px" src="{{ '/assets/img/media.png' | relative_url }}" data-link="{{ page.mediaLink }}" />
+      <img width="388px" height="390px" src="{{ page.thumbnailImage | default: '/assets/img/media.png' | relative_url }}"
+        data-link="{{ page.mediaLink }}" />
       <div class="wrap">
         <h5>{{ page.company }} - {{ page.title }}</h5>
         <p>{{ page.detail }}</p>
@@ -86,16 +114,19 @@ layout: default
   </div>
 
   <div class="lastUpdate">Last updated on {{ page.lastUpdate }}</div>
-  <div class="githubText">Existing contributors can edit and update<br /> their profile information through GitHub.</div>
+  <div class="githubText">Existing contributors can edit and update<br /> their profile information through GitHub.
+  </div>
   <div class="github">
-    <p><img width="20px" height="20px" style="margin-right: 15px; margin-bottom: 1px;" src="{{ '/assets/img/pencil-alt.png' | relative_url }}" />Edit this page on <a
+    <p><img width="20px" height="20px" style="margin-right: 15px; margin-bottom: 1px;"
+        src="{{ '/assets/img/pencil-alt.png' | relative_url }}" />Edit this page on <a
         href="https://github.com/ares-dev05/postgrescontributors/edit/main/{{ page.path }}" target="_blank">GitHub</a>
     </p>
   </div>
   <!-- Create a div for the popup dialog and an overlay -->
   <div class="popup">
     <!-- Your content for the popup goes here -->
-    <p><img width="20px" height="20px" style="margin-right: 15px; margin-bottom: 1px;" src="{{ '/assets/img/pencil-alt.png' | relative_url }}" />Edit this page on <a
+    <p><img width="20px" height="20px" style="margin-right: 15px; margin-bottom: 1px;"
+        src="{{ '/assets/img/pencil-alt.png' | relative_url }}" />Edit this page on <a
         href="https://github.com/ares-dev05/postgrescontributors/edit/main/{{ page.path }}" target="_blank">GitHub</a>
     </p>
     <img width="41px" height="41px" src="{{ '/assets/img/close.png' | relative_url }}" class="close" />
@@ -329,7 +360,7 @@ layout: default
     //   $('.popup, .overlay').fadeOut();
     // });
 
-    $(".media .block>img").click(function() {
+    $(".media .block>img").click(function () {
       const url = $(".media .block>img").data("link");
 
       console.log("url", url);
