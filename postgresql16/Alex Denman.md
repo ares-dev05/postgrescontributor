@@ -1,19 +1,19 @@
 ---
 layout: profile
-title: Ahsan Hadi
-bio: Director Support & Services
-image: /assets/img/ahsan_hadi.jpeg
+title: Alex Denman
+bio: Researcher at Binghamton University
+country: USA 
+address: USA
+image: /assets/img/user.png
 mediaLink: 
-country: United States
-address: United States
-about: Ahsan is a database evangelist with over 20 years of development and management experience. He is passionate about databases, and has worked with Postgres and Oracle extensively throughout his career. With over 15 years of working with PostgreSQL, he has worked with companies like EDB as a Senior Director of Product Development, HighGo Software as VP of Product Development, and as a Programmer Analyst with British Telecom.
-twitter: 
-github: "https://github.com/ahsanhadi"
-linkedin: "https://www.linkedin.com/in/ahsan-hadi-6667608/"
-company: pgEdge 
+about: "As a researcher, I was repeatedly confronted with situations where the available tools for data processing and analysis were not sufficient to the task, so I learned how to make my own. Working with MATLAB, PostgreSQL, and various application-specific scripting languages, I designed a variety of data management and analysis tools, which remain in use by other lab personnel."
+twitter: "https://twitter.com/AlexJDenman"
+github:
+linkedin: "https://www.linkedin.com/in/alexander-denman-31716016a/"
+company: Binghamton University 
 detail: 
-lastUpdate: Nov 13, 2023
-multiYear: true
+lastUpdate: Nov 15, 2023
+multiYear: false
 ---
 
 This is the body of Alex Denman's profile page.
