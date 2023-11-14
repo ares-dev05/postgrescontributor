@@ -283,7 +283,7 @@
   bio: Senior Systems and Network Administrator
   country: Canada 
   address: Canada 
-  image: 
+  image: /assets/img/user.png
   mediaLink: 
   about: "IAC configuration and lifecycle management with Terraform"
   twitter:
