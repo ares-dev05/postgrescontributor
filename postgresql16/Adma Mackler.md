@@ -1,20 +1,13 @@
----
-layout: profile
-title: Adma Mackler
-bio: Software engineer
+name: Adam Mackler
+bio: Chief Technology Officer
 image: /assets/img/Adam Mackler.png
-country: Germany
-address: Dresden, Germany
-about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-twitter: 
-github: "https://github.com/ahsanhadi"
-linkedin: "https://www.linkedin.com/in/ahsan-hadi-6667608/"
-company: Adma India 2017
-mediaLink: 
-thumbnailImage: /assets/img/test-thumbnail.jpg
-detail: 'Enhance your profile by sharing your media features, authored articles, and presentations with the community. Simply click the "Edit this page on GitHub" button below, add a link to a video or article, and provide a description in the "medialink" and "detail" fields, respectively.'
-lastUpdate: Nov 1, 2023
-multiYear: true
----
-
-This is the body of John Doe's profile page.
+country:  United States
+address:  United States
+about:  I am a contributor to several notable open-source projects, including bitcoinj, the leading Java library for Bitcoin functionality, and slick-pg, the PostgreSQL-specific extension to Slick, the Scala database interface, as well as being the founder of several open-source projects, hosted under my name on github, gitlab and bitbucket.
+twitter: "https://twitter.com/AdamMackler"
+github: https://github.com/mackler
+linkedin: https://www.linkedin.com/in/mackler/
+company: SCOPE 120 s.r.o.
+detail: 
+lastUpdate: Nov 14, 2023
+multiYear: 
