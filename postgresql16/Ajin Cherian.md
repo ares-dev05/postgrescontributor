@@ -5,7 +5,7 @@ bio: Software Development Engineer
 mage: /assets/img/ajin_cherian.jpeg
 mediaLink: 
 country: Australia
-address: India
+address: Australia
 about: Experienced developer with a demonstrated history of working in system software. Skilled in HP NonStop servers, Operating Systems/Kernel Management, embedded systems, database engineering C, C++, Linux system/application programming, memory management, python, networking OAM, YANG network models, networking platform, TCP/IP, ethernet protocol, high availability, and fault tolerant systems. Postgres open source developer. Experienced in Agile Methodologies and product ownership.
 twitter: 
 github: "https://github.com/ajinc"
