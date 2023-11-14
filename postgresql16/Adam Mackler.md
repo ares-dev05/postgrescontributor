@@ -2,7 +2,7 @@
 layout: profile
 title: Adam Mackler
 bio: Chief Technology Officer
-image: /assets/img/Adam Mackler.png
+image: /assets/img/adam-mackler.png
 mediaLink:
 country:  United States
 address:  United States
