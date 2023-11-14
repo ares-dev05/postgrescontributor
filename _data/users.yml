@@ -293,17 +293,17 @@
   detail: 
   lastUpdate: Nov 15, 2023
   multiYear: false
-- name: Alan Hodgson
-  bio: Senior Systems and Network Administrator
-  country: Canada 
-  address: Canada 
-  image: /assets/img/user.png
+- name: Alex Denman
+  bio: Researcher at Binghamton University
+  country: USA 
+  address: USA
+  image: 
   mediaLink: 
-  about: "IAC configuration and lifecycle management with Terraform"
-  twitter:
-  github: "https://github.com/ajhodgson"
-  linkedin: "https://www.linkedin.com/in/alan-hodgson-17aa6215/?originalSubdomain=ca"
-  company: Venture Media Labs, Inc. 
+  about: "As a researcher, I was repeatedly confronted with situations where the available tools for data processing and analysis were not sufficient to the task, so I learned how to make my own. Working with MATLAB, PostgreSQL, and various application-specific scripting languages, I designed a variety of data management and analysis tools, which remain in use by other lab personnel."
+  twitter: "https://twitter.com/AlexJDenman"
+  github:
+  linkedin: "https://www.linkedin.com/in/alexander-denman-31716016a/"
+  company: Binghamton University 
   detail: 
   lastUpdate: Nov 15, 2023
   multiYear: false
