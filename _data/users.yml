@@ -206,45 +206,3225 @@
   company: Microsoft
   detail: 'Online Migration: Upgrade with Seamless Downtime'
   lastUpdate: Nov 1, 2023
-- name: Ahsan Hadi
-  bio: Director Support & Services
-  image: /assets/img/ahsan_hadi.jpeg
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
   mediaLink: 
   country: United States
   address: United States
-  about: Ahsan is a database evangelist with over 20 years of development and management experience. He is passionate about databases, and has worked with Postgres and Oracle extensively throughout his career. With over 15 years of working with PostgreSQL, he has worked with companies like EDB as a Senior Director of Product Development, HighGo Software as VP of Product Development, and as a Programmer Analyst with British Telecom.
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
   twitter: 
-  github: "https://github.com/ahsanhadi"
-  linkedin: "https://www.linkedin.com/in/ahsan-hadi-6667608/"
-  company: pgEdge 
-  detail: 
-  lastUpdate: Nov 13, 2023
-  multiyear: true
-- name: Ajit Awekar
-  bio: Staff SDE
-  image: /assets/img/user.png
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
   mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
   country: India
   address: India
-  about: "Working on database internals. Designing and implementing various query optimization techniques. Interested in Posix multithreaded programming, TCP/IP socket programming, Unix IPC. Specialties: GNU tools."
-  twitter:
-  github: "https://github.com/aklaver"
-  linkedin: "https://www.linkedin.com/in/ajit-awekar-6780648/?originalSubdomain=in"
-  company: EDB
-  detail:
-  lastUpdate: Nov 13, 2023
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
   multiYear: false
-- name: Ajin Cherian
+- name: Bilva Sanaba
   bio: Software Development Engineer
-  image: /assets/img/ajin_cherian.jpeg
+  image: /assets/img/Adam Mackler.png
   mediaLink: 
-  country: Australia
-  address: India
-  about: Experienced developer with demonstrated history of working in system software. Skilled in HP NonStop servers, Operating Systems/Kernel Management, embedded systems, database engineering C, C++, Linux system/application programming, memory management, python, networking OAM, YANG network models, networking platform, TCP/IP, ethernet protocol, high availability, and fault tolerant systems. Postgres open source developer. Experienced in Agile Methodologies and product ownership.
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
   twitter: 
-  github: "https://github.com/ajinc"
-  linkedin: "https://www.linkedin.com/in/ajin-cherian-8827b241/"
-  company: Fujitsu Australia Software Technology
-  detail: 
-  lastUpdate: Nov 13, 2023
-  multiyear: true
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Anastasia Lubennikova
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: https://github.com/lubennikovaav
+  linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
+  company: Neon, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Konstantin Knizhnik
+  bio: Vice President, Postgres Evangelist
+  country: Cyprus 
+  address: Cyprus 
+  image: /assets/img/Myo Wai Thant.png
+  about: Konstantin Knizhnik is an author of several open source database products, such as GigaBASE, FastDB, GOODS, POST++, Consus. Konstnatin has started work in system software area since 90-th. He combined work in commercial software companies (such as Digital, TogetherSoft, Borland, SciDB, McObject) with development of own free open source products (available at www.garret.ru). He is also author of several articles about memory management and databases for embedded systems. Involving in so many projects and four children leave not so much time for other hobbies. But he likes biking, rafting, mountain trekking ...
+  twitter: https://twitter.com/knizhnik
+  github: https://github.com/knizhnik
+  linkedin: https://www.linkedin.com/in/konstantin-knizhnik-433629/
+  company: Neon Tech
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Vibhor Kumar
+  bio: Global Vice President, Performance Engineering & Architecture
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Vibhor Kumar is an accomplished technology leader with a strong background in database technologies, architecture, DevOps, data platform, design, and product development. He has a keen eye for identifying emerging trends and developing strategic plans to capitalize on them. Currently, Vibhor guides Fortune 500 clients on their path towards innovation and transformation of their data platforms. He leads a team of highly skilled engineers, ensuring that Postgres database systems are optimized for maximum performance and scalability. With many years of experience in the field, Vibhor possesses a deep understanding of database design, performance tuning, and cloud computing. He is regarded as a visionary in the industry and is frequently invited to speak at conferences and events, where he shares his expertise on topics related to DevOps, cloud, database architecture, and optimization.
+  twitter: https://www.linkedin.com/in/vibhork/
+  github: https://twitter.com/vibhoraim
+  linkedin: https://github.com/vibhorkum
+  company: EDB
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bharath Rupireddy
+  bio: Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/Myo Wai Thant.png
+  mediaLink:
+  about: Actively contributing to the open source Postgres database internals.
+  twitter: https://twitter.com/BRupireddy
+  github: https://github.com/BRupireddy2
+  linkedin: https://in.linkedin.com/in/bharath-rupireddy
+  company: Dalibo
+  detail: "Online Migration: Upgrade with Seamless Downtime"
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bilva Sanaba
+  bio: Software Development Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: USA. San Francisco
+  about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
+  twitter: 
+  github: https://github.com/bilva-sanaba
+  linkedin: https://www.linkedin.com/in/bilva-sanaba/
+  company: Kargo Technologies
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Jeff Davis
+  bio: Principal Software Engineer 
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: Major PostgreSQL contributor. Hash Aggregation spill to disk support, Exclusion constraints, range types, checksums, reviews
+  twitter: 
+  github: https://github.com/jcdny
+  linkedin: https://www.linkedin.com/in/jeff-davis-706b6410/
+  company: Amazon Web Services
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Carl Sopchak
+  bio: Technical Lead / Software Architect
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: United States
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/carl-sopchak-141b1532/
+  company: HVHC, Inc.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Dong Wook Lee
+  bio: Azure FPGA Hardware Engineer
+  image: /assets/img/Adam Mackler.png
+  mediaLink: 
+  country: United States
+  address: 
+  about: 
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+- name: Adma Mackler
+  bio: Software engineer
+  image: /assets/img/Adam Mackler.png
+  country: Algeria
+  address: Dresden, Germany
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  company: 2ndQuadrant Ltd.
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Jakub Wartak
+  bio: SQL specialist
+  country: Algeria
+  address: Dresden, Germany
+  image: /assets/img/Jakub Wartak.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Jakub India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Myo Wai Thnant
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Einstein
+  bio: Software engineer
+  country: Germany
+  address: Dresden, Germany
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Fujitsu India
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: John Doe
+  bio: Software Engineer
+  image: /assets/img/Adam Mackler.png
+  country: United States
+  address: San Francisco, CA
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  twitter: "https://twitter.com/johndoe"
+  github: "https://github.com/johndoe"
+  linkedin: "https://www.linkedin.com/in/johndoe"
+  company: SCOPE 120 s.r.o.
+  detail: 'Web Application Development'
+  lastUpdate: Nov 1, 2023
+  multiYear: true
+- name: Frank Fruit
+  bio: Software engineer
+  country: France
+  address: Dresden, France
+  image: /assets/img/Myo Wai Thant.png
+  about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+  twitter: "https://twitter.com/admanMacker"
+  github: "https://github.com/admanMacker"
+  linkedin: "https://www.linkedin.com/in/admanMacker"
+  company: Byo India 2017
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Andres Freund
+  bio: Principal Software Engineer
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: The main hat I wear is the one of PostgreSQL developer with a focus on scalability, replication and robustness. There are a bunch of others. I am a developer of databases themselves, I am *NOT* a DBA.
+  twitter: "https://twitter.com/andresfreundtec?lang=en"
+  github: "https://github.com/anarazel"
+  linkedin: "https://www.linkedin.com/in/andres-freund/"
+  company: Microsoft
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
+- name: Bruce Momjian
+  bio: Vice President, Postgres Evangelist
+  country: United States
+  address: United States
+  image: /assets/img/Myo Wai Thant.png
+  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  twitter: 
+  github: "https://github.com/bmomjian"
+  linkedin: "https://www.linkedin.com/in/bruce-momjian-74ab7b1/"
+  company: EDB
+  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  lastUpdate: Nov 1, 2023
+  multiYear: false
