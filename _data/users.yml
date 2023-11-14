@@ -254,7 +254,7 @@
   bio: Senior Developer
   country: India
   address: India
-  image: assets/img/abhijit_menon_sen.png
+  image: /assets/img/abhijit_menon_sen.png
   about: I’ve submitted bug fixes and feature patches of varying size to Postgres for many years, and I’ve been involved with many other projects in the wider ecosystem, e.g., I was a repmgr maintainer, I’m the technical lead for Barman now, and I’ve contributed to many extensions etc.I feel very fortunate to have used and contributed to Postgres in so many different ways over the majority of my working life, and I really value the productive working relationships I’ve built with many other contributors during that time.
   twitter: "https://twitter.com/amenonsen?lang=en"
   github: "https://github.com/amenonsen"
@@ -262,4 +262,17 @@
   company: 2ndQuadrant Ltd.
   detail: 
   lastUpdate: Nov 14, 2023
+  multiYear: true
+- name: Alexander Korotkov
+  bio: Founder
+  country: United States 
+  address: United States 
+  image: /assets/img/alexander_korotkov.jpeg
+  about: Alexander is professional computer scientist. His PhD dissertation was based on PostgreSQL contribution: improvements to fuzzy string search including index based regular expression search. One of the most valuable achievements of his work for open source community is development of infrastructure for access method extensibility. Also hiscontributions include improvements to GiST and GIN indexes, optimizations for multicore systems, statistics and selectivity estimation for advanced datatypes. 
+  twitter: 
+  github: "https://github.com/akorotkov"
+  linkedin: "https://www.linkedin.com/in/alexander-korotkov-41b1b582/"
+  company: OrioleDATA, Inc. 
+  detail: 
+  lastUpdate: Nov 15, 2023
   multiYear: true
