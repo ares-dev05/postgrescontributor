@@ -104,16 +104,17 @@
   lastUpdate: Nov 1, 2023
   multiYear: false
 - name: Anastasia Lubennikova
-  bio: Vice President, Postgres Evangelist
+  bio: 
   country: Cyprus 
   address: Cyprus 
-  image: /assets/img/Myo Wai Thant.png
-  about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
+  image: /assets/img/anastasia_lubennikova.png
+  mediaLink: 
+  about: 
   twitter: 
   github: https://github.com/lubennikovaav
   linkedin: https://www.linkedin.com/in/anastasia-lubennikova-8a2295a0/?locale=en_US
-  company: Neon, Inc.
-  detail: 'Online Migration: Upgrade with Seamless Downtime'
+  company: Neon, Inc. 
+  detail:
   lastUpdate: Nov 1, 2023
   multiYear: false
 - name: Konstantin Knizhnik
