@@ -4,7 +4,7 @@ title: Alexander Pyhalov
 bio: System Programmer
 country: Russia 
 address: Russia
-image: /assets/img/alexander-pyhalov.png
+image: /assets/img/alexander_pyhalov.jpeg
 mediaLink: 
 about:
 twitter: 
