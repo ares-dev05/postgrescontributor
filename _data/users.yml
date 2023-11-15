@@ -410,7 +410,7 @@
   bio: PostgreSQL expert
   country: Chile
   address: Chile
-  image: assets/img/alvaro_herrera.jpeg
+  image: /assets/img/alvaro_herrera.jpeg
   mediaLink: 
   about:
   twitter: "https://twitter.com/alvherre"
@@ -424,7 +424,7 @@
   bio: Senior Director
   country: India 
   address: India
-  image: assets/img/amit_kapila.jpeg 
+  image: /assets/img/amit_kapila.jpeg 
   mediaLink: 
   about:
   twitter: "https://twitter.com/kapila_amit?lang=en"
@@ -438,7 +438,7 @@
   bio: Software Developer
   country: India
   address: India
-  image: assets/img/amit_khandekar.jpg
+  image: /assets/img/amit_khandekar.jpg
   mediaLink: 
   about: "Amit Khandekar is a core developer of PostgreSQL, an open-source relational database management system. He has made significant contributions to the development and enhancement of PostgreSQL, including implementing several new features and improvements. His work has been widely recognized and appreciated by the PostgreSQL community."
   twitter:
@@ -452,7 +452,7 @@
   bio: Principal Engineer
   country: Japan
   address: Japan
-  image: assets/img/amit_langote.jpeg
+  image: /assets/img/amit_langote.jpeg
   mediaLink: 
   about:
   twitter: "https://twitter.com/amitlan"
@@ -466,7 +466,7 @@
   bio: PostgreSQL Developer
   country: India
   address: India
-  image: assets/img/amul_sul.jpeg
+  image: /assets/img/amul_sul.jpeg
   mediaLink: 
   about:
   twitter: "https://twitter.com/amulsul"
@@ -494,7 +494,7 @@
   bio: Software Developer
   country: Sweden
   address: Sweden
-  image: assets/img/andreas_karlsson.jpeg
+  image: /assets/img/andreas_karlsson.jpeg
   mediaLink: 
   about: "Specialties: C, Ruby, and programming in general and competent in SQL, especially PostgreSQL."
   twitter: 
@@ -508,7 +508,7 @@
   bio: Head of Databases
   country: Germany
   address: Germany
-  image: assets/img/andreas_scherbaum.jpeg
+  image: /assets/img/andreas_scherbaum.jpeg
   mediaLink: 
   about: "Andreas Scherbaum is working with PostgreSQL since 1997. He is involved in several PostgreSQL related community projects, member of the Board of Directors of the European PostgreSQL User Group and also wrote a PostgreSQL book (in German)."
   twitter: 
