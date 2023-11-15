@@ -10,9 +10,9 @@ twitter:
 github: "https://github.com/ahsanhadi"
 linkedin: "https://www.linkedin.com/in/ahsan-hadi-6667608/"
 company: Adma India 2017
-mediaLink: 
+mediaLink: https://youtube.com/12dsat3
 thumbnailImage: /assets/img/test-thumbnail.jpg
-detail: 'Enhance your profile by sharing your media features, authored articles, and presentations with the community. Simply click the "Edit this page on GitHub" button below, add a link to a video or article, and provide a description in the "medialink" and "detail" fields, respectively.'
+detail: 'This is sample media content'
 lastUpdate: Nov 1, 2023
 multiYear: true
 ---
