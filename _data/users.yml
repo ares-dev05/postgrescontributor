@@ -292,8 +292,8 @@
   multiYear: false
 - name: Alex Denman
   bio: Researcher at Binghamton University
-  country: USA 
-  address: USA
+  country: United States 
+  address: United States
   image: /assets/img/alex_denman.jpg
   mediaLink: 
   about: "As a researcher, I was repeatedly confronted with situations where the available tools for data processing and analysis were not sufficient to the task, so I learned how to make my own. Working with MATLAB, PostgreSQL, and various application-specific scripting languages, I designed a variety of data management and analysis tools, which remain in use by other lab personnel."
@@ -474,8 +474,8 @@
   multiYear:
 - name: Andreas Dijkman
   bio: Consultant IS
-  country: Netherland
-  address: Netherland
+  country: Netherlands
+  address: Netherlands
   image: /assets/img/andreas_dijkman.png
   mediaLink: 
   about: "At Cygnis i'm responsable for the infrastructure of our customers. We manage not only databases (Oracle, MySQL, PostgreSQL) but also the operating system (Windows, RedHat, OEL, CentOS), the middleware and the hardware that it is running on. We use Nagios to monitor the entire environment."
@@ -516,8 +516,8 @@
   multiYear: false
 - name: Andrei Zubkov
   bio: Software Engineer
-  country: USA
-  address: Seattle.USA
+  country: United States
+  address: United States
   image: /assets/img/andrey_zubkov.png
   mediaLink: 
   about: "Andrey Zubkov is a software engineer and developer advocate for PostgreSQL, an open-source relational database management system (RDBMS). He is known for his contributions to the PostgreSQL community and his expertise in database administration and performance optimization. Zubkov often shares his knowledge through blog posts, conference presentations, and workshops. He actively participates in the PostgreSQL mailing lists and helps users with their database-related questions and challenges."
@@ -530,8 +530,8 @@
   multiYear: false
 - name: Andrew Alsup
   bio: Director, IT Innovation
-  country: USA
-  address: USA
+  country: United States
+  address: United States
   image: /assets/img/user.png
   mediaLink: 
   about:
@@ -612,3 +612,102 @@
   detail: 
   lastUpdate: Nov 15, 2023
   multiYear: false
+- name: Andrey Lepikhov
+  bio: 
+  country:
+  address: 
+  image: /assets/img/andrey-lepikhov.png
+  mediaLink: 
+  about:
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/avlepikhov/"
+  company: Postgres Professional
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrey Sokolov
+  bio: 
+  country:
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter: 
+  github: "https://github.com/andr-sokolov"
+  linkedin:
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Ankit Kumar Pandey
+  bio: 
+  country:
+  address:
+  image: /assets/img/Ankit-Kumar-Pandey.jpg
+  mediaLink: 
+  about:
+  twitter:
+  github: "https://github.com/itsankitkp?tab=repositories"
+  linkedin: "https://www.linkedin.com/in/ankitkpandey/"
+  company:
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Ante Kresic
+  bio: Software Engineer
+  country: Croatia
+  address: Croatia
+  image: /assets/img/ante_kresic.png
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/antekresic"
+  github: "https://github.com/antekresic"
+  linkedin: "https://www.linkedin.com/in/antekresic/?originalSubdomain=hr"
+  company: Timescale
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Anton Melnikov
+  bio: Backend Team Lead
+  country: Georgia
+  address: Georgia
+  image: /assets/img/anton_melnikov.png
+  mediaLink: 
+  about: "Anton Melnikov is a software developer and a maintainer of the PostgreSQL database system. He is highly skilled in database administration, performance tuning, and replication techniques. Melnikov has contributed numerous patches and bug fixes to the PostgreSQL project and has also written several extensions for the database. He is known for his expertise in optimizing PostgreSQL's query planner and executor, and his work has greatly improved the performance and scalability of the database. Additionally, Melnikov actively participates in the PostgreSQL community and frequently shares his knowledge through forums, blog posts, and presentations at conferences."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/melnikov-anton/?originalSubdomain=kz"
+  company: PHP
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Anton Sidyakin
+  bio: Sofware Developer
+  country: 
+  address: 
+  image: /assets/img/anton_sidyakin.png
+  mediaLink: 
+  about: "Anton Sidyakin is a software engineer who is known for his contributions to the PostgreSQL community. He has made several contributions to the PostgreSQL codebase, including implementing various features and bug fixes. In addition to his work with PostgreSQL, Anton has also worked on related projects such as pgAdmin, a popular open-source administration and development platform for PostgreSQL."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/anton-sidyakin-761a3458/"
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Anton Voloshin
+  bio: Software Developer
+  country: Ukraine 
+  address: Ukraine
+  image: /assets/img/anton_voloshin.png
+  mediaLink: 
+  about: "Anton Voloshin is a respected figure in the PostgreSQL community, known for his technical skills and contributions to the open-source database system. Anton Voloshin has made significant contributions to the PostgreSQL project, particularly in the areas of indexing, performance optimization, and query execution. He has been involved in different aspects of the database system, including working on planner/optimizer improvements and developing new features."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/anton-voloshin-a8423385/"
+  company: Postgres Professional
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+
