@@ -4,7 +4,7 @@ title: Amul Sul
 bio: PostgreSQL Developer
 country: India
 address: India
-image: assets/img/amul_sul.jpeg
+image: /assets/img/amul_sul.jpeg
 mediaLink: 
 about:
 twitter: "https://twitter.com/amulsul"
