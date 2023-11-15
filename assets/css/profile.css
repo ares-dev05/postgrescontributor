@@ -483,6 +483,24 @@ img.multi-year {
         line-height: normal;
     }
 
+    .media .block .no-content {
+        color: #8F9193;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .media .block .grey-content {
+        color: #8F9193;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
     .media span {
         color: #000;
         font-family: Inter;
