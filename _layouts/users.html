@@ -344,7 +344,24 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i < endIndex; i++) {
       if (usersArr[i] != undefined) {
-        let userHTML = `<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><img width="auto" height="182px" style="margin: auto;" src="/postgrescontributors${usersArr[i].image}" /></div><div class="wrap"><a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a><p>${usersArr[i].bio} at ${usersArr[i].company}</p><span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span><div class="flex" style="width: 118px;">`;
+        let userHTML = `<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><img width="auto" height="182px" style="margin: auto;" src="/postgrescontributors${usersArr[i].image}" /></div><div class="wrap">`;
+
+        if(usersArr[i].name != undefined) {
+          userHTML += `<a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a>`;
+        }
+
+        if(usersArr[i].bio != undefined && usersArr[i].company != undefined) {
+          userHTML += `<p>${usersArr[i].bio} at ${usersArr[i].company}</p>`
+        } else if(usersArr[i].bio != undefined) {
+          userHTML += `<p>${usersArr[i].bio}`
+        }
+
+        if(usersArr[i].country != undefined && usersArr[i].address != undefined) {
+          userHTML += `<span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span>`;
+        }
+
+        userHTML += `<div class="flex" style="width: 118px;">`;
+
         if(usersArr[i].twitter != undefined) {
           userHTML +=`<a href="${usersArr[i].twitter}" target="_blank"><img width="33px" height="27px" src="${twitterUrl}" /></a>`;
         } else {

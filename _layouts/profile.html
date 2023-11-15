@@ -16,7 +16,11 @@ layout: default
     <div class="flex">
       <div class="wrap">
         <h5>{{ page.title }}</h5>
+        {% if page.bio != undefined %}
+        {% if page.company != undefined %}
         <p>{{ page.bio }} at {{ page.company }}</p>
+        {% endif %}
+        {% endif %}
         <span class="country" data-country="{{ page.country }}">{{ page.address }}</span>
         <b>About:</b>
         <p class="about">{{ page.about }}</p>
