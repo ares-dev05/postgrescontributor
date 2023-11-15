@@ -2,8 +2,8 @@
 layout: profile
 title: Andreas Dijkman
 bio: Consultant IS
-country: Netherland
-address: Netherland
+country: Netherlands
+address: Netherlands
 image: /assets/img/andreas_dijkman.png
 mediaLink: 
 about: "At Cygnis i'm responsable for the infrastructure of our customers. We manage not only databases (Oracle, MySQL, PostgreSQL) but also the operating system (Windows, RedHat, OEL, CentOS), the middleware and the hardware that it is running on. We use Nagios to monitor the entire environment."
