@@ -2,8 +2,8 @@
 layout: profile
 title: Alex Denman
 bio: Researcher at Binghamton University
-country: USA 
-address: USA
+country: United States 
+address: United States
 image: /assets/img/alex_denman.jpg
 mediaLink: 
 about: "As a researcher, I was repeatedly confronted with situations where the available tools for data processing and analysis were not sufficient to the task, so I learned how to make my own. Working with MATLAB, PostgreSQL, and various application-specific scripting languages, I designed a variety of data management and analysis tools, which remain in use by other lab personnel."
