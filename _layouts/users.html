@@ -353,11 +353,15 @@ layout: default
         if(usersArr[i].bio != undefined && usersArr[i].company != undefined) {
           userHTML += `<p>${usersArr[i].bio} at ${usersArr[i].company}</p>`
         } else if(usersArr[i].bio != undefined) {
-          userHTML += `<p>${usersArr[i].bio}`
+          userHTML += `<p>${usersArr[i].bio}</p>`
+        } else {
+          userHTML += `<p style="visibility: hidden;">${usersArr[i].bio}</p>`
         }
 
         if(usersArr[i].country != undefined && usersArr[i].address != undefined) {
           userHTML += `<span class="country" data-country="${usersArr[i].country}">${usersArr[i].address}</span>`;
+        } else {
+          userHTML += `<span class="country" data-country="${usersArr[i].country}" style="visibility: hidden;">${usersArr[i].address}</span>`;
         }
 
         userHTML += `<div class="flex" style="width: 118px;">`;
