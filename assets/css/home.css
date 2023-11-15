@@ -454,6 +454,10 @@
         margin-top: 30px;
     }
 
+    .mobile {
+        display: block!important;
+    }
+
     .function .mobile img {
         width: 27px;
         height: 27px;
