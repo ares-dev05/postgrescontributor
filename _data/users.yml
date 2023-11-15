@@ -766,3 +766,59 @@
   detail:
   lastUpdate: Nov 15, 2023
   multiYear: false
+- name: Ashutosh Bapat
+  bio: PostgreSQL, Database Internals Developer
+  country: India
+  address: India
+  image: /assets/img/ashutosh_bapat.png
+  mediaLink: 
+  about: "Long experience in the field of core database server development in the areas like storage, buffer manager, query processing and optimization. Special exposure to distributed database servers."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/ashutoshbapat/"
+  company: EDB 
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Ashutosh Sharma
+  bio: Senior Software Engineer
+  country: India
+  address: India
+  image: /assets/img/ashutosh_sharma.jpeg
+  mediaLink: 
+  about: "PostgreSQL Contributor, Senior Software Engineer at Microsoft India"
+  twitter:
+  github: "https://github.com/no-more-secret"
+  linkedin: "https://www.linkedin.com/in/ashutosh-sharma-a40897155/?originalSubdomain=in"
+  company: Microsoft 
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Asim Praveen
+  bio: Software Developer
+  country: India
+  address: India
+  image: /assets/img/asim_praveen.png
+  mediaLink: 
+  about:
+  twitter:
+  github: "https://github.com/asimrp"
+  linkedin: "https://in.linkedin.com/in/asim-praveen-b1554021"
+  company: Indian Institute of Technology
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Atsushi Torikoshi
+  bio: PostgreSQL engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter:
+  github: "https://github.com/atorik"
+  linkedin: "https://www.linkedin.com/in/atsushi-torikoshi-b8715831/"
+  company: NTT DATA
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
