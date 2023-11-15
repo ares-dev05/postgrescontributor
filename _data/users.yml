@@ -542,3 +542,59 @@
   detail: 
   lastUpdate: Nov 15, 2023
   multiYear: true
+- name: Andrew Bille
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter: 
+  github:  
+  linkedin: 
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrew Dunstan
+  bio: Senior Principal Engineer
+  country: EDB
+  address: EDB
+  image: /assets/img/andrew_dunstan.jpeg
+  mediaLink: 
+  about: "PostgreSQL specialist and major contributor."
+  twitter: 
+  github: "https://github.com/adunstan" 
+  linkedin: "https://www.linkedin.com/in/andrewdunstan/" 
+  company: EDB
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrew Gierth
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  mediaLink: 
+  about: "Hstore enhancements, ordered aggregates and ordered set functions, grouping sets, ip4r, and provides help and support in the IRC channel"
+  twitter: 
+  github: 
+  linkedin:
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrew Kesper
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/Andrew Kesper.png
+  mediaLink: 
+  about: 
+  twitter: 
+  github: "https://github.com/andrewkesper"
+  linkedin:
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
