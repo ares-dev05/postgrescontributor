@@ -453,8 +453,8 @@ img.multi-year {
     }
 
     .media .block>img {
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: auto;
         display: block;
         margin: auto;
         cursor: pointer;
@@ -462,6 +462,7 @@ img.multi-year {
 
     .media .wrap {
         padding-left: 0px;
+        margin-top: 25px;
     }
 
     .media h5 {

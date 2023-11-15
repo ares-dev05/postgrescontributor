@@ -13,7 +13,7 @@ layout: default
     &lt; Back to list</a>
 
   <div class="profile">
-    <div style="display: flex; justify-content: space-between;">
+    <div style="align-items: self-start;" class="flex">
       <div class="wrap">
         <h5>{{ page.title }}</h5>
         {% if page.bio != undefined %}
@@ -108,7 +108,7 @@ layout: default
   <div class="media">
     {% if page.mediaLink == undefined %}
     <div class="block">
-      <img width="388px" height="390px" src="{{ '/assets/img/media.png' | relative_url }}" style="cursor: inherit;"/>
+      <img width="446px" height="251px" src="{{ '/assets/img/media.png' | relative_url }}" style="cursor: inherit;"/>
       <div class="wrap">
         <p class="no-content">There is no content here yet.</p>
         <p class="grey-content">Enhance your profile by sharing your media features, authored articles, and presentations with the community.
@@ -118,7 +118,7 @@ layout: default
     </div>
     {% else %}
     <div class="block">
-      <img width="388px" height="390px" class="clickable"
+      <img width="446px" height="251px" class="clickable"
         src="{{ page.thumbnailImage | default: '/assets/img/media.png' | relative_url }}"
         data-link="{{ page.mediaLink }}" />
       <div class="wrap">
