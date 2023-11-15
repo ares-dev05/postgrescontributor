@@ -402,3 +402,143 @@
   detail: 
   lastUpdate: Nov 14, 2023
   multiYear: true
+- name: Álvaro Herrera
+  bio: PostgreSQL expert
+  country: Chile
+  address: Chile
+  image: /assets/img/alvaro_herrera.jpeg
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/alvherre"
+  github: "https://github.com/alvherre"
+  linkedin: "https://www.linkedin.com/in/alvherre/"
+  company: 2ndQuadrant, an EDB company
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Amit Kapila
+  bio: Senior Director
+  country: India 
+  address: India
+  image: /assets/img/amit_kapila.jpeg 
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/kapila_amit?lang=en"
+  github: 
+  linkedin: "https://www.linkedin.com/in/amit-kapila-56b6003/?originalSubdomain=in"
+  company: Fujitsu India
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Amit Khandekar
+  bio: Software Developer
+  country: India
+  address: India
+  image: /assets/img/amit_khandekar.jpg
+  mediaLink: 
+  about: "Amit Khandekar is a core developer of PostgreSQL, an open-source relational database management system. He has made significant contributions to the development and enhancement of PostgreSQL, including implementing several new features and improvements. His work has been widely recognized and appreciated by the PostgreSQL community."
+  twitter:
+  github: 
+  linkedin: "https://www.linkedin.com/in/amit-khandekar-10922647/"
+  company: MIndnerves Technology services Pvt. Ltd
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Amit Langote
+  bio: Principal Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/amit_langote.jpeg
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/amitlan"
+  github: "https://github.com/amitlan" 
+  linkedin: "https://www.linkedin.com/in/amitlan?originalSubdomain=jp"
+  company: EDB
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Amul Sul
+  bio: PostgreSQL Developer
+  country: India
+  address: India
+  image: /assets/img/amul_sul.jpeg
+  mediaLink: 
+  about:
+  twitter: "https://twitter.com/amulsul"
+  github: "" 
+  linkedin: "https://www.linkedin.com/in/sulamul"
+  company: EDB
+  detail: 
+  lastUpdate: Nov 14, 2023
+  multiYear:
+- name: Andreas Dijkman
+  bio: Consultant IS
+  country: Netherland
+  address: Netherland
+  image: /assets/img/andreas_dijkman.png
+  mediaLink: 
+  about: "At Cygnis i'm responsable for the infrastructure of our customers. We manage not only databases (Oracle, MySQL, PostgreSQL) but also the operating system (Windows, RedHat, OEL, CentOS), the middleware and the hardware that it is running on. We use Nagios to monitor the entire environment."
+  twitter: 
+  github: "https://github.com/andreasdijkman" 
+  linkedin: "https://www.linkedin.com/in/dijkmana/"
+  company: Axians NL 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: true
+- name: Andreas Karlsson
+  bio: Software Developer
+  country: Sweden
+  address: Sweden
+  image: /assets/img/andreas_karlsson.jpeg
+  mediaLink: 
+  about: "Specialties: C, Ruby, and programming in general and competent in SQL, especially PostgreSQL."
+  twitter: 
+  github: "https://github.com/jeltz" 
+  linkedin: "https://www.linkedin.com/in/andreas-karlsson-18679b3b/"
+  company: Web Lovers AB
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andreas Scherbaum
+  bio: Head of Databases
+  country: Germany
+  address: Germany
+  image: /assets/img/andreas_scherbaum.jpeg
+  mediaLink: 
+  about: "Andreas Scherbaum is working with PostgreSQL since 1997. He is involved in several PostgreSQL related community projects, member of the Board of Directors of the European PostgreSQL User Group and also wrote a PostgreSQL book (in German)."
+  twitter: 
+  github: "https://github.com/andreasscherbaum" 
+  linkedin: "https://www.linkedin.com/in/andreas-scherbaum-87b6663/"
+  company: AdjustAdjust
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrei Zubkov
+  bio: Software Engineer
+  country: USA
+  address: Seattle.USA
+  image: /assets/img/andrey_zubkov.png
+  mediaLink: 
+  about: "Andrey Zubkov is a software engineer and developer advocate for PostgreSQL, an open-source relational database management system (RDBMS). He is known for his contributions to the PostgreSQL community and his expertise in database administration and performance optimization. Zubkov often shares his knowledge through blog posts, conference presentations, and workshops. He actively participates in the PostgreSQL mailing lists and helps users with their database-related questions and challenges."
+  twitter: "https://twitter.com/oxxxymoron"
+  github: "https://github.com/zubkov-andrei" 
+  linkedin: "https://www.linkedin.com/in/andreyzubkov/"
+  company: Amazon Web Services (AWS)
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Andrew Alsup
+  bio: Director, IT Innovation
+  country: USA
+  address: USA
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter: 
+  github: "https://github.com/aalsup" 
+  linkedin: "https://www.linkedin.com/in/andrew-alsup-99336610/"
+  company: Man Tech
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: true
