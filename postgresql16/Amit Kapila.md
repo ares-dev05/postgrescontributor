@@ -4,7 +4,7 @@ title: Amit Kapila
 bio: Senior Director
 country: India 
 address: India
-image: assets/img/amit_kapila.jpeg 
+image: /assets/img/amit_kapila.jpeg 
 mediaLink: 
 about:
 twitter: "https://twitter.com/kapila_amit?lang=en"
