@@ -738,3 +738,31 @@
   detail:
   lastUpdate: Nov 15, 2023
   multiYear: false
+- name: Artem Anisimov
+  bio: Software Developer
+  country: New Zealand
+  address: New Zealand 
+  image: /assets/img/user.png
+  mediaLink: 
+  about: "Highly accomplished C/C++ developer with 10+ years of extensive experience as a Software Engineer. With key skills in design, knowledge in C# and expertise in mathematics, I have been recognised for achievements throughout my career in improving operational performance, identifying deficiencies, potential opportunities and developing innovative and cost-effective solutions for enhancing competitiveness, increasing revenues and improving stakeholder satisfaction."
+  twitter:
+  github:
+  linkedin: "https://www.linkedin.com/in/artemanisimov/?originalSubdomain=nz"
+  company: SAP
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
+- name: Arthur Zakirov
+  bio: Senior PostgreSQL Developer
+  country: Germany
+  address: Germany
+  image: /assets/img/artur_zakirov.png
+  mediaLink: 
+  about: "Software developer with 10+ years experience developing robust and high quality code. Big fan of open source technologies, there are contributions to PostgreSQL and several open source projects. Extensive C, PostgreSQL, Python, Go, Java, SQL Server experience. Well-experienced with Linux and Bash, Python scripting. I'm a big fan of cycling and tourism."
+  twitter:
+  github: "https://github.com/za-arthur"
+  linkedin: "https://www.linkedin.com/in/za-arthur/"
+  company: Adjust 
+  detail:
+  lastUpdate: Nov 15, 2023
+  multiYear: false
