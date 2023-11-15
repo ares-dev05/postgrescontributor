@@ -542,3 +542,17 @@
   detail: 
   lastUpdate: Nov 15, 2023
   multiYear: true
+- name: Andrew Bille
+  bio: Software Engineer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  mediaLink: 
+  about:
+  twitter: 
+  github:  
+  linkedin: 
+  company: 
+  detail: 
+  lastUpdate: Nov 15, 2023
+  multiYear: false
