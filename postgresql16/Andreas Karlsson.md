@@ -4,7 +4,7 @@ title: Andreas Karlsson
 bio: Software Developer
 country: Sweden
 address: Sweden
-image: assets/img/andreas_karlsson.jpeg
+image: /assets/img/andreas_karlsson.jpeg
 mediaLink: 
 about: "Specialties: C, Ruby, and programming in general and competent in SQL, especially PostgreSQL."
 twitter: 

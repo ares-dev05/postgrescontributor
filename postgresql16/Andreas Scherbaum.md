@@ -4,7 +4,7 @@ title: Andreas Scherbaum
 bio: Head of Databases
 country: Germany
 address: Germany
-image: assets/img/andreas_scherbaum.jpeg
+image: /assets/img/andreas_scherbaum.jpeg
 mediaLink: 
 about: "Andreas Scherbaum is working with PostgreSQL since 1997. He is involved in several PostgreSQL related community projects, member of the Board of Directors of the European PostgreSQL User Group and also wrote a PostgreSQL book (in German)."
 twitter: 

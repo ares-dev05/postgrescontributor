@@ -4,7 +4,7 @@ title: Amit Langote
 bio: Principal Engineer
 country: Japan
 address: Japan
-image: assets/img/amit_langote.jpeg
+image: /assets/img/amit_langote.jpeg
 mediaLink: 
 about:
 twitter: "https://twitter.com/amitlan"
