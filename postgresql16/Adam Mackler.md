@@ -3,7 +3,7 @@ layout: profile
 title: Adam Mackler
 bio: Chief Technology Officer
 image: /assets/img/adam-mackler.png
-mediaLink:
+mediaLink: https://www.youtube.com/watch?v=HvctSXwu2GI
 country:  United States
 address:  United States
 about:  "I am a contributor to several notable open-source projects, including bitcoinj, the leading Java library for Bitcoin functionality, and slick-pg, the PostgreSQL-specific extension to Slick, the Scala database interface, as well as being the founder of several open-source projects, hosted under my name on github, gitlab and bitbucket."
