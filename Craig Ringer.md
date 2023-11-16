@@ -13,6 +13,6 @@ linkedin: "https://www.linkedin.com/in/craig-ringer-38041a32/?originalSubdomain=
 company: ENTERPRISEDB SERVICES LIMITED
 detail:
 lastUpdate: Nov 16, 2023
-multiYear: false
+ multiYear: false
 
 This is the body of Craig Ringer's profile page.
