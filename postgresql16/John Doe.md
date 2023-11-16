@@ -11,7 +11,7 @@ twitter: "https://twitter.com/admanMacker"
 github: "https://github.com/admanMacker"
 linkedin: "https://www.linkedin.com/in/admanMacker"
 company: SCOPE 120 s.r.o.
-detail: Lessons Learned Migrating to PostgreSQL
+detail: "Lessons Learned Migrating to PostgreSQL"
 lastUpdate: Nov 1, 2023
 multiYear: false
 ---
