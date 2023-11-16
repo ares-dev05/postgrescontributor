@@ -344,7 +344,7 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i < endIndex; i++) {
       if (usersArr[i] != undefined) {
-        let userHTML = `<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><img width="auto" height="182px" style="margin: auto;" src="/postgrescontributors${usersArr[i].image}" /></div><div class="wrap">`;
+        let userHTML = `<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><img width="auto" height="182px" style="margin: auto;" src="${usersArr[i].image}" /></div><div class="wrap">`;
 
         if(usersArr[i].name != undefined) {
           userHTML += `<a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a>`;
