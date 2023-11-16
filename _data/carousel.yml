@@ -1,24 +1,80 @@
-- name: Adma Mackler
-  bio: Software engineer
-  image: /assets/img/Adam Mackler.png
+- name: Bruce Momjian
+  bio: Vise President at EDB
+  image: /assets/img/bruce_momjian.png
+  country: United States
+- name: Peter Eisentraut
+  bio: Chief Engineer
+  image: /assets/img/peter-eisentraut.png
   country: Germany
-- name: Jakub Wartak
-  bio: SQL specialist
-  image: /assets/img/Jakub Wartak.png
-  country: Denmark
-- name: Myo Wai Thnant
-  bio: Software engineer
-  image: /assets/img/Myo Wai Thant.png
-  country: Canada
-- name: Adma Mackler
-  bio: Software engineer
-  image: /assets/img/Adam Mackler.png
-  country: Germany
-- name: Jakub Wartak
-  bio: SQL specialist
-  image: /assets/img/Jakub Wartak.png
-  country: Denmark
-- name: Myo Wai Thnant
-  bio: Software engineer
-  image: /assets/img/Myo Wai Thant.png
-  country: Canada
+- name: Joe Conway
+  bio: Sr Software Dev Manager
+  image: /assets/img/joe-conway.png
+  country: United States
+- name: Alvaro Herrera
+  bio: PostgreSQL Expert
+  image: /assets/img/alvaro-herrera.png
+  country: Chile
+- name: Andrew Dunstan
+  bio: Senior Principal Engineer
+  image: /assets/img/andrew-dunstan.png
+  country: United States
+- name: Magnus Hagander
+  bio: Principal Database Consultant
+  image: /assets/img/magnus-hagander.png
+  country: Sweden
+- name: Heikki Linnakangas
+  bio: Co Founder at Neon.Inc
+  image: /assets/img/heikki-linnakangas.png
+  country: Finland
+- name: Robert Haas
+  bio: Chief Database Scientist
+  image: /assets/img/robert-haas.png
+  country: United States
+- name: Stephen Frost
+  bio: Chief Technology Officer
+  image: /assets/img/stephen-frost.png
+  country: United States
+- name: Masao Fujii
+  bio: Database Technical Lead
+  image: /assets/img/masao-fujii.png
+  country: Japan
+- name: Andres Freund
+  bio: Principal Software Engineer
+  image: /assets/img/andres-freund.png
+  country: United States
+- name: Alexander Korotkov
+  bio: Founder at OrioleData.Inc
+  image: /assets/img/alexander-korotkov.png
+  country: United States
+- name: Amit Kapila
+  bio: Senior Director at Fujitsu India
+  image: /assets/img/amit-kapila.png
+  country: India
+- name: Tomas Vondra
+  bio: Senior Principal Engineer
+  image: /assets/img/tomas-vondra.png
+  country: Czech
+- name: Thomas Munro
+  bio: Software Developer
+  image: /assets/img/thomas-munro.png
+  country: New Zealand
+- name: Peter Geoghegan
+  bio: Senior PostgreSQL Engineer
+  image: /assets/img/peter-geoghegan.png
+  country: United States
+- name: David Rowley
+  bio: Software Engineer
+  image: /assets/img/david-rowley.png
+  country: New Zealand
+- name: Amit Langote
+  bio: Principal Engineer at EDB
+  image: /assets/img/amit-langote.png
+  country: Japan
+- name: Ashutosh Bapat
+  bio: PostgreSQL Database Internals Developer
+  image: /assets/img/ashutosh-bapat.png
+  country: India
+- name: Tom Lane
+  bio: Senior Software Engineer
+  image: /assets/img/tom_lane.png
+  country: United States
