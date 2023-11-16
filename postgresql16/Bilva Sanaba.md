@@ -1,16 +1,16 @@
 ---
-layout: profile
-title: Bilva Sanaba
+layout: Bilva Sanaba
 bio: Software Development Engineer
-image: /assets/img/Adam Mackler.png
+image: /assets/img/bilva_sanaba.png
 mediaLink: 
 country: United States
-address: USA. San Francisco
+address: United States
 about: Bilva Sanaba is a Software Development Engineer with AWS RDS PostgreSQL team. He has worked on designing and developing various customer database tools.
-twitter: 
+twitter:
 github: https://github.com/bilva-sanaba
 linkedin: https://www.linkedin.com/in/bilva-sanaba/
 company: Kargo Technologies
-detail: 'Online Migration: Upgrade with Seamless Downtime'
-lastUpdate: Nov 1, 2023
+detail:
+lastUpdate: Nov 16, 2023
+multiYear: false
 ---
