@@ -38,20 +38,6 @@
   detail: 'Online Migration: Upgrade with Seamless Downtime'
   lastUpdate: Nov 1, 2023
   multiYear: false
-- name: John Doe
-  bio: Software Engineer
-  image: /assets/img/Adam Mackler.png
-  country: United States
-  address: San Francisco, CA
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  twitter: "https://twitter.com/johndoe"
-  github: "https://github.com/johndoe"
-  linkedin: "https://www.linkedin.com/in/johndoe"
-  company: SCOPE 120 s.r.o.
-  medialink: 
-  detail: 
-  lastUpdate: Nov 1, 2023
-  multiYear: true
 - name: Frank Fruit
   bio: Software engineer
   country: France
