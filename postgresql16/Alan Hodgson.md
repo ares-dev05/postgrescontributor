@@ -6,13 +6,13 @@ country: Canada
 address: Canada 
 image: /assets/img/user.png
 mediaLink: 
-about: "Specialties: 
- - IAC configuration and lifecycle management with Terraform
- - Docker container building
- - Managed Kubernetes (EKS); building, scaling, and lifecycle management of Kubernetes resources, and deployment control with Argo CD.
- - PostgreSQL database performance and availability monitoring, tuning, administration, backups, replication; both self-hosted and RDS
- - high performance web serving - Nginx, Apache, Varnish, PHP, Python and Rails application servers with Passenger
- - Puppet configuration management
+about: "Specialties: <br />
+ - IAC configuration and lifecycle management with Terraform<br />
+ - Docker container building<br />
+ - Managed Kubernetes (EKS); building, scaling, and lifecycle management of Kubernetes resources, and deployment control with Argo CD.<br />
+ - PostgreSQL database performance and availability monitoring, tuning, administration, backups, replication; both self-hosted and RDS<br />
+ - high performance web serving - Nginx, Apache, Varnish, PHP, Python and Rails application servers with Passenger<br />
+ - Puppet configuration management<br />
  - Web and network security"
 twitter:
 github: "https://github.com/ajhodgson"
