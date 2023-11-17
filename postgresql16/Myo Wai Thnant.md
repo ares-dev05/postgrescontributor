@@ -1,18 +1,18 @@
 ---
 layout: profile
-title: Myo Wai Thnant
-bio: Software engineer
-country: Germany
-address: Dresden, Germany
-image: /assets/img/Myo Wai Thant.png
-mediaLink: 
-about: Lorrem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-twitter: "https://twitter.com/admanMacker"
-github: "https://github.com/admanMacker"
-linkedin: "https://www.linkedin.com/in/admanMacker"
-company: Byo India 2017
-detail: 'Online Migration: Upgrade with Seamless Downtime'
-lastUpdate: Nov 1, 2023
+title: Myo Wai Thant
+bio: Director
+country: Myanmar
+address: Myanmar
+image: /assets/img/myo-min-thant.png
+about: "A recent Computer Science graduate at Worcester Polytechnic Institute with focus in server-side programming and deep learning. I am a fast-learner and have a lot of experience with major programming languages such as Java, Python and NodeJs. I am familiar with working in Agile methodologies and have also interned as a software engineer at Bindez and Nexlabs."
+twitter:
+github:
+linkedin: "https://www.linkedin.com/in/mmthant03/?originalSubdomain=mm"
+company: Nice Partner
+mediaLink:
+detail: 
+lastUpdate: Nov 17, 2023
 multiYear: false
 ---
 
