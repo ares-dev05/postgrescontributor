@@ -1180,8 +1180,8 @@
   address: Germany
   image: /assets/img/peter-eisentraut.png
   mediaLink:
-  about:"PostgreSQL guru, open-source developer. Works on the build system, porting, documentation, and the internationalization effort, and codes many other improvements."
-  twitter:"https://twitter.com/petereisentraut"
+  about: "PostgreSQL guru, open-source developer. Works on the build system, porting, documentation, and the internationalization effort, and codes many other improvements."
+  twitter: "https://twitter.com/petereisentraut"
   github: "https://github.com/petere"
   linkedin: "https://www.linkedin.com/in/petereisentraut/"
   company: EnterpriseDB
@@ -1194,8 +1194,8 @@
   address: United States
   image: /assets/img/joe-conway.png
   mediaLink:
-  about:"PostgreSQL database expert. Extensive hands on experience with database logical and physical model architecture, query optimization, application development, custom extensions (sql, plpgsql, C functions),and internals development (grammar, parser, optimizer, execution engine)."
-  twitter:"https://twitter.com/josepheconway"
+  about: "PostgreSQL database expert. Extensive hands on experience with database logical and physical model architecture, query optimization, application development, custom extensions (sql, plpgsql, C functions),and internals development (grammar, parser, optimizer, execution engine)."
+  twitter: "https://twitter.com/josepheconway"
   github: "https://github.com/jconway"
   linkedin: "https://www.linkedin.com/in/josepheconway"
   company: Amazon RDS
