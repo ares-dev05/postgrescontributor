@@ -4,7 +4,7 @@ title: Anastasia Lubennikova
 bio: 
 country: Cyprus 
 address: Cyprus 
-image: /assets/img/anastasia_lubennikova.png
+image: /assets/img/anastasia-lubennikova.png
 mediaLink: 
 about: 
 twitter: 
