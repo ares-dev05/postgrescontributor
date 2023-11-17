@@ -2,7 +2,7 @@
 layout: profile
 title: Dong Wook Lee
 bio: Azure FPGA Hardware Engineer
-image: /assets/img/Adam Mackler.png
+image: /assets/img/dongwook_lee.png
 mediaLink: 
 country: United States
 address: 
@@ -11,6 +11,7 @@ twitter:
 github: 
 linkedin: https://www.linkedin.com/in/dongwook-lee-39106175/
 company: Microsoft
-detail: 'Online Migration: Upgrade with Seamless Downtime'
-lastUpdate: Nov 1, 2023
+detail:
+lastUpdate: Nov 17, 2023
+multiyear: false
 ---
