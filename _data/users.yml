@@ -1208,8 +1208,8 @@
   address: Sweden
   image: /assets/img/magnus-hagander.png
   mediaLink:
-  about:"Database architect, developer and systems administrator. Database focus on PostgreSQL with a lot of work on SQL Server as well. Developer in C/C++, C# and many different scripting languages. Experienced in managing large Windows networks, from ethernet to to the top of the stack, and on Linux. Development focus on database backed systems or the database itself. Semi-frequent speaker at opensource conferences."
-  twitter:"https://twitter.com/magnushagander"
+  about: "Database architect, developer and systems administrator. Database focus on PostgreSQL with a lot of work on SQL Server as well. Developer in C/C++, C# and many different scripting languages. Experienced in managing large Windows networks, from ethernet to to the top of the stack, and on Linux. Development focus on database backed systems or the database itself. Semi-frequent speaker at opensource conferences."
+  twitter: "https://twitter.com/magnushagander"
   github: "https://github.com/mhagander"
   linkedin: "https://www.linkedin.com/in/magnushagander/"
   company: Redpill Linpro
@@ -1222,7 +1222,7 @@
   address: Finland
   image: /assets/img/heikki-linnakangas.png
   mediaLink:
-  about:"Heikki Linnakangas a long-time PostgreSQL hacker, and cofounder of Neon. He has authored many features and enhancements in PostgreSQL, mainly around indexing, storage and write-ahead logging."
+  about: "Heikki Linnakangas a long-time PostgreSQL hacker, and cofounder of Neon. He has authored many features and enhancements in PostgreSQL, mainly around indexing, storage and write-ahead logging."
   twitter:
   github: "https://github.com/hlinnaka"
   linkedin: "https://www.linkedin.com/in/heikki-linnakangas-6b58bb203/?originalSubdomain=fi"
