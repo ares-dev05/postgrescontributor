@@ -11,8 +11,8 @@ github: "https://github.com/akorotkov"
 linkedin: "https://www.linkedin.com/in/alexander-korotkov-41b1b582/"
 company: OrioleDATA, Inc. 
 mediaLink:
-thumbnailImage:
 detail: 
+thumbnailImage:
 lastUpdate: Nov 15, 2023
 multiYear: true
 ---
