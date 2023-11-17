@@ -1,6 +1,5 @@
 ---
-layout: profile
-title: Adam Mackler
+layout: Adam Mackler
 bio: Chief Technology Officer
 image: /assets/img/adam-mackler.png
 mediaLink:
@@ -12,7 +11,6 @@ github: "https://github.com/mackler"
 linkedin: "https://www.linkedin.com/in/mackler/"
 company: SCOPE 120 s.r.o.
 detail:
-thumbnailImage:
 lastUpdate: Nov 17, 2023
 multiYear: false
 
