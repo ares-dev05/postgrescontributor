@@ -1664,4 +1664,31 @@
   thumbnailImage:
   lastUpdate: Nov 19, 2023
   multiYear: false
-  
+- name: Elena Indrupskaya
+  bio: Lead Technical Writer
+  country: Russia
+  address: Russia
+  image: /assets/img/elena_indrupskaya.png
+  about: "Qualified information developer with 20+ years in technical writing. Experienced in creation of end-user documentation, such as developer guides, developer references, or getting started guides, as well as help systems, including context-sensitive help and documentation for help desk portals. Supported full documentation cycle, including planning, creation, review, publishing, and Web posting."
+  github: 
+  linkedin: "https://www.linkedin.com/in/eindrups/"
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false  
+- name: Emmanuel Quincerot
+  bio: Full Stack Engineer
+  country: France
+  address: France
+  image: /assets/img/emmanuel-quincerot.jpg
+  about: 
+  github: "https://github.com/EQuincerot"
+  linkedin: "https://www.linkedin.com/in/emmanuel-quincerot-8b55453b/"
+  company: Doctolib
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 19, 2023
+  multiYear: false  
