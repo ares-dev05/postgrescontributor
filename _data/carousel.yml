@@ -1,6 +1,6 @@
 - name: Bruce Momjian
   bio: Vise President at EDB
-  image: /assets/img/bruce_momjian.png
+  image: /assets/img/bruce-momjian-featured.png
   country: United States
 - name: Peter Eisentraut
   bio: Chief Engineer
@@ -12,7 +12,7 @@
   country: United States
 - name: Alvaro Herrera
   bio: PostgreSQL Expert
-  image: /assets/img/alvaro-herrera.png
+  image: /assets/img/alvaro-herrera-featured.png
   country: Chile
 - name: Andrew Dunstan
   bio: Senior Principal Engineer
@@ -20,7 +20,7 @@
   country: United States
 - name: Magnus Hagander
   bio: Principal Database Consultant
-  image: /assets/img/magnus-hagander.png
+  image: /assets/img/magnus-hagander-featured.png
   country: Sweden
 - name: Heikki Linnakangas
   bio: Co Founder at Neon.Inc
@@ -32,7 +32,7 @@
   country: United States
 - name: Stephen Frost
   bio: Chief Technology Officer
-  image: /assets/img/stephen-frost.png
+  image: /assets/img/stephen-frost-featured.png
   country: United States
 - name: Masao Fujii
   bio: Database Technical Lead
@@ -56,7 +56,7 @@
   country: Czech
 - name: Thomas Munro
   bio: Software Developer
-  image: /assets/img/thomas-munro.png
+  image: /assets/img/thomas-munro-featured.png
   country: New Zealand
 - name: Peter Geoghegan
   bio: Senior PostgreSQL Engineer
@@ -64,7 +64,7 @@
   country: United States
 - name: David Rowley
   bio: Software Engineer
-  image: /assets/img/david-rowley.png
+  image: /assets/img/david-rowley-featured.png
   country: New Zealand
 - name: Amit Langote
   bio: Principal Engineer at EDB
