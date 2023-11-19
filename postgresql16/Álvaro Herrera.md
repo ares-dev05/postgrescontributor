@@ -4,7 +4,7 @@ title: Álvaro Herrera
 bio: PostgreSQL expert
 country: Chile
 address: Chile
-image: assets/img/alvaro_herrera.jpeg
+image: /assets/img/alvaro-herrera-featured.png
 mediaLink: 
 about:
 twitter: "https://twitter.com/alvherre"
