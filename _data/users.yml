@@ -42,7 +42,7 @@
   bio: Vice President, Postgres Evangelist
   country: United States
   address: United States
-  image: /assets/img/bruce_momjian.jpeg
+  image: /assets/img/bruce-momjian-featured.png
   about: Bruce Momjian is co-founder and core team member of the PostgreSQL Global Development Group, and has worked on PostgreSQL since 1996. He has been employed by ED
   twitter: 
   github: "https://github.com/bmomjian"
@@ -369,7 +369,7 @@
   bio: PostgreSQL expert
   country: Chile
   address: Chile
-  image: /assets/img/alvaro_herrera.jpeg
+  image: /assets/img/alvaro-herrera-featured.png
   mediaLink: 
   about:
   twitter: "https://twitter.com/alvherre"
@@ -1167,7 +1167,7 @@
   bio: Principal Database Consultant and Open Source Expert
   country: Sweden
   address: Sweden
-  image: /assets/img/magnus-hagander.png
+  image: /assets/img/magnus-hagander-featured.png
   mediaLink:
   about: "Database architect, developer and systems administrator. Database focus on PostgreSQL with a lot of work on SQL Server as well. Developer in C/C++, C# and many different scripting languages. Experienced in managing large Windows networks, from ethernet to to the top of the stack, and on Linux. Development focus on database backed systems or the database itself. Semi-frequent speaker at opensource conferences."
   twitter: "https://twitter.com/magnushagander"
@@ -1344,7 +1344,7 @@
   bio: Software Engineer
   country: New Zealand
   address: New Zealand
-  image: /assets/img/david_rowley.png
+  image: /assets/img/david-rowley-featured.png
   about:
   twitter:
   github: "https://github.com/david-rowley"
@@ -1413,5 +1413,33 @@
   mediaLink:
   detail: 
   thumbnailImage:
-  lastUpdate: Nov 18, 2023
+- name: Stephen Frost
+  bio: Chief Technology Officer 
+  country: United States
+  address: United States
+  image: /assets/img/stephen-frost-featured.png
+  about: "Work extensively with PostgreSQL. PostgreSQL features I've implemented and contributed are the Role system (replacing the prior user/group system), Column-Level Privileges, Row Level Security, and others."
+  twitter: "https://twitter.com/net_snow?lang=en"
+  github: "https://github.com/sfrost"
+  linkedin: "https://www.linkedin.com/in/stephen-frost"
+  company: Crunchy Data Solutions, Inc.
+  mediaLink:
+  detail: 
+  thumbnailImage:  
+  lastUpdate: Nov 19, 2023
+  multiYear: true
+- name: Thomas Munro 
+  bio: Principal Software Engineer 
+  country: New Zealand
+  address: New Zealand
+  image: /assets/img/thomas-munro-featured.png
+  about: "Having worked with all the major commercial relational databases as an application developer in data-heavy industries like fintech over a couple of decades, I am under no illusions about the fact that each of them can beat PostgreSQL in some respect or other. But PostgreSQL is my favourite… it belongs to all of us and we have the power to keep making it better!"
+  twitter: 
+  github: 
+  linkedin: "https://www.linkedin.com/in/thomas-munro-8559201b/"
+  company: Microsoft
+  mediaLink:
+  detail: 
+  thumbnailImage:  
+  lastUpdate: Nov 19, 2023
   multiYear: true
