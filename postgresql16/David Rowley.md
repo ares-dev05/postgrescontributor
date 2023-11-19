@@ -4,7 +4,7 @@ title: David Rowley
 bio: Software Engineer
 country: New Zealand
 address: New Zealand
-image: /assets/img/david_rowley.png
+image: /assets/img/david-rowley-featured.png
 about:
 twitter:
 github: "https://github.com/david-rowley"
