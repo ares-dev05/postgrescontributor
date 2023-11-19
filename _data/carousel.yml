@@ -6,22 +6,14 @@
   bio: Chief Engineer
   image: /assets/img/peter-eisentraut-featured.png
   country: Germany
-- name: Joe Conway
-  bio: Sr Software Dev Manager
-  image: /assets/img/joe-conway.png
+- name: Alexander Korotkov
+  bio: Founder at OrioleData.Inc
+  image: /assets/img/alexander-korotkov.png
   country: United States
-- name: Alvaro Herrera
-  bio: PostgreSQL Expert
-  image: /assets/img/alvaro-herrera-featured.png
-  country: Chile
-- name: Andrew Dunstan
-  bio: Senior Principal Engineer
-  image: /assets/img/andrew-dunstan.png
+- name: Andres Freund
+  bio: Principal Software Engineer
+  image: /assets/img/andres-freund.png
   country: United States
-- name: Magnus Hagander
-  bio: Principal Database Consultant
-  image: /assets/img/magnus-hagander-featured.png
-  country: Sweden
 - name: Heikki Linnakangas
   bio: Co Founder at Neon.Inc
   image: /assets/img/heikki-linnakangas.png
@@ -38,14 +30,6 @@
   bio: Database Technical Lead
   image: /assets/img/masao-fujii.png
   country: Japan
-- name: Andres Freund
-  bio: Principal Software Engineer
-  image: /assets/img/andres-freund.png
-  country: United States
-- name: Alexander Korotkov
-  bio: Founder at OrioleData.Inc
-  image: /assets/img/alexander-korotkov.png
-  country: United States
 - name: Amit Kapila
   bio: Senior Director at Fujitsu India
   image: /assets/img/amit-kapila.png
@@ -75,6 +59,22 @@
   image: /assets/img/ashutosh-bapat.png
   country: India
 - name: Jonathan Katz
+- name: Joe Conway
+  bio: Sr Software Dev Manager
+  image: /assets/img/joe-conway.png
+  country: United States
+- name: Alvaro Herrera
+  bio: PostgreSQL Expert
+  image: /assets/img/alvaro-herrera-featured.png
+  country: Chile
+- name: Andrew Dunstan
+  bio: Senior Principal Engineer
+  image: /assets/img/andrew-dunstan.png
+  country: United States
+- name: Magnus Hagander
+  bio: Principal Database Consultant
+  image: /assets/img/magnus-hagander-featured.png
+  country: Sweden
   bio: Principal Product Manager
   image: /assets/img/jonathan-katz-featured.png
   country: United States
