@@ -2156,3 +2156,18 @@
   thumbnailImage:
   lastUpdate: Nov 20, 2023
   multiYear: true
+- name: Farias de Oliveira
+  bio: Software Engineer
+  country: Brazil
+  address: Brazil
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github:
+  linkedin: "https://www.linkedin.com/in/charles-de-farias-oliveira-090463104/"
+  company: UFRPE
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false
