@@ -17,4 +17,4 @@ lastUpdate: Nov 20, 2023
 multiYear: true
 ---
 
-This is the body of Alexander Korotkov's profile page.
+This is the body of Sindy Senorita's profile page.
