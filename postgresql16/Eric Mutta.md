@@ -7,7 +7,7 @@ address:
 image: /assets/img/user.png
 about: 
 twitter: 
-github: 
+github: "https://github.com/ericmutta"
 linkedin: 
 company:  
 mediaLink:
