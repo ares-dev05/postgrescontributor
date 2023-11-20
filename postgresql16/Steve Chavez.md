@@ -8,7 +8,7 @@ image: /assets/img/user.png
 about: "Open source software enthusiast."
 twitter: "https://twitter.com/_steve_chavez?lang=en"
 github: "https://github.com/steve-chavez"
-linkedin: "https://www.linkedin.com/in/alexander-korotkov-41b1b582/"
+linkedin: 
 company: OrioleDATA, Inc. 
 mediaLink:
 detail: 
