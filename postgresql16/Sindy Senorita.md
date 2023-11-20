@@ -14,7 +14,7 @@ mediaLink:
 detail: 
 thumbnailImage:
 lastUpdate: Nov 20, 2023
-multiYear: true
+multiYear: false
 ---
 
 This is the body of Sindy Senorita's profile page.
