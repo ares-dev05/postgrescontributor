@@ -1776,3 +1776,17 @@
   thumbnailImage:
   lastUpdate: Nov 20, 2023
   multiYear: false
+- name: Ian Barwick
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/ian-lawrence-barwick.png
+  about:
+  github:
+  linkedin: "https://www.linkedin.com/in/ianlawrencebarwick/"
+  company: EDB
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
