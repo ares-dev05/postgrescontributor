@@ -1804,31 +1804,31 @@
   thumbnailImage:
   lastUpdate: Nov 20, 2023
   multiYear: true
-- name: Ibrar Ahmed
-  bio: PostgreSQL Consultant
-  country: 
-  address: 
-  image: /assets/img/ibrar-ahmed.png
+- name: Erik Rijkers
+  bio: Software Engineer
+  country: Germany
+  address: Germany
+  image: /assets/img/user.png
   about:
   github:
-  linkedin: "https://www.linkedin.com/in/ibrarahmed74/"
-  company: Percona
+  linkedin: 
+  company: 
   mediaLink:
   detail: 
   thumbnailImage:
   lastUpdate: Nov 20, 2023
-  multiYear: true
-- name: Ibrar Ahmed
-  bio: PostgreSQL Consultant
+  multiYear: false
+- name: Erki Eessaar
+  bio: Software Engineer
   country: 
   address: 
-  image: /assets/img/ibrar-ahmed.png
+  image: /assets/img/user.png
   about:
   github:
-  linkedin: "https://www.linkedin.com/in/ibrarahmed74/"
-  company: Percona
+  linkedin: 
+  company: 
   mediaLink:
   detail: 
   thumbnailImage:
   lastUpdate: Nov 20, 2023
-  multiYear: true
+  multiYear: false
