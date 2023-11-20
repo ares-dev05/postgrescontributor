@@ -1,20 +1,20 @@
 ---
 layout: profile
-title: Alexander Korotkov
-bio: Founder
-country: United States 
-address: United States 
+title: Sho Kato
+bio: System Engineer
+country: Japan 
+address: Japan 
 image: /assets/img/user.png
-about: "Alexander is professional computer scientist. His PhD dissertation was based on PostgreSQL contribution: improvements to fuzzy string search including index based regular expression search. One of the most valuable achievements of his work for open source community is development of infrastructure for access method extensibility. Also hiscontributions include improvements to GiST and GIN indexes, optimizations for multicore systems, statistics and selectivity estimation for advanced datatypes."
+about: 
 twitter: 
-github: "https://github.com/akorotkov"
-linkedin: "https://www.linkedin.com/in/alexander-korotkov-41b1b582/"
-company: OrioleDATA, Inc. 
+github: "https://github.com/kato-sho"
+linkedin: "https://www.linkedin.com/in/sho-kato-b02539113/?originalSubdomain=jp"
+company: Fujitsu
 mediaLink:
 detail: 
 thumbnailImage:
-lastUpdate: Nov 15, 2023
-multiYear: true
+lastUpdate: Nov 20, 2023
+multiYear: false
 ---
 
-This is the body of Alexander Korotkov's profile page.
+This is the body of Sho Kato's profile page.
