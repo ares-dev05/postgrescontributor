@@ -8,7 +8,7 @@ image: /assets/img/shveta_mallik.jpeg
 about: 
 twitter: 
 github: 
-linkedin: "https://www.linkedin.com/in/alexander-korotkov-41b1b582/](https://www.linkedin.com/in/shveta-malik/?originalSubdomain=in"
+linkedin: "https://www.linkedin.com/in/shveta-malik/?originalSubdomain=in"
 company: Fujitsu
 mediaLink: 
 detail: 
