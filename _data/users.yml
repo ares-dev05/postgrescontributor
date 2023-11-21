@@ -3799,3 +3799,36 @@
   thumbnailImage:
   lastUpdate: Nov 21, 2023
   multiYear: false  
+- name: Thom Brown
+  bio: PostgreSQL Consultant
+  country: United Kingdom 
+  address: United Kingdom
+  image: /assets/img/thom_brown.jpeg
+  about: "Experienced technology professional with a strong focus on databases, open-source solutions, and customer support. As a Principal Support Engineer at EDB, I have dealt with a wide range of issues, from critical system crises to functionality inquiries. My former role as an Engineering Project Manager allowed me to lead the co-ordination of development and planning phases for EDB's flagship product, ensuring the delivery of high-quality solutions on time."
+  twitter: "https://twitter.com/darkixion"
+  github: "https://github.com/darkixion"
+  linkedin: "https://www.linkedin.com/in/thom-brown-uk/"
+  company: 
+  mediaLink: 
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
+- name: Thomas Habets
+  bio: Staff SRE
+  country: United Kingdom
+  address: United Kingdom 
+  image: /assets/img/user.png
+  about: "Network engineer, software developer, and systems engineer combining a broad technical base with in-depth knowledge of network design & operations as well as program development for high availability and high performance systems on Unix.
+  Specialties: Distributed systems, Cloud, computer security, ISP networks (Cisco, Juniper, MPLS, BGP, IPv6, mobile broadband, GGSN, etc...), monitoring, Linux, Unix, Python, C/C++, Go.
+  I maintain some minor open source software such as arping, sshkey-audit, simple-tpm-pk11, and am de facto maintainer of the Google Authenticator PAM module."
+  twitter: "https://twitter.com/thomashabets"
+  github: "https://github.com/ThomasHabets"
+  linkedin: "https://www.linkedin.com/in/thomashabets/"
+  company: Google 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false 
+- name:   
