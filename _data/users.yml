@@ -2510,7 +2510,22 @@
   twitter: "https://twitter.com/MarkusWinand"
   github: 
   linkedin: "https://www.linkedin.com/in/markuswinand/"
-  company: winand
+  company: Winand
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Martijn van Oosterhout
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: 
+  company: 
   mediaLink:
   detail: 
   thumbnailImage:
