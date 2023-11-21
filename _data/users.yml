@@ -3614,3 +3614,18 @@
   thumbnailImage:
   lastUpdate: Nov 21, 2023
   multiYear: false
+- name: Oleg Bartunov
+  bio: CEO
+  country: Russia
+  address: Russia
+  image: /assets/img/oleg-bartunov.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/olegbartunov/"
+  company:  Postgres Professional
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: true
