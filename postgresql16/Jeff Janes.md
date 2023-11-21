@@ -6,7 +6,7 @@ country:
 address: 
 image: /assets/img/user.png
 about: 
-github: Эhttps://github.com/jeffjanesЭ
+github: https://github.com/jeffjanesЭ
 twitter: 
 linkedin:
 company: 
