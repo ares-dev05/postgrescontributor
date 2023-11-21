@@ -2948,6 +2948,21 @@
   twitter: "https://twitter.com/emin_100"
   linkedin: "https://www.linkedin.com/in/mehmet-emin-karakas/?originalSubdomain=tr"
   github: "https://github.com/emin100"
+  company: Jotform
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Melanie Plageman
+  bio: Developer
+  country: United States
+  address: United States
+  image: /assets/img/melanie-plageman.png
+  about: "My passion is solving interesting technical problems and writing maintainable code and tests which enhance the accessibility of programming to new contributors. Most recently I have been developing improvements to parallel hash join in PostgreSQL. I speak at conferences on database internals and host workshops on contributing to open source software."
+  twitter: "https://twitter.com/melanieplageman?lang=en"
+  linkedin: "https://www.linkedin.com/in/melanieplageman/"
+  github: "https://github.com/melanieplageman"
   company: Microsoft
   mediaLink:
   detail:
