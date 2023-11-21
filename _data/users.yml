@@ -2618,3 +2618,25 @@
   thumbnailImage:
   lastUpdate: Nov 21, 2023
   multiYear: true
+- name: James Vanns
+  bio: Principal Production Engineer
+  country: United Kingdom  
+  address: United Kingdom 
+  image: /assets/img/James Vanns.jpeg
+  mediaLink: 
+  about: "Specialties: 
+- 22 years Linux System Administration and Engineering
+- 20 years Linux C/C++ tools, network services and systems programming
+- 15 years System design and Architecture
+- Agile Project Management
+- Good documentation skills
+- Mentoring
+- Interests lie in HPC and distributed systems, infrastructure development etc."
+  twitter:
+  github: "https://github.com/jvanns"
+  linkedin: "https://www.linkedin.com/in/james-vanns/?originalSubdomain=uk"
+  company: Industrial Light & Magic
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
