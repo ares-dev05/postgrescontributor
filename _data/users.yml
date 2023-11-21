@@ -3644,3 +3644,48 @@
   thumbnailImage:
   lastUpdate: Nov 21, 2023
   multiYear: false
+- name: Sven Klemm
+  bio: 
+  country: Germany
+  address: Germany 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/svenklemm"
+  linkedin: 
+  company: Timescale 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Takamichi Osumi
+  bio: Software Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/Takamichi Osumi.png
+  about: 
+  twitter: 
+  github: 
+  linkedin: 
+  company: Fijutsu
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: true
+- name: Takeshi Ideriha
+  bio: Cloud Support Engineer
+  country: Japan
+  address: Japan
+  image: /assets/img/takeshi_ideriha.jpeg
+  about: 
+  twitter: 
+  github: "https://github.com/tideri"
+  linkedin: "https://www.linkedin.com/in/takeshi-ideriha-58521019b/?originalSubdomain=jp"
+  company: Amazon Web Services
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 20, 2023
+  multiYear: false  
