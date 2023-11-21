@@ -7,6 +7,7 @@ address:
 image: /assets/img/user.png
 about: 
 github: 
+twitter:
 linkedin: 
 company: 
 mediaLink:
