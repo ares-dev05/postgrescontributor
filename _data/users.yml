@@ -3464,3 +3464,18 @@
   thumbnailImage:
   lastUpdate: Nov 21, 2023
   multiYear: true
+- name: Nikolay Shaplov
+  bio: Freelancer
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/nikolay-shaplov-92a979aa/"
+  company: Freelancer
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
