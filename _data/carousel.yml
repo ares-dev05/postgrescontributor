@@ -1,7 +1,3 @@
-- name: Bruce Momjian
-  bio: Vise President at EDB
-  image: /assets/img/bruce-momjian-featured.png
-  country: United States
 - name: Peter Eisentraut
   bio: Chief Engineer
   image: /assets/img/peter-eisentraut-featured.png
@@ -30,6 +26,10 @@
   bio: Senior Principal Engineer
   image: /assets/img/tomas-vondra.png
   country: Czech
+- name: Bruce Momjian
+  bio: Vise President at EDB
+  image: /assets/img/bruce-momjian-featured.png
+  country: United States
 - name: Thomas Munro
   bio: Software Developer
   image: /assets/img/thomas-munro-featured.png
