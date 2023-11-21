@@ -3629,3 +3629,18 @@
   thumbnailImage:
   lastUpdate: Nov 21, 2023
   multiYear: true
+- name: Oleg Tselebrovskiy
+  bio: 
+  country: Russia
+  address: Russia
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/Medvecrab"
+  twitter: 
+  linkedin: 
+  company:  
+  mediaLink:
+  detail:
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
