@@ -2944,7 +2944,7 @@
   country: Turkey
   address: Turkey
   image: /assets/img/Mehmet Emin Karakas.jfif
-  about: "Actively contributing to PostgreSQL as an open-source contributor since version 16. Recently helping on improving logical replication.Experienced in building distributed systems on cloud environments. I have worked on developing features for Azure's managed PostgreSQL services. Mostly focused on backup and restore capabilities. Spent a fair amount of my time on on-call duties, helping customers."
+  about: 
   twitter: "https://twitter.com/emin_100"
   linkedin: "https://www.linkedin.com/in/mehmet-emin-karakas/?originalSubdomain=tr"
   github: "https://github.com/emin100"
