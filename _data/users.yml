@@ -4135,6 +4135,8 @@
   address: Australia
   image: /assets/img/user.png
   about: 
+  github:
+  twitter:
   linkedin: "https://www.linkedin.com/in/peter-smith-08a47543/"
   company: Fujitsu Australia Software Technology
   mediaLink:
@@ -4142,3 +4144,18 @@
   thumbnailImage:
   lastUpdate: Nov 22, 2023 
   multiYear: true
+- name: Phil Florent
+  bio: 
+  country: France
+  address: France
+  image: /assets/img/user.png
+  about: 
+  github: "https://github.com/philflorent"
+  twitter:
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: false
