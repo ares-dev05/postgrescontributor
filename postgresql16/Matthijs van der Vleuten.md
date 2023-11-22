@@ -2,8 +2,8 @@
 layout: profile
 title: Matthijs van der Vleuten
 bio: Software Engineer
-country: Netherland
-address: Netherland
+country: Netherlands
+address: Netherlands
 image: /assets/img/Matthijs van der Vleuten.jpg
 about: 
 github: "https://github.com/zr40"
