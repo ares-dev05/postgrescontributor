@@ -4129,3 +4129,16 @@
   thumbnailImage:
   lastUpdate: Nov 22, 2023 
   multiYear: true
+- name: Peter Smith
+  bio: PostgreSQL Contributor
+  country: Australia
+  address: Australia
+  image: /assets/img/user.png
+  about: 
+  linkedin: "https://www.linkedin.com/in/peter-smith-08a47543/"
+  company: Fujitsu Australia Software Technology
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
