@@ -2,8 +2,8 @@
 layout: profile
 title: Matthias van de Meent
 bio: Software Engineer
-country: Netherland
-address: Netherland
+country: Netherlands
+address: Netherlands
 image: /assets/img/Matthias van de Meent.jpg
 about: "I’m Matthias van de Meent, a PostgreSQL hacker from the Netherlands. I’ve been hacking on PostgreSQL since September 2020, which initially consisted of contributing bug fixes. Since October 2021 I’m full-time employed at Neon to improve PostgreSQL and Neon’s storage system for PostgreSQL."
 github: "https://github.com/mmeent"
