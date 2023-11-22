@@ -2,8 +2,8 @@
 layout: profile
 title: Maxim Orlov
 bio: Founder
-country: Netherland
-address: Netherland
+country: Netherlands
+address: Netherlands
 image: /assets/img/maxim-orlov.png
 about: "I enjoy creating programming videos on YouTube and occasionally live streaming my work on Twitch. And for those who are curious about my nomadic lifestyle, I offer a glimpse into my personal life on Instagram."
 github: "https://github.com/Maximization"
