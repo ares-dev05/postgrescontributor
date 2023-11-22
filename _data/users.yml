@@ -5222,3 +5222,35 @@
   thumbnailImage:
   lastUpdate: Nov 21, 2023
   multiYear: false
+- name: Tim Field
+  bio: 
+  country: New Zealand
+  address:  New Zealand
+  image: /assets/img/tim_field.png
+  about: 
+  twitter: 
+  github: "https://github.com/tim-field"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+- name: Timo Stolz
+  bio: 
+  country: 
+  address: 
+  image: /assets/img/user.png
+  about: 
+  twitter: 
+  github: "https://github.com/TimoStolz"
+  linkedin: 
+  company: 
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
+  
+  
