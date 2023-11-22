@@ -3921,3 +3921,18 @@
   thumbnailImage:
   lastUpdate: Nov 21, 2023
   multiYear: false
+- name: Olly Betts
+  bio: Founder
+  country: New Zealand
+  address: New Zealand
+  image: /assets/img/user.png
+  about: "I've written Survex - a software package to help those surveying and make maps of caves. It was originally written for CUCC's Austria explorations, but is now used by many other cave surveying projects around the world."
+  twitter: 
+  github: "https://github.com/ojwb"
+  linkedin:
+  company: Oligarchy
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 21, 2023
+  multiYear: false
