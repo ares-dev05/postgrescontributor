@@ -4493,7 +4493,7 @@
   bio: 
   country: 
   address: 
-  image: assets/img/user.png
+  image: /assets/img/user.png
   about: 
   github: "https://github.com/rzharkov"
   twitter: 
@@ -4504,3 +4504,18 @@
   thumbnailImage:
   lastUpdate: Nov 22, 2023 
   multiYear: false
+- name: Ronan Dunklau
+  bio: Senior Software Engineer
+  country: France
+  address: France
+  image: /assets/img/ronan_dunklau.jpeg
+  about: 
+  github: "https://github.com/rdunklau"
+  twitter: "https://twitter.com/rdunklau"
+  linkedin: "https://www.linkedin.com/in/ronan-dunklau-59169b139/"
+  company: Aiven
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
