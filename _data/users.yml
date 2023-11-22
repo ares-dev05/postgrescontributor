@@ -3934,7 +3934,7 @@
   mediaLink:
   detail: 
   thumbnailImage:
-  lastUpdate: Nov 21, 2023
+  lastUpdate: Nov 22, 2023
   multiYear: false
 - name: Onder Kalaci
   bio: Principal Software Engineer
@@ -3947,5 +3947,20 @@
   mediaLink:
   detail: 
   thumbnailImage:
-  lastUpdate: Nov 2, 2023
+  lastUpdate: Nov 22, 2023
+  multiYear: false
+- name: Onur Tirtir
+  bio: Senior Software Engineer
+  country: Turkey
+  address: Turkey
+  image: /assets/img/Onur Tirtir.jpeg
+  about: 
+  github: "https://github.com/onurctirtir"
+  twitter: "https://twitter.com/onurctirtir"
+  linkedin: "https://www.linkedin.com/in/onur-tirtir/?originalSubdomain=tr"
+  company: Microsoft
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
   multiYear: false
