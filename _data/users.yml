@@ -4388,7 +4388,7 @@
   bio: 
   country: 
   address: 
-  image: assets/img/user.png
+  image: /assets/img/user.png
   about: 
   github: 
   twitter: 
@@ -4399,3 +4399,18 @@
   thumbnailImage:
   lastUpdate: Nov 22, 2023 
   multiYear: false
+- name: Robert Treat
+  bio: Major Contributor, SPI Liason
+  country: United States
+  address: United States
+  image: /assets/img/robert-treat.png
+  about: "Former executive with deep experience in technical and business operations. Open Source advocate. Entrepreneurially inclined. Investor & personal finance enthusiast."
+  github: 
+  twitter: 
+  linkedin: "https://www.linkedin.com/in/robtreat/"
+  company:
+  mediaLink:
+  detail: 
+  thumbnailImage:
+  lastUpdate: Nov 22, 2023 
+  multiYear: true
