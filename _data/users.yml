@@ -675,8 +675,8 @@
   multiYear: false
 - name: Antonin Houska
   bio: Software Developer
-  country: Czech 
-  address: Czech
+  country: Czech Republic
+  address: Czech Republic
   image: /assets/img/antonin_houska.jpg
   mediaLink: 
   about:
@@ -1372,8 +1372,8 @@
   multiYear: false
 - name: David Turon
   bio: Software Developer
-  country: Czech
-  address: Czech
+  country: Czech Republic
+  address: Czech Republic
   image: /assets/img/user.png
   about:
   twitter:
@@ -2533,8 +2533,8 @@
   multiYear: false
 - name: Martin Jurca
   bio: Development Team Lead
-  country: Czech
-  address: Czech
+  country: Czech Republic
+  address: Czech Republic
   image: /assets/img/Martin Jurca.jpeg
   about: "Development team lead for a team of 8 people (4 FE, 4 BE), improving & maintaining the homepage of Seznam.cz, a.s. I focus on helping my team grow their expertise, help solve technical or other issues where needed, and boldly lead the charge in new projects."
   twitter: 
@@ -4086,8 +4086,8 @@
   multiYear: false
 - name: Pavel Stehule
   bio: PostgreSQL Evangelist
-  country: Czech
-  address: Czech
+  country: Czech Republic
+  address: Czech Republic
   image: /assets/img/pavel-stehule.png
   about: "I am an independent developer, consultant and lecturer. My work is 100% related to Postgres - training, solving customer performance issues, writing patches, bug fixing …"
   github: "https://github.com/okbob"
