@@ -2,8 +2,8 @@
 layout: profile
 title: Antonin Houska
 bio: Software Developer
-country: Czech 
-address: Czech
+country: Czech Republic
+address: Czech Republic
 image: /assets/img/antonin_houska.jpg
 mediaLink: 
 about:
