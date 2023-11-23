@@ -4,7 +4,7 @@ title: Chris Travers
 bio: Software engineer
 country: Indonesia
 address: Indonesia
-image: /assets/img/user.png
+image: /assets/img/chris-travers.jpg
 mediaLink:
 about: "Skilled software engineer, programmer, sysop, and manager. Contributor to PostgreSQL, LedgerSMB, and much more. Regular invited speaker at various conferences. Occasional keynote speaker."
 twitter:
