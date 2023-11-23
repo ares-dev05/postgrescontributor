@@ -2,8 +2,8 @@
 layout: profile
 title: Andrew Dunstan
 bio: Senior Principal Engineer
-country: EDB
-address: EDB
+country: United States
+address: United States
 image: /assets/img/andrew_dunstan.jpeg
 mediaLink: 
 about: "PostgreSQL specialist and major contributor."
