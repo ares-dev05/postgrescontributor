@@ -4,7 +4,7 @@ title: Jinbao Chen
 bio: 
 country: China
 address: China
-image: /assets/img/user.png
+image: /assets/img/jinbao-chen.png
 about: 
 github: "https://github.com/baobao0206"
 twitter: 
