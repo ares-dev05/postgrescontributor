@@ -4,7 +4,7 @@ title: Corey Huinker
 bio: Database programmer
 country: United States
 address: United States
-image: /assets/img/user.png
+image: /assets/img/corey-huinker.png
 mediaLink:
 about: "Database programmer with 15+ years experience across a variety of industries. Specialties: Multiple database products (Oracle, Postgres, Snowflake, MySQL, Redshift, SQLServer, Sybase, DB2, Informix, etc). Writer of several PostgreSQL extensions. PostgreSQL hacker with a few minor commits under his belt."
 twitter:
