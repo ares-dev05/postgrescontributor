@@ -19,14 +19,26 @@ header p {
     margin: 0;
 }
 
-header p span {
+header p a {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
+    text-decoration: none;
 }
+
+header p a:hover {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
 
 @media (max-width: 767px) {
     header {
@@ -39,7 +51,7 @@ header p span {
         color: #FFF;
         text-align: center;
         font-family: Inter;
-        font-size: 13px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -49,6 +61,27 @@ header p span {
         transform: translate(-50%, -50%);
         margin: 0;
     }
+
+    header p a {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+    }
+    
+    header p a:hover {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+    }
+    
     
     header p span {
         color: #FFF;

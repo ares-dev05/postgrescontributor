@@ -15,7 +15,7 @@ layout: default
   <div class="users">
     <div class="flex">
       <div class="wrap">
-        <h5>PostgreSQL 16<br />Contributor Profiles</h5>
+        <h5>PostgreSQL 16<br />Hall of Fame</h5>
         <p>These dedicated individuals are the driving force behind PostgreSQL’s success today!</p>
         <p>The following list has been compiled from the <a
             href="https://www.postgresql.org/docs/current/release-16.html" target="_blank">official PostgreSQL 16
@@ -344,10 +344,10 @@ layout: default
     // Display users for the current page
     for (let i = startIndex; i < endIndex; i++) {
       if (usersArr[i] != undefined) {
-        let userHTML = `<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><img width="auto" height="182px" style="margin: auto;" src="${usersArr[i].image}" /></div><div class="wrap">`;
+        let userHTML = `<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><a style="width: 182px; height:182px; position: relative; display: flex;" href="postgresql16/${usersArr[i].name}"><img width="auto" height="182px" style="margin: auto;" src="${usersArr[i].image}" /></a></div><div class="wrap">`;
 
         if(usersArr[i].name != undefined) {
-          userHTML += `<a href="postgresql16/${usersArr[i].name}">${usersArr[i].name}</a>`;
+          userHTML += `<p class="name">${usersArr[i].name}</p>`;
         }
 
         if(usersArr[i].bio != undefined && usersArr[i].company != undefined) {

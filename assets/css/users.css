@@ -142,7 +142,7 @@
     padding-left: 80px;
 }
 
-.user .wrap a {
+.user .wrap .name {
     color: #000;
     font-family: Inter;
     font-size: 30px;
@@ -152,6 +152,10 @@
     margin-bottom: 14px;
     display: block;
     text-decoration: none;
+}
+
+.user .wrap > div a {
+    margin-bottom: 14px;
 }
 
 .user .wrap .disabled {
@@ -214,6 +218,11 @@
 
 #user-list {
     margin: 0;
+}
+
+#user-list .user .block div > a > img {
+    max-width: 240px;
+    object-fit: cover;
 }
 
 #pagination .flex {
@@ -485,7 +494,7 @@
         color: #000;
         text-align: center;
         font-family: Inter;
-        font-size: 5px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -495,6 +504,11 @@
     #user-list {
         margin: 0;
         padding-left: 0px;
+    }
+
+    #user-list .user .block div > a > img {
+        max-width: 173px;
+        object-fit: cover;
     }
 
     .user {
@@ -509,14 +523,14 @@
         display: block;
     }
 
-    .user .block div:first-child {
+    .user .block > div:first-child {
         width: 50% !important;
         height: 50% !important;
         margin: auto;
     }
 
     .user .block div img {
-        width: 100%;
+        width: auto;
         height: 100%;
     }
 
@@ -525,16 +539,20 @@
         text-align: center;
     }
 
-    .user .wrap a {
+    .user .wrap .name {
         color: #000;
         font-family: Inter;
-        font-size: 10px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         margin-bottom: 10px;
         display: block;
         text-decoration: none;
+    }
+
+    .user .wrap > div a {
+        margin-bottom: 10px;
     }
 
     .user .wrap .disabled {
@@ -570,14 +588,14 @@
         display: block;
     }
 
-    .user .wrap div {
+    .user .wrap > div {
         width: 100px !important;
         margin: auto;
     }
 
-    .user .wrap div img {
+    .user .wrap > div img {
         width: 24px;
-        height: 20px;
+        height: 24px;
     }
 
     #pagination {

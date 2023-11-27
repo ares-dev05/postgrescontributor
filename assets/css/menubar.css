@@ -61,6 +61,21 @@ a.store {
     text-decoration: none;
 }
 
+p.sponsoredBy {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.ferretDB-logo {
+    cursor: pointer;
+}
+
 .menubar {
     padding: 40px 0;
 }
@@ -69,7 +84,7 @@ a.store {
     display: block !important;
 }
 
-.menubar > .flex {
+.menubar>.flex {
     display: none;
 }
 
@@ -82,10 +97,10 @@ a.store {
         padding: 10px 0 30px;
     }
 
-    .menubar > .flex {
+    .menubar>.flex {
         display: flex;
     }
-    
+
     .bar {
         display: block;
     }
@@ -137,7 +152,7 @@ a.store {
         width: auto;
         position: absolute;
         font-size: 10px;
-        left: 105px;
+        left: 93px;
     }
 
     .bar .background {

@@ -3,19 +3,14 @@
 </head>
 <div class="flex menubar">
     <div class="inline">
-        <div class="logo">
-            <p class="logo-title">SPONSOR LOGO</p>
-        </div>
         <a class="postgresql" href="{{ '/' | relative_url }}">PostgreSQL Contributors</a>
     </div>
     <div class="inline">
-        <a class="fame" href="{{ '/postgresql16' | relative_url }}">PostgreSQL 16 Hall of Fame</a>
-        <a class="store" href="https://postgrescontributorstore.myshopify.com/" target="_blank">Store</a>
+        <p class="sponsoredBy">Sponsored by</p>
+        <img src="{{ site.logos.main_logo | relative_url }}" class="ferretDB-logo" width="174px" height="57px"/>
     </div>
     <div class="flex">
-        <div class="logo">
-            <p class="logo-title">SPONSOR LOGO</p>
-        </div>
+        <img src="{{ site.logos.main_logo | relative_url }}" class="ferretDB-logo" width="auto" height="25px"/>
         <a class="postgresql" href="{{ '/' | relative_url }}">PostgreSQL Contributors</a>
         <img id="hamburger" width="20px" height="13px" src="{{ '/assets/img/hamburger.png' | relative_url }}" />
     </div>
@@ -56,5 +51,10 @@
         } else {
             $("#homepage").css("display", "none");
         }
+
+        $('.ferretDB-logo').on('click', function() {
+            // Replace 'https://example.com' with the actual website link you want to open
+            window.open('https://www.ferretdb.com', '_blank');
+        });
     });
 </script>

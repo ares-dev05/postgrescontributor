@@ -3,3 +3,7 @@ description: A brief description of your website.
 baseurl: "" # the subpath of your site, e.g. /blog
 # baseurl: ""
 url: "http://postgrescontributors.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+logos:
+  product_logo: "/assets/img/product_logo.png"
+  main_logo: "/assets/img/logo.png"

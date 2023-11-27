@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <head>
     <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}" />
 </head>
@@ -18,9 +19,8 @@ layout: default
                 today.
             </p>
             <p class="normal">
-                ABC company proudly sponsors the PostgreSQL 16 Contributor Rewards as an
-                expression of heartfelt gratitude to all the contributors who have made
-                this release possible.
+                FerretDB proudly sponsors the <a href="https://postgrescontributors.com/postgresql16" target="_blank">PostgreSQL 16 Contributors Hall of Fame</a>. As a gesture of appreciation,
+                FerretDB is offering a reward to all the contributors who made this release possible.
             </p>
         </div>
         <img class="elephant" src="{{ '/assets/img/elephant.png' | relative_url }}" />
@@ -32,11 +32,13 @@ layout: default
             {% for user in site.data.carousel %}
             <div class="item">
                 <div class="avatar">
-                    <img src="{{ user.image | relative_url }}" alt="{{ user.name }}" width="266px" height="283px" />
+                    <a href="postgresql16/{{ user.name }}">
+                        <img src="{{ user.image | relative_url }}" alt="{{ user.name }}" width="266px" height="283px" />
+                    </a>
                 </div>
                 <div class="information">
-                    <a href="postgresql16/{{ user.name }}">{{ user.name }}</a>
-                    <p>{{ user.bio }} at {{ user.company }}</p>
+                    <div href="postgresql16/{{ user.name }}">{{ user.name }}</div>
+                    <p>{{ user.bio }}</p>
                     <span class="country">{{ user.country }}</span>
                 </div>
             </div>
@@ -45,7 +47,7 @@ layout: default
     </div>
 
     <div class="button">
-        <a href="postgresql16" target="_blank">View all contributors</a>
+        <a href="postgresql16">View all contributors</a>
     </div>
 
     <div class="function">
@@ -62,32 +64,38 @@ layout: default
             <div class="flex" style="margin-top: 35px;">
                 <div class="inline">
                     <img width="37px" height="37px" src="{{ '/assets/img/icon1.png' | relative_url }}" />
-                    <span class="icon-content">Manage your contributor profile</span>
+                    <a href="https://postgrescontributors.com/postgresql16" target="_blank" class="icon-content">Manage
+                        your contributor profile</a>
                 </div>
                 <div class="inline">
                     <img width="37px" height="37px" src="{{ '/assets/img/icon2.png' | relative_url }}" />
-                    <span class="icon-content">Claim your contributor reward</span>
+                    <a href="https://postgrescontributorstore.myshopify.com" target="_blank" class="icon-content">Claim
+                        your contributor reward</a>
                 </div>
             </div>
             <div class="flex" style="margin-top: 35px;">
                 <div class="inline">
                     <img width="37px" height="37px" src="{{ '/assets/img/icon3.png' | relative_url }}" />
-                    <span class="icon-content">Find other contributors for networking</span>
+                    <a href=" https://postgrescontributors.com/postgresql16" target="_blank" class="icon-content">Find
+                        other contributors for networking</a>
                 </div>
             </div>
 
             <div class="mobile" style="margin-top: 15px;">
                 <div class="inline">
                     <img width="37px" height="37px" src="{{ '/assets/img/icon1.png' | relative_url }}" />
-                    <span class="icon-content">Manage your contributor profile</span>
+                    <a href="https://postgrescontributors.com/postgresql16" target="_blank" class="icon-content">Manage
+                        your contributor profile</a>
                 </div>
                 <div class="inline">
                     <img width="37px" height="37px" src="{{ '/assets/img/icon2.png' | relative_url }}" />
-                    <span class="icon-content">Claim your contributor reward</span>
+                    <a href="https://postgrescontributorstore.myshopify.com" class="icon-content">Claim your contributor
+                        reward</a>
                 </div>
                 <div class="inline">
                     <img width="37px" height="37px" src="{{ '/assets/img/icon3.png' | relative_url }}" />
-                    <span class="icon-content">Find other contributors for networking</span>
+                    <a href=" https://postgrescontributors.com/postgresql16" target="_blank" class="icon-content">Find
+                        other contributors for networking</a>
                 </div>
             </div>
         </div>
@@ -102,7 +110,7 @@ layout: default
                     contributors.</p>
                 <span>Enjoy wearing it!</span>
             </div>
-            <img width="388px" height="390px" src="{{ '/assets/img/cross.png' | relative_url }}" />
+            <img width="auto" height="390px" src="{{ site.logos.product_logo | relative_url }}" />
         </div>
     </div>
 
