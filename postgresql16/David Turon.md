@@ -2,8 +2,8 @@
 layout: profile
 title: David Turon
 bio: Software Developer
-country: Czech
-address: Czech
+country: Czech Republic
+address: Czech Republic
 image: /assets/img/user.png
 about:
 twitter:

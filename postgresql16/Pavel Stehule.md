@@ -2,8 +2,8 @@
 layout: profile
 title: Pavel Stehule
 bio: PostgreSQL Evangelist
-country: Czech
-address: Czech
+country: Czech Republic
+address: Czech Republic
 image: /assets/img/pavel-stehule.png"
 about: "I am an independent developer, consultant and lecturer. My work is 100% related to Postgres - training, solving customer performance issues, writing patches, bug fixing …"
 github: "https://github.com/okbob"

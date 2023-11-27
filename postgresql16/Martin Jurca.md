@@ -2,8 +2,8 @@
 layout: profile
 title: Martin Jurca
 bio: Development Team Lead
-country: Czech
-address: Czech
+country: Czech Republic
+address: Czech Republic
 image: /assets/img/Martin Jurca.jpeg
 about: "Development team lead for a team of 8 people (4 FE, 4 BE), improving & maintaining the homepage of Seznam.cz, a.s. I focus on helping my team grow their expertise, help solve technical or other issues where needed, and boldly lead the charge in new projects."
 twitter: 

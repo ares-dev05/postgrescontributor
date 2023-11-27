@@ -4,7 +4,7 @@ title: Andrew Bille
 bio: Software Engineer
 country: Russia
 address: Russia
-image: /assets/img/user.png
+image: /assets/img/andrew-bille.jpg
 mediaLink: 
 about:
 twitter: 

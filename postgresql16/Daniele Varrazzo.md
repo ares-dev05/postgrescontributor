@@ -4,7 +4,7 @@ title: Daniele Varrazzo
 bio: Software Developer
 country:  
 address: 
-image: /assets/img/user.png
+image: /assets/img/daniele-varrazzo.png
 about: "I am an Italian software developer, with mathematical background, currently based in London. Software development has long been my passion, before becoming my profession. Outside of my paid-for job, I have been involved in several Free Software projects."
 twitter: 
 github:

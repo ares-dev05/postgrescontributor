@@ -4,7 +4,7 @@ title: Andrew Alsup
 bio: Director, IT Innovation
 country: United States
 address: United States
-image: /assets/img/user.png
+image: /assets/img/andrew-alsup.png
 mediaLink: 
 about:
 twitter: 

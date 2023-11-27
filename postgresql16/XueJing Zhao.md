@@ -4,7 +4,7 @@ title: XueJing Zhao
 bio: R&D Director
 country: United States
 address: United States
-image: /assets/img/user.png
+image: /assets/img/xing-wang.png
 about: "Over 18 years’ experience in Information Technologies as Senior Application Developer / Microsoft Certified Solution Developer (MCSD .NET) includes design and development of Web based and Windows based applications using N-tier architecture"
 github: "https://github.com/uwspstar/"
 twitter: 

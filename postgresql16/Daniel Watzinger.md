@@ -4,7 +4,7 @@ title: Daniel Watzinger
 bio: Software Engineer
 country: Germany
 address: Germany
-image: /assets/img/user.png
+image: /assets/img/daniel-watzinger.png
 mediaLink:
 about:
 twitter: "https://twitter.com/2xu"
