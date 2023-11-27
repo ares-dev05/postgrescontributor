@@ -74,6 +74,7 @@ p.sponsoredBy {
 
 .ferretDB-logo {
     cursor: pointer;
+    margin-bottom: 7px;
 }
 
 .menubar {
@@ -228,5 +229,10 @@ p.sponsoredBy {
 
     .bar a.store:hover {
         background: #0002;
+    }
+
+    .ferretDB-logo {
+        cursor: pointer;
+        margin-bottom: 0px;
     }
 }
