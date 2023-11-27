@@ -132,7 +132,7 @@
     background: #F3F3F3;
 }
 
-.information div {
+.information a {
     margin: 0px auto 15px;
     padding-top: 10px;
     color: #000;
@@ -396,7 +396,7 @@
         background: #F3F3F3;
     }
 
-    .information div {
+    .information a {
         margin: 0px auto 0px;
         padding-top: 10px;
         color: #000;

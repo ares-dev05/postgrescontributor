@@ -347,7 +347,7 @@ layout: default
         let userHTML = `<div class="user"><div class="block"><div style="width: 182px; height:182px; position: relative; display: flex;"><a style="width: 182px; height:182px; position: relative; display: flex;" href="postgresql16/${usersArr[i].name}"><img width="auto" height="182px" style="margin: auto;" src="${usersArr[i].image}" /></a></div><div class="wrap">`;
 
         if(usersArr[i].name != undefined) {
-          userHTML += `<p class="name">${usersArr[i].name}</p>`;
+          userHTML += `<a href="postgresql16/${usersArr[i].name}" class="name">${usersArr[i].name}</a>`;
         }
 
         if(usersArr[i].bio != undefined && usersArr[i].company != undefined) {
