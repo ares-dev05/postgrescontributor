@@ -55,7 +55,7 @@
   image: /assets/img/joe-conway.png
   country: United States
 - name: Alvaro Herrera
-  bio: PostgreSQL Expert
+  bio: PostgreSQL Expert at 2ndQuadrant
   image: /assets/img/alvaro-herrera-featured.png
   country: Chile
 - name: Andrew Dunstan
