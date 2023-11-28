@@ -13,7 +13,7 @@ linkedin: "https://www.linkedin.com/in/alvherre/"
 company: 2ndQuadrant, an EDB company
 detail: 
 lastUpdate: Nov 14, 2023
-multiYear:
+multiYear: false
 ---
 
 This is the body of Álvaro Herrera's profile page.
