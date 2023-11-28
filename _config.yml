@@ -5,5 +5,5 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://postgrescontributors.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 logos:
-  product_logo: "/assets/img/product_logo.png"
+  product_logo: "/assets/img/product_logo2.png"
   main_logo: "/assets/img/logo.png"
