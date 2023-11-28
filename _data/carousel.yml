@@ -1,5 +1,5 @@
 - name: Peter Eisentraut
-  bio: Chief Engineer
+  bio: Chief Engineer at EDB
   image: /assets/img/peter-eisentraut-featured.png
   country: Germany
 - name: Alexander Korotkov
@@ -7,7 +7,7 @@
   image: /assets/img/alexander-korotkov.png
   country: United States
 - name: Andres Freund
-  bio: Principal Software Engineer
+  bio: Principal Software at Microsoft
   image: /assets/img/andres-freund.png
   country: United States
 - name: Heikki Linnakangas
@@ -15,7 +15,7 @@
   image: /assets/img/heikki-linnakangas.png
   country: Finland
 - name: Robert Haas
-  bio: Chief Database Scientist
+  bio: Chief Database Scientist at EDB
   image: /assets/img/robert-haas.png
   country: United States
 - name: Amit Kapila
@@ -23,7 +23,7 @@
   image: /assets/img/amit-kapila.png
   country: India
 - name: Tomas Vondra
-  bio: Senior Principal Engineer
+  bio: Senior Principal Engineer at EDB
   image: /assets/img/tomas-vondra.png
   country: Czech
 - name: Bruce Momjian
@@ -31,15 +31,15 @@
   image: /assets/img/bruce-momjian-featured.png
   country: United States
 - name: Thomas Munro
-  bio: Software Developer
+  bio: Software Developer at Microsoft
   image: /assets/img/thomas-munro-featured.png
   country: New Zealand
 - name: Peter Geoghegan
-  bio: Senior PostgreSQL Engineer
+  bio: Senior PostgreSQL Engineer at AWS
   image: /assets/img/peter-geoghegan.png
   country: United States
 - name: David Rowley
-  bio: Software Engineer
+  bio: Software Engineer at Microsoft
   image: /assets/img/david-rowley-featured.png
   country: New Zealand
 - name: Amit Langote
@@ -47,11 +47,11 @@
   image: /assets/img/amit-langote.png
   country: Japan
 - name: Ashutosh Bapat
-  bio: PostgreSQL Database Internals Developer
+  bio: PostgreSQL Database Developer at EDB
   image: /assets/img/ashutosh-bapat.png
   country: India
 - name: Joe Conway
-  bio: Sr Software Dev Manager
+  bio: Sr Software Dev Manager at Amazon RDS
   image: /assets/img/joe-conway.png
   country: United States
 - name: Alvaro Herrera
@@ -59,18 +59,18 @@
   image: /assets/img/alvaro-herrera-featured.png
   country: Chile
 - name: Andrew Dunstan
-  bio: Senior Principal Engineer
+  bio: Senior Principal Engineer at EDB
   image: /assets/img/andrew-dunstan.png
   country: United States
 - name: Magnus Hagander
-  bio: Principal Database Consultant
+  bio: Principal Database Consultant at Redpill Linpro
   image: /assets/img/magnus-hagander-featured.png
   country: Sweden
 - name: Jonathan Katz
-  bio: Principal Product Manager
+  bio: Principal Product Manager at AWS
   image: /assets/img/jonathan-katz-featured.png
   country: United States
 - name: Stephen Frost
-  bio: Chief Technology Officer
+  bio: Chief Technology Officer at Crunchy Data
   image: /assets/img/stephen-frost-featured.png
   country: United States
