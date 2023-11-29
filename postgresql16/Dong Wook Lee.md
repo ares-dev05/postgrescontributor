@@ -5,7 +5,7 @@ bio: Azure FPGA Hardware Engineer
 image: /assets/img/dongwook_lee.png
 mediaLink: 
 country: United States
-address: 
+address: United States
 about: 
 twitter: 
 github: 
