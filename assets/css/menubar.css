@@ -154,11 +154,11 @@ p.sponsoredBy {
     a.postgresql {
         width: auto;
         position: absolute;
-        font-size: 13px;
+        font-size: 9px;
     }
 
     p.sponsoredBy {
-        font-size: 11px;
+        font-size: 8px;
     }
 
     .bar .background {
