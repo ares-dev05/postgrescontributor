@@ -396,13 +396,13 @@ img.multi-year {
     }
 
     .social {
-        padding: 25px 35px;
+        padding: 25px 5px;
     }
 
     .social p {
         color: #000;
         font-family: Inter;
-        font-size: 18px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;

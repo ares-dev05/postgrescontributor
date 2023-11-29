@@ -7,12 +7,17 @@
     </div>
     <div class="inline">
         <p class="sponsoredBy">Sponsored by</p>
-        <img src="{{ site.logos.main_logo | relative_url }}" class="ferretDB-logo" width="174px" height="57px"/>
+        <img src="{{ site.logos.main_logo | relative_url }}" class="ferretDB-logo" width="174px" height="57px" />
     </div>
-    <div class="flex">
-        <img src="{{ site.logos.main_logo | relative_url }}" class="ferretDB-logo" width="auto" height="25px"/>
-        <a class="postgresql" href="{{ '/' | relative_url }}">PostgreSQL Contributors</a>
-        <img id="hamburger" width="20px" height="13px" src="{{ '/assets/img/hamburger.png' | relative_url }}" />
+    <div class="flex" style="display: flex;align-items: center;justify-content: space-between;">
+        <div style="display: flex;align-items: center;">
+            <a class="postgresql" href="{{ '/' | relative_url }}">PostgreSQL Contributors</a>
+        </div>
+        <div style="display: flex;align-items: center;">
+            <p class="sponsoredBy">Sponsored by</p>
+            <img src="{{ site.logos.main_logo | relative_url }}" class="ferretDB-logo" width="auto" height="30px" />
+        </div>
+        <!-- <img id="hamburger" width="20px" height="13px" src="{{ '/assets/img/hamburger.png' | relative_url }}" /> -->
     </div>
     <div class="bar">
         <div class="background">
@@ -46,13 +51,13 @@
 
         var currentURL = window.location.href;
         console.log("Current URL: " + currentURL);
-        if(currentURL.includes("postgresql16")) {
+        if (currentURL.includes("postgresql16")) {
             $("#users").css("display", "none");
         } else {
             $("#homepage").css("display", "none");
         }
 
-        $('.ferretDB-logo').on('click', function() {
+        $('.ferretDB-logo').on('click', function () {
             // Replace 'https://example.com' with the actual website link you want to open
             window.open('https://www.ferretdb.com', '_blank');
         });

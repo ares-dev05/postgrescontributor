@@ -95,7 +95,7 @@ p.sponsoredBy {
 
 @media (max-width: 767px) {
     .menubar {
-        padding: 10px 0 30px;
+        padding: 10px 0 10px;
     }
 
     .menubar>.flex {
@@ -110,7 +110,7 @@ p.sponsoredBy {
         width: 100%;
     }
 
-    .menubar .inline {
+    .menubar > .inline {
         display: none;
     }
 
@@ -152,8 +152,11 @@ p.sponsoredBy {
     a.postgresql {
         width: auto;
         position: absolute;
-        font-size: 10px;
-        left: 93px;
+        font-size: 13px;
+    }
+
+    p.sponsoredBy {
+        font-size: 11px;
     }
 
     .bar .background {
@@ -233,6 +236,6 @@ p.sponsoredBy {
 
     .ferretDB-logo {
         cursor: pointer;
-        margin-bottom: 0px;
+        margin-bottom: 2.5px;
     }
 }
