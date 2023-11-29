@@ -336,6 +336,8 @@
   abbr: SY
 - country: Tajikistan
   abbr: TJ
+- country: Taiwan
+  abbr: TW
 - country: Tanzania
   abbr: TZ
 - country: Thailand
@@ -382,5 +384,3 @@
   abbr: ZM
 - country: Zimbabwe
   abbr: ZW
-- country: Taiwan
-  abbr: TW
