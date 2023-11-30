@@ -267,7 +267,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .reward .flex span {
@@ -569,7 +569,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .reward .flex span {
@@ -578,6 +578,7 @@
         font-size: 13px;
         font-weight: 500;
         line-height: normal;
+        display: block;
     }
 
     .reward .flex img {
