@@ -10,7 +10,7 @@ github: "https://github.com/laurenz"
 twitter: 
 linkedin: 
 company: Cybertec
-mediaLink:
+mediaLink: https://www.cybertec-postgresql.com/en/author/cybertec_albe/
 detail: 
 thumbnailImage:
 lastUpdate: Nov 22, 2023 
