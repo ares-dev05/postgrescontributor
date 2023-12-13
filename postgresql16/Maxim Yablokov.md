@@ -1,19 +1,19 @@
 ---
 layout: profile
 title: Maxim Yablokov
-bio: Project Manager
-country: United Arab Emirates
-address: United Arab Emirates
-image: /assets/img/maxim-yablokov.png
+bio: Technical writer-translator
+country: Russia
+address: Russia
+image: 
 about: 
 github: 
 twitter:
-linkedin: "https://www.linkedin.com/in/myablokov/?locale=en_US"
-company: Network International
+linkedin: 
+company: Postgres Professional
 mediaLink:
 detail: 
 thumbnailImage:
-lastUpdate: Nov 21, 2023
+lastUpdate: Dec 13, 2023
 multiYear: false
 ---
 
