@@ -1,9 +1,9 @@
 ---
 layout: profile
-title: Michail Nikolaev
+title: Mikhail Nikalayeu 
 bio: 
-country: Russia
-address: Russia
+country: Belarus
+address: Belarus
 image: /assets/img/user.png
 about: 
 github: "https://github.com/michail-nikolaev"
