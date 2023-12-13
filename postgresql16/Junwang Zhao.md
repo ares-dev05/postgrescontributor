@@ -2,19 +2,23 @@
 layout: profile
 title: Junwang Zhao
 bio: Software Engineer
-country: Canada
-address: Canada
-image: /assets/img/junwang-zhao.png
+country: China
+address: Beijing
+image: /assets/img/junwang-zhao.jpg
 about:
-github:
+github: "https://github.com/zhjwpku"
 twitter: 
-linkedin: "https://www.linkedin.com/in/yannickzj/"
-company: Brex
-mediaLink:
+linkedin:
+company:
+mediaLink: "https://zhjwpku.com"
 detail:
 thumbnailImage:
-lastUpdate: Nov 21, 2023
+lastUpdate: Dec 13, 2023
 multiYear: false
 ---
 
 This is the body of Junwang Zhao's profile page.
+
+My wechat offical account: PostgreSQL开源生态.
+
+![wechat offical account qrcode](/assets/img/junwang-zhao.jpg)
