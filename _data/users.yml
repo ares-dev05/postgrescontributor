@@ -2737,8 +2737,8 @@
   address: Brazil
   image: /assets/img/matheus-alcantara.png
   about: "I like to understand problems in depth and create scalable, secure and well-documented software. I'm always interested in knowing how the main tools I use on a daily basis are implemented, so I have some contributions to open source software such as gopls (Go language server) and PostgreSQL."
-  github: "https://github.com/msAlcantara"
-  twitter: 
+  github: "https://github.com/mattheusv"
+  twitter: https://twitter.com/mattheusv__
   linkedin: "https://www.linkedin.com/in/matheus-alcantara/?originalSubdomain=br"
   company: 
   mediaLink:
